@@ -47,7 +47,7 @@
 }
 
 
--(void)applicationBecomeActive
+-(void)applicationDidBecomeActive
 {
     NSLog(@"BecomeActive");
 }

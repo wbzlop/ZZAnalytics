@@ -9,7 +9,7 @@
 
 #ifdef __OBJC__
 #import "ZZConstant.h"
-#import "NSData+ZZGZip.h"
+
 
 #import "ZZCache.h"
 #import "ZZBaseHelper.h"

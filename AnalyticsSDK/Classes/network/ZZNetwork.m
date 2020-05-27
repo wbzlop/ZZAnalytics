@@ -8,7 +8,7 @@
 
 #import "ZZNetwork.h"
 #import "NSString+AES.h"
-#import "NSData+ZZGZip.h"
+
 @interface ZZNetwork()<NSURLSessionDelegate>
 
 @property (nonatomic) NSURLSession *session;
