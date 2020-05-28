@@ -35,8 +35,8 @@ rm -rf ${SHELL_FOLDER}/AnalyticsSDK.podspecg
 
 echo 最新包路径: ${frameworkPath}
 
-export SDKReleasePath=${SHELL_FOLDER}/ESDKRelease
-export SDKDemoLibPath=${SDKReleasePath}/ESDKFrameworkTest/lib
+export SDKReleasePath=${SHELL_FOLDER}/ZZAnalyticsSDKRelease
+export SDKDemoLibPath=${SDKReleasePath}/SDKFrameworkTest/lib
 
 echo ***拷贝文件到发布文件夹中***
 rm -rf ${SDKReleasePath}/AnalyticsSDK.framework
