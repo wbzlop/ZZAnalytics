@@ -20,7 +20,7 @@
 		52315E5C24725CFE001DB71A /* AnalyticsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52315E5524725CFE001DB71A /* AnalyticsSDK.framework */; };
 		52315E5D24725CFE001DB71A /* AnalyticsSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52315E5524725CFE001DB71A /* AnalyticsSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		52315E9A24725DAA001DB71A /* AnalyticsSDK-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 52315E6224725DAA001DB71A /* AnalyticsSDK-Prefix.pch */; };
-		52315EA324725DAA001DB71A /* AnalyticsSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 52315E6D24725DAA001DB71A /* AnalyticsSDK.m */; };
+		52315EA324725DAA001DB71A /* AnalyticsSDK.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52315E6D24725DAA001DB71A /* AnalyticsSDK.mm */; };
 		52315EA624725DAA001DB71A /* ZZReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 52315E7124725DAA001DB71A /* ZZReachability.h */; };
 		52315EA924725DAA001DB71A /* ZZReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 52315E7424725DAA001DB71A /* ZZReachability.m */; };
 		52315EB724725DAA001DB71A /* ZZConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 52315E8524725DAA001DB71A /* ZZConstant.h */; };
@@ -104,7 +104,7 @@
 		52315E5724725CFE001DB71A /* AnalyticsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalyticsSDK.h; sourceTree = "<group>"; };
 		52315E5824725CFE001DB71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52315E6224725DAA001DB71A /* AnalyticsSDK-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AnalyticsSDK-Prefix.pch"; sourceTree = "<group>"; };
-		52315E6D24725DAA001DB71A /* AnalyticsSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsSDK.m; sourceTree = "<group>"; };
+		52315E6D24725DAA001DB71A /* AnalyticsSDK.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AnalyticsSDK.mm; sourceTree = "<group>"; };
 		52315E7124725DAA001DB71A /* ZZReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZReachability.h; sourceTree = "<group>"; };
 		52315E7424725DAA001DB71A /* ZZReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZReachability.m; sourceTree = "<group>"; };
 		52315E8524725DAA001DB71A /* ZZConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZConstant.h; sourceTree = "<group>"; };
@@ -242,7 +242,7 @@
 				52C21F08247FF8BF0049240B /* db */,
 				523719BC2473CFBD0072B556 /* SAMKeychain */,
 				52315E6424725DAA001DB71A /* category */,
-				52315E6D24725DAA001DB71A /* AnalyticsSDK.m */,
+				52315E6D24725DAA001DB71A /* AnalyticsSDK.mm */,
 				52315E6E24725DAA001DB71A /* network */,
 				52315E8324725DAA001DB71A /* common */,
 				52315E9324725DAA001DB71A /* model */,
@@ -551,7 +551,7 @@
 				5200227B2474E3A6009A0517 /* ZZAnalyticsUser.m in Sources */,
 				52315EC424725DAA001DB71A /* ZZBaseHelper.m in Sources */,
 				523719E62473DFC60072B556 /* NSDictionary+Log.m in Sources */,
-				52315EA324725DAA001DB71A /* AnalyticsSDK.m in Sources */,
+				52315EA324725DAA001DB71A /* AnalyticsSDK.mm in Sources */,
 				523719D82473CFBD0072B556 /* SAMKeychainQuery.m in Sources */,
 				523719B024737B6F0072B556 /* ZZBodyHelper.m in Sources */,
 				523719EE2473E9A90072B556 /* ZZNetwork.m in Sources */,
