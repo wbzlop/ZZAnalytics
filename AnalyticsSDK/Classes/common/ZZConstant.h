@@ -36,6 +36,10 @@ extern NSString* const ZZSDK_OFFSET;
 //大数据appkey
 extern NSString* const ZZSDK_APPKEY;
 
+//90-4表名
+extern NSString* const ZZSDK_TABLE_USER;
+//90-5表名
+extern NSString* const ZZSDK_TABLE_BASE;
 
 
 

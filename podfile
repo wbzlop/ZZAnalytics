@@ -1,0 +1,13 @@
+target 'AnalyticsSDKDemo' do
+ platform :ios, '9.0'
+ 
+pod 'WCDB'
+ 
+end
+
+target 'AnalyticsSDK' do
+ platform :ios, '9.0'
+ 
+pod 'WCDB'
+ 
+end

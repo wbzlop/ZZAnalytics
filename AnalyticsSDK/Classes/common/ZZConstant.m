@@ -34,5 +34,8 @@ NSString* const ZZSDK_OFFSET = @"xJjvhUc4ll31lImg";
 NSString* const ZZSDK_APPKEY = @"e6f2dfac-4317-4fc7-a9c6-8140e5073156";
 
 
+NSString* const ZZSDK_TABLE_USER = @"user1";
+
+NSString* const ZZSDK_TABLE_BASE = @"base1";
 
 @end

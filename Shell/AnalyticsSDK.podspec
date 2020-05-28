@@ -26,7 +26,9 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wubaozeng' => 'wubaozeng@gamegoing.net' }
-  s.source           = { :git => 'ssh://wubaozeng@gerrit.batcloud.cn:29418/mp-sdk-esdk-ios',:branch => "release/#{s.version}"}
+  
+  s.source           = { :git => '/Users/wbz/Documents/work/AnalyticsSDK',:branch => "release/#{s.version}"}
+  # s.source           = { :git => 'ssh://wubaozeng@gerrit.batcloud.cn:29418/mp-sdk-esdk-ios',:branch => "release/#{s.version}"}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
