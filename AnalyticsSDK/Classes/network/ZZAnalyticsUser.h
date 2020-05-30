@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 +(instancetype)shareInstance;
 
-/// 统计用户操作
+/// 统计用户操作，实时
 /// @param configVersion 策略版本ID
 /// @param name 事件名
 /// @param value 事件值
@@ -33,8 +33,14 @@ NS_ASSUME_NONNULL_BEGIN
             withId:(NSString *)Id
         withStatus:(NSUInteger)status
            withMsg:(NSString *)msg
-          withInfo:(NSString *)info;
+          withInfo:(NSDictionary *)info;
 
+
+
+/// 统计用户操作，批量
+/// @param body <#body description#>
+/// @param complete <#complete description#>
+-(void)track:(NSString * )body complete:(TrackComplete)complete;
 
 @end
 

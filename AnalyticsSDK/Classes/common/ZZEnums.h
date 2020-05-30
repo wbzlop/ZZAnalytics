@@ -91,4 +91,6 @@ typedef void (^LFMCompleteHandler)(BOOL success, NSError *error, NSData *data);
 
 typedef void(^ManagerInitComplete)(BOOL success,NSError *error);
 
+typedef void (^TrackComplete)(BOOL success);
+
 #endif /* ZZEnums_h */

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -514,465 +514,465 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D8C5FD8B38A797E8DEA35C10D2FDE3 /* WCTIndexBInding.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTIndexBInding.mm; path = objc/WCDB/interface/orm/binding/WCTIndexBInding.mm; sourceTree = "<group>"; };
+		00D8C5FD8B38A797E8DEA35C10D2FDE3 /* WCTIndexBInding.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTIndexBInding.mm; path = objc/WCDB/interface/orm/binding/WCTIndexBInding.mm; sourceTree = "<group>"; };
 		019FB2B34D3B5F2B7F28E444FEF03135 /* WCTTransaction+Table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTTransaction+Table.h"; path = "objc/WCDB/interface/table/WCTTransaction+Table.h"; sourceTree = "<group>"; };
 		02D30F735EFCB2F7365915D271848FD4 /* Pods-AnalyticsSDKDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnalyticsSDKDemo-resources.sh"; sourceTree = "<group>"; };
 		0347A6366D836E4B3B3C1637CB1A7B9C /* fts5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fts5.h; sourceTree = "<group>"; };
-		035724084F0A4727880EED1C8AFA22E2 /* WCTCore.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTCore.mm; path = objc/WCDB/interface/core/WCTCore.mm; sourceTree = "<group>"; };
-		04C2D7D4A1397D1C36CB96E3846C422C /* column_result.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = column_result.hpp; path = objc/WCDB/abstract/column_result.hpp; sourceTree = "<group>"; };
+		035724084F0A4727880EED1C8AFA22E2 /* WCTCore.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTCore.mm; path = objc/WCDB/interface/core/WCTCore.mm; sourceTree = "<group>"; };
+		04C2D7D4A1397D1C36CB96E3846C422C /* column_result.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = column_result.hpp; path = objc/WCDB/abstract/column_result.hpp; sourceTree = "<group>"; };
 		0636868EBDD863DDBC8DB9C5A4F2F54B /* WCTChainCall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTChainCall.h; path = objc/WCDB/interface/chaincall/WCTChainCall.h; sourceTree = "<group>"; };
-		0655541699EBB3F95BAE965653C05458 /* sqliterk_pager.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqliterk_pager.c; path = repair/sqliterk_pager.c; sourceTree = "<group>"; };
+		0655541699EBB3F95BAE965653C05458 /* sqliterk_pager.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqliterk_pager.c; path = repair/sqliterk_pager.c; sourceTree = "<group>"; };
 		083C30C104BD207F3BEB0EB883B83A2F /* WCTCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTCoding.h; path = objc/WCDB/interface/orm/coding/WCTCoding.h; sourceTree = "<group>"; };
 		087F1E445C4DBAB2FB7A63BA5B2CD44B /* WCTExpr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTExpr.h; path = objc/WCDB/interface/orm/coding/WCTExpr.h; sourceTree = "<group>"; };
 		08FA6B2EAED78D3ADC8D267F3081D5C5 /* wal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wal.h; path = src/wal.h; sourceTree = "<group>"; };
-		0B5841B59C9DF6F7A51E0A58C0A63F1F /* statement_vacuum.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_vacuum.hpp; path = objc/WCDB/abstract/statement_vacuum.hpp; sourceTree = "<group>"; };
+		0B5841B59C9DF6F7A51E0A58C0A63F1F /* statement_vacuum.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_vacuum.hpp; path = objc/WCDB/abstract/statement_vacuum.hpp; sourceTree = "<group>"; };
 		0BC4A666F2FCDBC96E9387782EAB999B /* sqlite3ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = src/sqlite3ext.h; sourceTree = "<group>"; };
-		0C459963EE3ADBE8D70B6CB33C087892 /* WCTChainCall.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTChainCall.mm; path = objc/WCDB/interface/chaincall/WCTChainCall.mm; sourceTree = "<group>"; };
+		0C459963EE3ADBE8D70B6CB33C087892 /* WCTChainCall.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTChainCall.mm; path = objc/WCDB/interface/chaincall/WCTChainCall.mm; sourceTree = "<group>"; };
 		0CA976D115D7E257E51E5712F7B8D2CC /* WCTTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTTable.h; path = objc/WCDB/interface/declare/WCTTable.h; sourceTree = "<group>"; };
 		0D46FFD475B07834F29425CA7D650700 /* WCTTransaction+Compatible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTTransaction+Compatible.h"; path = "objc/WCDB/interface/compatible/WCTTransaction+Compatible.h"; sourceTree = "<group>"; };
 		0E65E33511AE5A2C97B8AD82AFA1F781 /* Pods-AnalyticsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnalyticsSDK.debug.xcconfig"; sourceTree = "<group>"; };
-		0E8736A8EF095C235AB3982DDC30103B /* statement_drop_index.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_drop_index.cpp; path = objc/WCDB/abstract/statement_drop_index.cpp; sourceTree = "<group>"; };
+		0E8736A8EF095C235AB3982DDC30103B /* statement_drop_index.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_drop_index.cpp; path = objc/WCDB/abstract/statement_drop_index.cpp; sourceTree = "<group>"; };
 		0F027EB76CD5D68AEC1C44697572273C /* WCTResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTResult.h; path = objc/WCDB/interface/orm/coding/WCTResult.h; sourceTree = "<group>"; };
-		0F32FAF13D81AC2175D9EE32E8E650EF /* path.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = path.cpp; path = objc/WCDB/util/path.cpp; sourceTree = "<group>"; };
-		10CF40BE15DFC545CD4EB24D4B3A986A /* WCTInsert.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTInsert.mm; path = objc/WCDB/interface/chaincall/WCTInsert.mm; sourceTree = "<group>"; };
-		116B1B27E3CA73E582A63A77B7EF30D5 /* fault.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fault.c; path = src/fault.c; sourceTree = "<group>"; };
+		0F32FAF13D81AC2175D9EE32E8E650EF /* path.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = path.cpp; path = objc/WCDB/util/path.cpp; sourceTree = "<group>"; };
+		10CF40BE15DFC545CD4EB24D4B3A986A /* WCTInsert.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTInsert.mm; path = objc/WCDB/interface/chaincall/WCTInsert.mm; sourceTree = "<group>"; };
+		116B1B27E3CA73E582A63A77B7EF30D5 /* fault.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fault.c; path = src/fault.c; sourceTree = "<group>"; };
 		128C3AABEC60B8C52DF86BB56D2D3641 /* SQLiteRepairKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLiteRepairKit.xcconfig; sourceTree = "<group>"; };
-		128F4F928FB8EE7578D2E50AD9136DAE /* describable.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = describable.hpp; path = objc/WCDB/abstract/describable.hpp; sourceTree = "<group>"; };
-		1354A4C4627405BD26FB4196A6E947B1 /* vdbetrace.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vdbetrace.c; path = src/vdbetrace.c; sourceTree = "<group>"; };
-		13676AA5DCC6332625AF80991C082767 /* column_index.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = column_index.hpp; path = objc/WCDB/abstract/column_index.hpp; sourceTree = "<group>"; };
-		13E5A4A8FF170158F2E5E3C08DBFB85C /* database_transaction.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = database_transaction.cpp; path = objc/WCDB/core/database_transaction.cpp; sourceTree = "<group>"; };
+		128F4F928FB8EE7578D2E50AD9136DAE /* describable.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = describable.hpp; path = objc/WCDB/abstract/describable.hpp; sourceTree = "<group>"; };
+		1354A4C4627405BD26FB4196A6E947B1 /* vdbetrace.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = vdbetrace.c; path = src/vdbetrace.c; sourceTree = "<group>"; };
+		13676AA5DCC6332625AF80991C082767 /* column_index.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = column_index.hpp; path = objc/WCDB/abstract/column_index.hpp; sourceTree = "<group>"; };
+		13E5A4A8FF170158F2E5E3C08DBFB85C /* database_transaction.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = database_transaction.cpp; path = objc/WCDB/core/database_transaction.cpp; sourceTree = "<group>"; };
 		13E852F28D4B24752561935C6CD56C0C /* WCTError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTError.h; path = objc/WCDB/interface/statictics/WCTError.h; sourceTree = "<group>"; };
 		14E9C7C38063B71C43DE4C0BF3A59135 /* WCTCppAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTCppAccessor.h; path = objc/WCDB/interface/orm/accessor/WCTCppAccessor.h; sourceTree = "<group>"; };
 		15068DEEA5A4230350E9138E3E0CE27E /* sqlite3rtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3rtree.h; path = ext/rtree/sqlite3rtree.h; sourceTree = "<group>"; };
 		15143B358E5EE2205AB422EB5431B585 /* WCTRuntimeObjCAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTRuntimeObjCAccessor.h; path = objc/WCDB/interface/orm/accessor/WCTRuntimeObjCAccessor.h; sourceTree = "<group>"; };
 		1528532942DE614D922DDB05045652E6 /* sqlite3rbu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3rbu.h; path = ext/rbu/sqlite3rbu.h; sourceTree = "<group>"; };
-		1598FCD8DDAF655C4E31CDC97A181144 /* WCTDelete.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTDelete.mm; path = objc/WCDB/interface/chaincall/WCTDelete.mm; sourceTree = "<group>"; };
-		16327882FC908A17D080AE09910BDF09 /* os_wcdb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = os_wcdb.c; path = src/os_wcdb.c; sourceTree = "<group>"; };
-		18A34C48FE83AEA76A7FF899E3BA3684 /* WCTColumnBinding.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTColumnBinding.mm; path = objc/WCDB/interface/orm/binding/WCTColumnBinding.mm; sourceTree = "<group>"; };
-		1936F05EBB1457A57131A8FC01CF86D0 /* statement_explain.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_explain.cpp; path = objc/WCDB/abstract/statement_explain.cpp; sourceTree = "<group>"; };
-		19AAEE4A1DF59407FAE6DF4A1816DD96 /* fts3_tokenizer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_tokenizer.c; path = ext/fts3/fts3_tokenizer.c; sourceTree = "<group>"; };
+		1598FCD8DDAF655C4E31CDC97A181144 /* WCTDelete.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTDelete.mm; path = objc/WCDB/interface/chaincall/WCTDelete.mm; sourceTree = "<group>"; };
+		16327882FC908A17D080AE09910BDF09 /* os_wcdb.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = os_wcdb.c; path = src/os_wcdb.c; sourceTree = "<group>"; };
+		18A34C48FE83AEA76A7FF899E3BA3684 /* WCTColumnBinding.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTColumnBinding.mm; path = objc/WCDB/interface/orm/binding/WCTColumnBinding.mm; sourceTree = "<group>"; };
+		1936F05EBB1457A57131A8FC01CF86D0 /* statement_explain.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_explain.cpp; path = objc/WCDB/abstract/statement_explain.cpp; sourceTree = "<group>"; };
+		19AAEE4A1DF59407FAE6DF4A1816DD96 /* fts3_tokenizer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3_tokenizer.c; path = ext/fts3/fts3_tokenizer.c; sourceTree = "<group>"; };
 		1AA17B78DB7BF18C998B24D22449E41B /* WCTTokenizer+Apple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTTokenizer+Apple.h"; path = "objc/WCDB/interface/fts/WCTTokenizer+Apple.h"; sourceTree = "<group>"; };
-		1B4E1FEB26E5656D200E0AEB6DD946D1 /* WCTDatabase+FTS.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTDatabase+FTS.mm"; path = "objc/WCDB/interface/fts/WCTDatabase+FTS.mm"; sourceTree = "<group>"; };
+		1B4E1FEB26E5656D200E0AEB6DD946D1 /* WCTDatabase+FTS.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTDatabase+FTS.mm"; path = "objc/WCDB/interface/fts/WCTDatabase+FTS.mm"; sourceTree = "<group>"; };
 		1B59427CB8E452A06E2665E315E9CC90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1BEDCA075A6AEB34F11088E8EEB97D9C /* mutex_unix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mutex_unix.c; path = src/mutex_unix.c; sourceTree = "<group>"; };
+		1BEDCA075A6AEB34F11088E8EEB97D9C /* mutex_unix.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mutex_unix.c; path = src/mutex_unix.c; sourceTree = "<group>"; };
 		1C72F907746EFA48C5796E8A5FB7E260 /* pager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pager.h; path = src/pager.h; sourceTree = "<group>"; };
-		1C7500E5784011773CB5CC04C90E21EC /* WCTExpr.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTExpr.mm; path = objc/WCDB/interface/orm/coding/WCTExpr.mm; sourceTree = "<group>"; };
-		1E1B1D9ABB4D05EB31DFCC430ED37EC0 /* os_unix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = os_unix.c; path = src/os_unix.c; sourceTree = "<group>"; };
+		1C7500E5784011773CB5CC04C90E21EC /* WCTExpr.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTExpr.mm; path = objc/WCDB/interface/orm/coding/WCTExpr.mm; sourceTree = "<group>"; };
+		1E1B1D9ABB4D05EB31DFCC430ED37EC0 /* os_unix.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = os_unix.c; path = src/os_unix.c; sourceTree = "<group>"; };
 		1EFD1BC5BBF9C4B77B43CAFBD07F549B /* WCTIndexBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTIndexBinding.h; path = objc/WCDB/interface/orm/binding/WCTIndexBinding.h; sourceTree = "<group>"; };
-		1F6F6DE0990F4AE826C79166A9A5F45C /* expr.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = expr.cpp; path = objc/WCDB/abstract/expr.cpp; sourceTree = "<group>"; };
+		1F6F6DE0990F4AE826C79166A9A5F45C /* expr.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = expr.cpp; path = objc/WCDB/abstract/expr.cpp; sourceTree = "<group>"; };
 		1FBE646C96E30EADCD61462E3BC497FF /* mutex_wcdb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mutex_wcdb.h; path = src/mutex_wcdb.h; sourceTree = "<group>"; };
 		1FC1338AE8D1AE036FA47A11825EC50B /* WCDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCDB.xcconfig; sourceTree = "<group>"; };
 		1FC3D88803333F780318E65D6EAA9265 /* WCTChainCall+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTChainCall+Private.h"; path = "objc/WCDB/interface/chaincall/WCTChainCall+Private.h"; sourceTree = "<group>"; };
 		206BAAEE60872D09886E298B68328173 /* WCTDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTDatabase.h; path = objc/WCDB/interface/declare/WCTDatabase.h; sourceTree = "<group>"; };
-		20AF5B5A2DEF5D6907CC83C01D00657B /* sqliterk_util.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqliterk_util.c; path = repair/sqliterk_util.c; sourceTree = "<group>"; };
+		20AF5B5A2DEF5D6907CC83C01D00657B /* sqliterk_util.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqliterk_util.c; path = repair/sqliterk_util.c; sourceTree = "<group>"; };
 		20E36F2B9CBC48008CBE82245BAA248F /* sqliterk_pager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_pager.h; path = repair/sqliterk_pager.h; sourceTree = "<group>"; };
-		21D16D0866BDB97FDF1AD8B8C41C655D /* printf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = printf.c; path = src/printf.c; sourceTree = "<group>"; };
+		21D16D0866BDB97FDF1AD8B8C41C655D /* printf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = printf.c; path = src/printf.c; sourceTree = "<group>"; };
 		22796107C7A7251D851BDB52F3DC640E /* WCTStatement+Compatible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTStatement+Compatible.h"; path = "objc/WCDB/interface/compatible/WCTStatement+Compatible.h"; sourceTree = "<group>"; };
-		232A219B5AD47DA94FC0059883E12AD0 /* utf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = utf.c; path = src/utf.c; sourceTree = "<group>"; };
-		2369675CBC576282CB3D9041AEAE17DF /* column_index.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = column_index.cpp; path = objc/WCDB/abstract/column_index.cpp; sourceTree = "<group>"; };
+		232A219B5AD47DA94FC0059883E12AD0 /* utf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = utf.c; path = src/utf.c; sourceTree = "<group>"; };
+		2369675CBC576282CB3D9041AEAE17DF /* column_index.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = column_index.cpp; path = objc/WCDB/abstract/column_index.cpp; sourceTree = "<group>"; };
 		24D80AB95648455AC441D32E4049E2EC /* sqlcipher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlcipher.h; path = src/sqlcipher.h; sourceTree = "<group>"; };
-		25F4E7E1E63DBF369D00C47CA525BEC0 /* statement_create_table.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_create_table.hpp; path = objc/WCDB/abstract/statement_create_table.hpp; sourceTree = "<group>"; };
-		26534F815348C23AFFF8587BB5AC7094 /* notify.c */ = {isa = PBXFileReference; includeInIndex = 1; name = notify.c; path = src/notify.c; sourceTree = "<group>"; };
-		26A4AFABB43ABAF1A95045CD61DC3BC9 /* order.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = order.hpp; path = objc/WCDB/abstract/order.hpp; sourceTree = "<group>"; };
+		25F4E7E1E63DBF369D00C47CA525BEC0 /* statement_create_table.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_create_table.hpp; path = objc/WCDB/abstract/statement_create_table.hpp; sourceTree = "<group>"; };
+		26534F815348C23AFFF8587BB5AC7094 /* notify.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = notify.c; path = src/notify.c; sourceTree = "<group>"; };
+		26A4AFABB43ABAF1A95045CD61DC3BC9 /* order.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = order.hpp; path = objc/WCDB/abstract/order.hpp; sourceTree = "<group>"; };
 		2827ACEFA5970FC282F605440C0DF818 /* WCTUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTUpdate.h; path = objc/WCDB/interface/chaincall/WCTUpdate.h; sourceTree = "<group>"; };
-		28BA42DEC110F09C5ADF5510C9155E1C /* sqliterk_btree.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqliterk_btree.c; path = repair/sqliterk_btree.c; sourceTree = "<group>"; };
+		28BA42DEC110F09C5ADF5510C9155E1C /* sqliterk_btree.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqliterk_btree.c; path = repair/sqliterk_btree.c; sourceTree = "<group>"; };
 		2939C497188117F35A91A01470A3E9A2 /* fts3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3.h; path = ext/fts3/fts3.h; sourceTree = "<group>"; };
-		29B67689B3C2EF3AF844314BE0C813E0 /* column_result.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = column_result.cpp; path = objc/WCDB/abstract/column_result.cpp; sourceTree = "<group>"; };
-		2A5E5FAF6786FAC585D112CA1B5C0804 /* table.c */ = {isa = PBXFileReference; includeInIndex = 1; name = table.c; path = src/table.c; sourceTree = "<group>"; };
+		29B67689B3C2EF3AF844314BE0C813E0 /* column_result.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = column_result.cpp; path = objc/WCDB/abstract/column_result.cpp; sourceTree = "<group>"; };
+		2A5E5FAF6786FAC585D112CA1B5C0804 /* table.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = table.c; path = src/table.c; sourceTree = "<group>"; };
 		2C16A1EFECFF090753B1ECAEE52D62C3 /* WCTValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTValue.h; path = objc/WCDB/interface/core/WCTValue.h; sourceTree = "<group>"; };
-		2C505CC7FCC126C8C005EB504C3632CE /* rwlock.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = rwlock.hpp; path = objc/WCDB/util/rwlock.hpp; sourceTree = "<group>"; };
-		2E4140C4CB55F7299A80C749E08E063F /* WCTStatistics.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTStatistics.mm; path = objc/WCDB/interface/statictics/WCTStatistics.mm; sourceTree = "<group>"; };
-		2EF56538028007982B4F5A8F58F10366 /* statement_rollback.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_rollback.cpp; path = objc/WCDB/abstract/statement_rollback.cpp; sourceTree = "<group>"; };
-		2F229938FB072D8FFBD7EE851833FDC5 /* module_argument.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = module_argument.hpp; path = objc/WCDB/abstract/module_argument.hpp; sourceTree = "<group>"; };
-		2F3367B5EAC319D3E6CD3E75EBF294D0 /* column_type.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = column_type.cpp; path = objc/WCDB/abstract/column_type.cpp; sourceTree = "<group>"; };
-		303C25B45297EEC56A1A6D44690B1F71 /* utility.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = utility.hpp; path = objc/WCDB/util/utility.hpp; sourceTree = "<group>"; };
+		2C505CC7FCC126C8C005EB504C3632CE /* rwlock.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = rwlock.hpp; path = objc/WCDB/util/rwlock.hpp; sourceTree = "<group>"; };
+		2E4140C4CB55F7299A80C749E08E063F /* WCTStatistics.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTStatistics.mm; path = objc/WCDB/interface/statictics/WCTStatistics.mm; sourceTree = "<group>"; };
+		2EF56538028007982B4F5A8F58F10366 /* statement_rollback.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_rollback.cpp; path = objc/WCDB/abstract/statement_rollback.cpp; sourceTree = "<group>"; };
+		2F229938FB072D8FFBD7EE851833FDC5 /* module_argument.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = module_argument.hpp; path = objc/WCDB/abstract/module_argument.hpp; sourceTree = "<group>"; };
+		2F3367B5EAC319D3E6CD3E75EBF294D0 /* column_type.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = column_type.cpp; path = objc/WCDB/abstract/column_type.cpp; sourceTree = "<group>"; };
+		303C25B45297EEC56A1A6D44690B1F71 /* utility.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = utility.hpp; path = objc/WCDB/util/utility.hpp; sourceTree = "<group>"; };
 		30A418F9706EB2EC812EF4C29534A1DC /* os_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_common.h; path = src/os_common.h; sourceTree = "<group>"; };
-		30D6734DE7B2FE7DE5A9D893E32A4A10 /* statement_create_table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_create_table.cpp; path = objc/WCDB/abstract/statement_create_table.cpp; sourceTree = "<group>"; };
-		3119B42879226D213B737E606847C503 /* database_repair_kit.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = database_repair_kit.cpp; path = objc/WCDB/core/database_repair_kit.cpp; sourceTree = "<group>"; };
-		321891E92665C98BEA38F9B73B4067CB /* expr.c */ = {isa = PBXFileReference; includeInIndex = 1; name = expr.c; path = src/expr.c; sourceTree = "<group>"; };
-		32415A3C7A81E8BAA117AFE72FBFF828 /* loadext.c */ = {isa = PBXFileReference; includeInIndex = 1; name = loadext.c; path = src/loadext.c; sourceTree = "<group>"; };
-		3346F93A3A0D7BF55268822B4325CC2C /* WCTError.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTError.mm; path = objc/WCDB/interface/statictics/WCTError.mm; sourceTree = "<group>"; };
+		30D6734DE7B2FE7DE5A9D893E32A4A10 /* statement_create_table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_create_table.cpp; path = objc/WCDB/abstract/statement_create_table.cpp; sourceTree = "<group>"; };
+		3119B42879226D213B737E606847C503 /* database_repair_kit.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = database_repair_kit.cpp; path = objc/WCDB/core/database_repair_kit.cpp; sourceTree = "<group>"; };
+		321891E92665C98BEA38F9B73B4067CB /* expr.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = expr.c; path = src/expr.c; sourceTree = "<group>"; };
+		32415A3C7A81E8BAA117AFE72FBFF828 /* loadext.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = loadext.c; path = src/loadext.c; sourceTree = "<group>"; };
+		3346F93A3A0D7BF55268822B4325CC2C /* WCTError.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTError.mm; path = objc/WCDB/interface/statictics/WCTError.mm; sourceTree = "<group>"; };
 		355BC965ABB62CE19605E1D755DE4F69 /* Pods-AnalyticsSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnalyticsSDKDemo-dummy.m"; sourceTree = "<group>"; };
-		35FFC468F0863C5858AE756676E80D30 /* WCTStatement.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTStatement.mm; path = objc/WCDB/interface/core/WCTStatement.mm; sourceTree = "<group>"; };
+		35FFC468F0863C5858AE756676E80D30 /* WCTStatement.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTStatement.mm; path = objc/WCDB/interface/core/WCTStatement.mm; sourceTree = "<group>"; };
 		37324355CC94546771A32771F568408D /* WCTRuntimeBaseAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTRuntimeBaseAccessor.h; path = objc/WCDB/interface/orm/accessor/WCTRuntimeBaseAccessor.h; sourceTree = "<group>"; };
-		37646436717339B9C090EF76CFDD129C /* statement_create_index.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_create_index.cpp; path = objc/WCDB/abstract/statement_create_index.cpp; sourceTree = "<group>"; };
-		37E2DC8065EE0AB2CF02184BD109A8B2 /* database_config.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = database_config.cpp; path = objc/WCDB/core/database_config.cpp; sourceTree = "<group>"; };
-		3875AD342F2D881FD1E593F1B24154D6 /* clause_join.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = clause_join.hpp; path = objc/WCDB/abstract/clause_join.hpp; sourceTree = "<group>"; };
-		38E9AE87042EFE170EC2FD8C288520D3 /* callback.c */ = {isa = PBXFileReference; includeInIndex = 1; name = callback.c; path = src/callback.c; sourceTree = "<group>"; };
+		37646436717339B9C090EF76CFDD129C /* statement_create_index.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_create_index.cpp; path = objc/WCDB/abstract/statement_create_index.cpp; sourceTree = "<group>"; };
+		37E2DC8065EE0AB2CF02184BD109A8B2 /* database_config.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = database_config.cpp; path = objc/WCDB/core/database_config.cpp; sourceTree = "<group>"; };
+		3875AD342F2D881FD1E593F1B24154D6 /* clause_join.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = clause_join.hpp; path = objc/WCDB/abstract/clause_join.hpp; sourceTree = "<group>"; };
+		38E9AE87042EFE170EC2FD8C288520D3 /* callback.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = callback.c; path = src/callback.c; sourceTree = "<group>"; };
 		3A9FD34A024CD2134337524C1027CE12 /* SQLiteRepairKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLiteRepairKit-prefix.pch"; sourceTree = "<group>"; };
-		3AFE32CE9C07B643F6E3F995157C76D5 /* statement.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement.hpp; path = objc/WCDB/abstract/statement.hpp; sourceTree = "<group>"; };
-		3B163211DBA42A80B443CEA8EC6C0E5B /* analyze.c */ = {isa = PBXFileReference; includeInIndex = 1; name = analyze.c; path = src/analyze.c; sourceTree = "<group>"; };
-		3B600AD4DA6F2D75C1EAB43D229B3869 /* WCTSelect.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTSelect.mm; path = objc/WCDB/interface/chaincall/WCTSelect.mm; sourceTree = "<group>"; };
-		3BBAD6C6116616ED47B71CC704FF2C34 /* rowset.c */ = {isa = PBXFileReference; includeInIndex = 1; name = rowset.c; path = src/rowset.c; sourceTree = "<group>"; };
+		3AFE32CE9C07B643F6E3F995157C76D5 /* statement.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement.hpp; path = objc/WCDB/abstract/statement.hpp; sourceTree = "<group>"; };
+		3B163211DBA42A80B443CEA8EC6C0E5B /* analyze.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = analyze.c; path = src/analyze.c; sourceTree = "<group>"; };
+		3B600AD4DA6F2D75C1EAB43D229B3869 /* WCTSelect.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTSelect.mm; path = objc/WCDB/interface/chaincall/WCTSelect.mm; sourceTree = "<group>"; };
+		3BBAD6C6116616ED47B71CC704FF2C34 /* rowset.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = rowset.c; path = src/rowset.c; sourceTree = "<group>"; };
 		3C57776FF2CD104DD7457612F5EEAB9D /* WCTIndexMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTIndexMacro.h; path = objc/WCDB/interface/orm/macro/WCTIndexMacro.h; sourceTree = "<group>"; };
-		3D56291EC04D429C66C707FBC61DBA4E /* error.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = error.cpp; path = objc/WCDB/util/error.cpp; sourceTree = "<group>"; };
-		3DAA1072FECD443CF792C352247A71AF /* vdbeaux.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vdbeaux.c; path = src/vdbeaux.c; sourceTree = "<group>"; };
+		3D56291EC04D429C66C707FBC61DBA4E /* error.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = error.cpp; path = objc/WCDB/util/error.cpp; sourceTree = "<group>"; };
+		3DAA1072FECD443CF792C352247A71AF /* vdbeaux.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = vdbeaux.c; path = src/vdbeaux.c; sourceTree = "<group>"; };
 		3DB0168A9E4265A967EBCF9727694FA4 /* WCDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WCDB-dummy.m"; sourceTree = "<group>"; };
-		3DCCF1107B62CD5B1C98DC851FD70F00 /* WCTSelectBase+NoARC.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTSelectBase+NoARC.mm"; path = "objc/WCDB/interface/chaincall/WCTSelectBase+NoARC.mm"; sourceTree = "<group>"; };
-		3E0EE9DFE2E7FE12BB31CFFF01AD3637 /* where.c */ = {isa = PBXFileReference; includeInIndex = 1; name = where.c; path = src/where.c; sourceTree = "<group>"; };
-		3E13E0CD9D1015EB7BFB30EBC7313CFC /* sqliterk_column.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqliterk_column.c; path = repair/sqliterk_column.c; sourceTree = "<group>"; };
-		3F1C86FF74D88DE835821B363BAD6F41 /* WCTRowSelect.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTRowSelect.mm; path = objc/WCDB/interface/chaincall/WCTRowSelect.mm; sourceTree = "<group>"; };
+		3DCCF1107B62CD5B1C98DC851FD70F00 /* WCTSelectBase+NoARC.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTSelectBase+NoARC.mm"; path = "objc/WCDB/interface/chaincall/WCTSelectBase+NoARC.mm"; sourceTree = "<group>"; };
+		3E0EE9DFE2E7FE12BB31CFFF01AD3637 /* where.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = where.c; path = src/where.c; sourceTree = "<group>"; };
+		3E13E0CD9D1015EB7BFB30EBC7313CFC /* sqliterk_column.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqliterk_column.c; path = repair/sqliterk_column.c; sourceTree = "<group>"; };
+		3F1C86FF74D88DE835821B363BAD6F41 /* WCTRowSelect.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTRowSelect.mm; path = objc/WCDB/interface/chaincall/WCTRowSelect.mm; sourceTree = "<group>"; };
 		3FDC701460F807A32078F2C746D436AD /* WCTRowSelect+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTRowSelect+Private.h"; path = "objc/WCDB/interface/chaincall/WCTRowSelect+Private.h"; sourceTree = "<group>"; };
-		3FEBCB373F27C26121804A32655D96F7 /* WCTTokenizer+Apple.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTTokenizer+Apple.mm"; path = "objc/WCDB/interface/fts/WCTTokenizer+Apple.mm"; sourceTree = "<group>"; };
-		418BE7059C8342D65E0E5D09BA8BC1A4 /* sqliterk_values.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqliterk_values.c; path = repair/sqliterk_values.c; sourceTree = "<group>"; };
+		3FEBCB373F27C26121804A32655D96F7 /* WCTTokenizer+Apple.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTTokenizer+Apple.mm"; path = "objc/WCDB/interface/fts/WCTTokenizer+Apple.mm"; sourceTree = "<group>"; };
+		418BE7059C8342D65E0E5D09BA8BC1A4 /* sqliterk_values.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqliterk_values.c; path = repair/sqliterk_values.c; sourceTree = "<group>"; };
 		419E84220EEFE6B219EF7C313D93BF2B /* keywordhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = keywordhash.h; sourceTree = "<group>"; };
 		41C8311F7A3AE02ED0F775E938A5E335 /* SQLiteRepairKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLiteRepairKit-dummy.m"; sourceTree = "<group>"; };
-		43DB2F86ED40ED38357E9B7D7A856C9C /* WCTConstraintBinding.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTConstraintBinding.mm; path = objc/WCDB/interface/orm/binding/WCTConstraintBinding.mm; sourceTree = "<group>"; };
-		4430606763BC4E5B2DE0C630D0FB72EB /* handle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = handle.cpp; path = objc/WCDB/abstract/handle.cpp; sourceTree = "<group>"; };
+		43DB2F86ED40ED38357E9B7D7A856C9C /* WCTConstraintBinding.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTConstraintBinding.mm; path = objc/WCDB/interface/orm/binding/WCTConstraintBinding.mm; sourceTree = "<group>"; };
+		4430606763BC4E5B2DE0C630D0FB72EB /* handle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = handle.cpp; path = objc/WCDB/abstract/handle.cpp; sourceTree = "<group>"; };
 		4456EA8EF928D8218EB996103BBE85DE /* WCTTable+Database.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTTable+Database.h"; path = "objc/WCDB/interface/table/WCTTable+Database.h"; sourceTree = "<group>"; };
-		446748B0879517CAC395FAB6F10A9020 /* libPods-AnalyticsSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AnalyticsSDKDemo.a"; path = "libPods-AnalyticsSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44E6DC14B03E4EAAF92EF99C25E965EA /* expr.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = expr.hpp; path = objc/WCDB/abstract/expr.hpp; sourceTree = "<group>"; };
+		446748B0879517CAC395FAB6F10A9020 /* libPods-AnalyticsSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnalyticsSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E6DC14B03E4EAAF92EF99C25E965EA /* expr.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = expr.hpp; path = objc/WCDB/abstract/expr.hpp; sourceTree = "<group>"; };
 		45FCFEFD893679FD57B1906F1A33CBDD /* WCTRuntimeCppAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTRuntimeCppAccessor.h; path = objc/WCDB/interface/orm/accessor/WCTRuntimeCppAccessor.h; sourceTree = "<group>"; };
-		4677C861AD1DA413490AD3C29821552F /* statement_reindex.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_reindex.cpp; path = objc/WCDB/abstract/statement_reindex.cpp; sourceTree = "<group>"; };
+		4677C861AD1DA413490AD3C29821552F /* statement_reindex.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_reindex.cpp; path = objc/WCDB/abstract/statement_reindex.cpp; sourceTree = "<group>"; };
 		477A44B57F3DE805FAF8E05C52BF6ABF /* WCTDatabase+FTS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDatabase+FTS.h"; path = "objc/WCDB/interface/fts/WCTDatabase+FTS.h"; sourceTree = "<group>"; };
-		4862918CE592A92C98145EB51C2FBB7D /* build.c */ = {isa = PBXFileReference; includeInIndex = 1; name = build.c; path = src/build.c; sourceTree = "<group>"; };
+		4862918CE592A92C98145EB51C2FBB7D /* build.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = build.c; path = src/build.c; sourceTree = "<group>"; };
 		48B44F264827BB0EE99260AAE5E71E70 /* WCTConstraintBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTConstraintBinding.h; path = objc/WCDB/interface/orm/binding/WCTConstraintBinding.h; sourceTree = "<group>"; };
-		496E790F0A91D3682107178B905966BB /* parse.c */ = {isa = PBXFileReference; includeInIndex = 1; path = parse.c; sourceTree = "<group>"; };
+		496E790F0A91D3682107178B905966BB /* parse.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = parse.c; sourceTree = "<group>"; };
 		4AAA922B2DA614F1451C765F6023C988 /* WCTCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTCore.h; path = objc/WCDB/interface/core/WCTCore.h; sourceTree = "<group>"; };
-		4ADCB86CDA34C639A404DA9F024433C1 /* statement_select.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_select.hpp; path = objc/WCDB/abstract/statement_select.hpp; sourceTree = "<group>"; };
+		4ADCB86CDA34C639A404DA9F024433C1 /* statement_select.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_select.hpp; path = objc/WCDB/abstract/statement_select.hpp; sourceTree = "<group>"; };
 		4B965E8663BA160A620360E79D6CA5DE /* WCTProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTProperty.h; path = objc/WCDB/interface/orm/coding/WCTProperty.h; sourceTree = "<group>"; };
-		4CDCA5D74E8E8657C41B8B9BB1973A5B /* statement_recyclable.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_recyclable.hpp; path = objc/WCDB/core/statement_recyclable.hpp; sourceTree = "<group>"; };
-		4DE128C9804EEDFEAA82D4302A8BBF8A /* WCTStatement+Compatible.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTStatement+Compatible.mm"; path = "objc/WCDB/interface/compatible/WCTStatement+Compatible.mm"; sourceTree = "<group>"; };
+		4CDCA5D74E8E8657C41B8B9BB1973A5B /* statement_recyclable.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_recyclable.hpp; path = objc/WCDB/core/statement_recyclable.hpp; sourceTree = "<group>"; };
+		4DE128C9804EEDFEAA82D4302A8BBF8A /* WCTStatement+Compatible.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTStatement+Compatible.mm"; path = "objc/WCDB/interface/compatible/WCTStatement+Compatible.mm"; sourceTree = "<group>"; };
 		4E63A220A28800C66D2077722FC80B27 /* Pods-AnalyticsSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnalyticsSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4EF622AEC6209F7627D53CE5C2BB7147 /* fts_modules.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = fts_modules.hpp; path = objc/WCDB/abstract/fts_modules.hpp; sourceTree = "<group>"; };
-		4F2DB93A3C9A9447AE97BB97CBEDF071 /* WCTDatabase+Table.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTDatabase+Table.mm"; path = "objc/WCDB/interface/table/WCTDatabase+Table.mm"; sourceTree = "<group>"; };
-		4F75ADAA096E8AD2A5CFB6F5059814DB /* macro.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = macro.hpp; path = objc/WCDB/util/macro.hpp; sourceTree = "<group>"; };
-		5048C43CA463B6E77FF9821D3210879D /* statement_create_virtual_table.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_create_virtual_table.hpp; path = objc/WCDB/abstract/statement_create_virtual_table.hpp; sourceTree = "<group>"; };
-		5129F72A652490C7F9133E55BE14F82D /* statement_transaction.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_transaction.hpp; path = objc/WCDB/abstract/statement_transaction.hpp; sourceTree = "<group>"; };
-		518623BAE1A7C0C41C49DC0B73ABA3B4 /* tokenizer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = tokenizer.cpp; path = objc/WCDB/core/tokenizer.cpp; sourceTree = "<group>"; };
+		4EF622AEC6209F7627D53CE5C2BB7147 /* fts_modules.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = fts_modules.hpp; path = objc/WCDB/abstract/fts_modules.hpp; sourceTree = "<group>"; };
+		4F2DB93A3C9A9447AE97BB97CBEDF071 /* WCTDatabase+Table.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTDatabase+Table.mm"; path = "objc/WCDB/interface/table/WCTDatabase+Table.mm"; sourceTree = "<group>"; };
+		4F75ADAA096E8AD2A5CFB6F5059814DB /* macro.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = macro.hpp; path = objc/WCDB/util/macro.hpp; sourceTree = "<group>"; };
+		5048C43CA463B6E77FF9821D3210879D /* statement_create_virtual_table.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_create_virtual_table.hpp; path = objc/WCDB/abstract/statement_create_virtual_table.hpp; sourceTree = "<group>"; };
+		5129F72A652490C7F9133E55BE14F82D /* statement_transaction.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_transaction.hpp; path = objc/WCDB/abstract/statement_transaction.hpp; sourceTree = "<group>"; };
+		518623BAE1A7C0C41C49DC0B73ABA3B4 /* tokenizer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = tokenizer.cpp; path = objc/WCDB/core/tokenizer.cpp; sourceTree = "<group>"; };
 		519E3635895DF2365ACFB588774A69D6 /* WCDBOptimizedSQLCipher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WCDBOptimizedSQLCipher-dummy.m"; sourceTree = "<group>"; };
-		51C097E6F911D0486C12A18E1A5A958F /* describable.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = describable.cpp; path = objc/WCDB/abstract/describable.cpp; sourceTree = "<group>"; };
+		51C097E6F911D0486C12A18E1A5A958F /* describable.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = describable.cpp; path = objc/WCDB/abstract/describable.cpp; sourceTree = "<group>"; };
 		51FB970EBBCDA45D218827CF988E189B /* pragma.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pragma.h; path = src/pragma.h; sourceTree = "<group>"; };
-		5268A4983557A199F517D2F51A9402B1 /* WCTSequence.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTSequence.mm; path = objc/WCDB/interface/builtin/WCTSequence.mm; sourceTree = "<group>"; };
-		52FE3F681C1136D75E80ED8E5ABCED44 /* WCTResult.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTResult.mm; path = objc/WCDB/interface/orm/coding/WCTResult.mm; sourceTree = "<group>"; };
-		5307C4B6B301F687D458E67780D6E1D6 /* clause_join.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = clause_join.cpp; path = objc/WCDB/abstract/clause_join.cpp; sourceTree = "<group>"; };
+		5268A4983557A199F517D2F51A9402B1 /* WCTSequence.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTSequence.mm; path = objc/WCDB/interface/builtin/WCTSequence.mm; sourceTree = "<group>"; };
+		52FE3F681C1136D75E80ED8E5ABCED44 /* WCTResult.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTResult.mm; path = objc/WCDB/interface/orm/coding/WCTResult.mm; sourceTree = "<group>"; };
+		5307C4B6B301F687D458E67780D6E1D6 /* clause_join.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = clause_join.cpp; path = objc/WCDB/abstract/clause_join.cpp; sourceTree = "<group>"; };
 		53D42E128BDC920A5FCF5ADF6947466E /* WCTChainCall+Statistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTChainCall+Statistics.h"; path = "objc/WCDB/interface/statictics/WCTChainCall+Statistics.h"; sourceTree = "<group>"; };
 		543B1F31B36C89D39D5C82B76B492994 /* WCTColumnBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTColumnBinding.h; path = objc/WCDB/interface/orm/binding/WCTColumnBinding.h; sourceTree = "<group>"; };
-		55FCBF684628793B9FFDB263DF96316C /* WCTTransaction+Compatible.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTTransaction+Compatible.mm"; path = "objc/WCDB/interface/compatible/WCTTransaction+Compatible.mm"; sourceTree = "<group>"; };
-		561AF9B70C87D870ECB353BE99D64A67 /* crypto_cc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_cc.c; path = src/crypto_cc.c; sourceTree = "<group>"; };
-		561FCD760B4E909FA7F10CAF2037A9E4 /* fkey.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fkey.c; path = src/fkey.c; sourceTree = "<group>"; };
+		55FCBF684628793B9FFDB263DF96316C /* WCTTransaction+Compatible.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTTransaction+Compatible.mm"; path = "objc/WCDB/interface/compatible/WCTTransaction+Compatible.mm"; sourceTree = "<group>"; };
+		561AF9B70C87D870ECB353BE99D64A67 /* crypto_cc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_cc.c; path = src/crypto_cc.c; sourceTree = "<group>"; };
+		561FCD760B4E909FA7F10CAF2037A9E4 /* fkey.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fkey.c; path = src/fkey.c; sourceTree = "<group>"; };
 		5686522F5F559A07F1BAABEE546F89B8 /* WCTObjCAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTObjCAccessor.h; path = objc/WCDB/interface/orm/accessor/WCTObjCAccessor.h; sourceTree = "<group>"; };
-		57D5111DC98D2F2925236CDFCA67660D /* ticker.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ticker.cpp; path = objc/WCDB/util/ticker.cpp; sourceTree = "<group>"; };
-		583FD2F90540F9CFC645CB5A7532931C /* fts5.c */ = {isa = PBXFileReference; includeInIndex = 1; path = fts5.c; sourceTree = "<group>"; };
+		57D5111DC98D2F2925236CDFCA67660D /* ticker.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ticker.cpp; path = objc/WCDB/util/ticker.cpp; sourceTree = "<group>"; };
+		583FD2F90540F9CFC645CB5A7532931C /* fts5.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = fts5.c; sourceTree = "<group>"; };
 		587B39DB11FC735B760A7DD65EA819CC /* pcache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pcache.h; path = src/pcache.h; sourceTree = "<group>"; };
 		588A17C1232BB18EDB63AD5A82915A33 /* WCTError+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTError+Private.h"; path = "objc/WCDB/interface/statictics/WCTError+Private.h"; sourceTree = "<group>"; };
 		5907324D20A1AC1A407890BFEDB82391 /* Pods-AnalyticsSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnalyticsSDK-dummy.m"; sourceTree = "<group>"; };
-		59A635AEF35ED6E735D3DEC71C297BF8 /* WCTAnyProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTAnyProperty.mm; path = objc/WCDB/interface/orm/coding/WCTAnyProperty.mm; sourceTree = "<group>"; };
-		5B6669C8DB10559F78343069EFA7A5B1 /* statement_drop_index.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_drop_index.hpp; path = objc/WCDB/abstract/statement_drop_index.hpp; sourceTree = "<group>"; };
-		5B7D87193DB3087B76178728AF68D256 /* fts3.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3.c; path = ext/fts3/fts3.c; sourceTree = "<group>"; };
+		59A635AEF35ED6E735D3DEC71C297BF8 /* WCTAnyProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTAnyProperty.mm; path = objc/WCDB/interface/orm/coding/WCTAnyProperty.mm; sourceTree = "<group>"; };
+		5B6669C8DB10559F78343069EFA7A5B1 /* statement_drop_index.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_drop_index.hpp; path = objc/WCDB/abstract/statement_drop_index.hpp; sourceTree = "<group>"; };
+		5B7D87193DB3087B76178728AF68D256 /* fts3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3.c; path = ext/fts3/fts3.c; sourceTree = "<group>"; };
 		5BC21BD0BC5BE9B93EE16A12F193A72E /* SQLiteRepairKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLiteRepairKit.h; path = repair/SQLiteRepairKit.h; sourceTree = "<group>"; };
 		5C441C75F23BA393E8B9B82288F30BC3 /* WCTStatement+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTStatement+Private.h"; path = "objc/WCDB/interface/core/WCTStatement+Private.h"; sourceTree = "<group>"; };
 		5CDB06B13A6CBD4225760056F638A36C /* WCTDatabase+Statistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDatabase+Statistics.h"; path = "objc/WCDB/interface/statictics/WCTDatabase+Statistics.h"; sourceTree = "<group>"; };
 		5CE3BCD76852795DDFEDA93C04407732 /* WCDBOptimizedSQLCipher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCDBOptimizedSQLCipher-prefix.pch"; sourceTree = "<group>"; };
-		5D9C31B710B2CAF5700D12A55F27B397 /* fts3_hash.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_hash.c; path = ext/fts3/fts3_hash.c; sourceTree = "<group>"; };
-		5EF3FFC1D919290025F0A0F2D445F246 /* NSDate+WCTColumnCoding.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSDate+WCTColumnCoding.mm"; path = "objc/WCDB/interface/builtin/NSDate+WCTColumnCoding.mm"; sourceTree = "<group>"; };
-		5F5901DAC36FD92CC5A1EBA18B17E335 /* statement_select.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_select.cpp; path = objc/WCDB/abstract/statement_select.cpp; sourceTree = "<group>"; };
-		5FD93B83D3CFF41B9A7C704C0B846814 /* WCTBinding.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTBinding.mm; path = objc/WCDB/interface/orm/binding/WCTBinding.mm; sourceTree = "<group>"; };
-		610828487769D576B5693BB82D3EA534 /* mem0.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mem0.c; path = src/mem0.c; sourceTree = "<group>"; };
-		61364E40F7CB422F425D7AC0E827424F /* vacuum.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vacuum.c; path = src/vacuum.c; sourceTree = "<group>"; };
-		61B25EA346DD3588DFAA3269741623A8 /* WCTCompatible.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTCompatible.mm; path = objc/WCDB/interface/compatible/WCTCompatible.mm; sourceTree = "<group>"; };
-		62467679CD7DAA5DDC837B39031F5D8D /* statement_alter_table.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_alter_table.hpp; path = objc/WCDB/abstract/statement_alter_table.hpp; sourceTree = "<group>"; };
-		62719CB1BCE1478E49D1640D8F5B17B5 /* mem2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mem2.c; path = src/mem2.c; sourceTree = "<group>"; };
-		62DDA6E48BCA563E840F69214E3290D0 /* malloc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = malloc.c; path = src/malloc.c; sourceTree = "<group>"; };
-		63B52E7B2BA8F128B8D96E221D6046A9 /* WCTInterface+Convenient.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTInterface+Convenient.mm"; path = "objc/WCDB/interface/convenient/WCTInterface+Convenient.mm"; sourceTree = "<group>"; };
-		65635A327C4401EF076D520DA4372CBC /* memjournal.c */ = {isa = PBXFileReference; includeInIndex = 1; name = memjournal.c; path = src/memjournal.c; sourceTree = "<group>"; };
-		65D64DEAA3C4D20A77DEEBA4DFBEE0BA /* statement_detach.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_detach.hpp; path = objc/WCDB/abstract/statement_detach.hpp; sourceTree = "<group>"; };
+		5D9C31B710B2CAF5700D12A55F27B397 /* fts3_hash.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3_hash.c; path = ext/fts3/fts3_hash.c; sourceTree = "<group>"; };
+		5EF3FFC1D919290025F0A0F2D445F246 /* NSDate+WCTColumnCoding.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "NSDate+WCTColumnCoding.mm"; path = "objc/WCDB/interface/builtin/NSDate+WCTColumnCoding.mm"; sourceTree = "<group>"; };
+		5F5901DAC36FD92CC5A1EBA18B17E335 /* statement_select.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_select.cpp; path = objc/WCDB/abstract/statement_select.cpp; sourceTree = "<group>"; };
+		5FD93B83D3CFF41B9A7C704C0B846814 /* WCTBinding.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTBinding.mm; path = objc/WCDB/interface/orm/binding/WCTBinding.mm; sourceTree = "<group>"; };
+		610828487769D576B5693BB82D3EA534 /* mem0.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mem0.c; path = src/mem0.c; sourceTree = "<group>"; };
+		61364E40F7CB422F425D7AC0E827424F /* vacuum.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = vacuum.c; path = src/vacuum.c; sourceTree = "<group>"; };
+		61B25EA346DD3588DFAA3269741623A8 /* WCTCompatible.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTCompatible.mm; path = objc/WCDB/interface/compatible/WCTCompatible.mm; sourceTree = "<group>"; };
+		62467679CD7DAA5DDC837B39031F5D8D /* statement_alter_table.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_alter_table.hpp; path = objc/WCDB/abstract/statement_alter_table.hpp; sourceTree = "<group>"; };
+		62719CB1BCE1478E49D1640D8F5B17B5 /* mem2.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mem2.c; path = src/mem2.c; sourceTree = "<group>"; };
+		62DDA6E48BCA563E840F69214E3290D0 /* malloc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = malloc.c; path = src/malloc.c; sourceTree = "<group>"; };
+		63B52E7B2BA8F128B8D96E221D6046A9 /* WCTInterface+Convenient.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTInterface+Convenient.mm"; path = "objc/WCDB/interface/convenient/WCTInterface+Convenient.mm"; sourceTree = "<group>"; };
+		65635A327C4401EF076D520DA4372CBC /* memjournal.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = memjournal.c; path = src/memjournal.c; sourceTree = "<group>"; };
+		65D64DEAA3C4D20A77DEEBA4DFBEE0BA /* statement_detach.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_detach.hpp; path = objc/WCDB/abstract/statement_detach.hpp; sourceTree = "<group>"; };
 		65F0A62058C4071B1F84F6C673BD41DB /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = src/hash.h; sourceTree = "<group>"; };
 		6632E8ACA4993682E2A2EF650FC632DE /* WCTInsert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTInsert.h; path = objc/WCDB/interface/chaincall/WCTInsert.h; sourceTree = "<group>"; };
-		66399AEE680A6E9BA12C9B6933C4DFA2 /* pragma.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pragma.c; path = src/pragma.c; sourceTree = "<group>"; };
-		6654FE47582BAEB2A22F3921473F8693 /* order.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = order.cpp; path = objc/WCDB/abstract/order.cpp; sourceTree = "<group>"; };
-		6730943FF195486E5602DA6BF51AAD0E /* mutex.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mutex.c; path = src/mutex.c; sourceTree = "<group>"; };
-		6732B22C248AB3A2B5040537F1C33A7D /* WCTDatabase+Core.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTDatabase+Core.mm"; path = "objc/WCDB/interface/core/WCTDatabase+Core.mm"; sourceTree = "<group>"; };
-		67BA1A72CB24BF44CC1E315A3644E0C3 /* order_term.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = order_term.hpp; path = objc/WCDB/abstract/order_term.hpp; sourceTree = "<group>"; };
+		66399AEE680A6E9BA12C9B6933C4DFA2 /* pragma.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pragma.c; path = src/pragma.c; sourceTree = "<group>"; };
+		6654FE47582BAEB2A22F3921473F8693 /* order.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = order.cpp; path = objc/WCDB/abstract/order.cpp; sourceTree = "<group>"; };
+		6730943FF195486E5602DA6BF51AAD0E /* mutex.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mutex.c; path = src/mutex.c; sourceTree = "<group>"; };
+		6732B22C248AB3A2B5040537F1C33A7D /* WCTDatabase+Core.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTDatabase+Core.mm"; path = "objc/WCDB/interface/core/WCTDatabase+Core.mm"; sourceTree = "<group>"; };
+		67BA1A72CB24BF44CC1E315A3644E0C3 /* order_term.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = order_term.hpp; path = objc/WCDB/abstract/order_term.hpp; sourceTree = "<group>"; };
 		6838248EF44B4944CC6DB5401805B355 /* WCTSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTSequence.h; path = objc/WCDB/interface/builtin/WCTSequence.h; sourceTree = "<group>"; };
 		68BD48A61CDC83F663C8BC58F0CA95A5 /* sqliteInt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliteInt.h; path = src/sqliteInt.h; sourceTree = "<group>"; };
-		6925F39AE9AB4D3A28049FD1843A12F8 /* path.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = path.hpp; path = objc/WCDB/util/path.hpp; sourceTree = "<group>"; };
-		6979CBF34EB6CF2D459E27FAD8887DCD /* ctime.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ctime.c; path = src/ctime.c; sourceTree = "<group>"; };
-		69C324577F3056F95341F644936C199D /* statement_update.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_update.cpp; path = objc/WCDB/abstract/statement_update.cpp; sourceTree = "<group>"; };
+		6925F39AE9AB4D3A28049FD1843A12F8 /* path.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = path.hpp; path = objc/WCDB/util/path.hpp; sourceTree = "<group>"; };
+		6979CBF34EB6CF2D459E27FAD8887DCD /* ctime.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ctime.c; path = src/ctime.c; sourceTree = "<group>"; };
+		69C324577F3056F95341F644936C199D /* statement_update.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_update.cpp; path = objc/WCDB/abstract/statement_update.cpp; sourceTree = "<group>"; };
 		6AB782960FA0F32C5AA6EB3FE5CF98AB /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = ext/fts3/fts3_tokenizer.h; sourceTree = "<group>"; };
-		6ABFCB6FF908F4AD8273661500FA53F4 /* prepare.c */ = {isa = PBXFileReference; includeInIndex = 1; name = prepare.c; path = src/prepare.c; sourceTree = "<group>"; };
-		6AC0226C6073626B7873DB03FB3DE2AA /* WCTTransaction+Table.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTTransaction+Table.mm"; path = "objc/WCDB/interface/table/WCTTransaction+Table.mm"; sourceTree = "<group>"; };
-		6C15603AEE7319A5F5FFB2BE9F44B0EE /* fts3_tokenize_vtab.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_tokenize_vtab.c; path = ext/fts3/fts3_tokenize_vtab.c; sourceTree = "<group>"; };
-		6CD006FB993D0613C4FBCF66939AAFDB /* tokenize.c */ = {isa = PBXFileReference; includeInIndex = 1; name = tokenize.c; path = src/tokenize.c; sourceTree = "<group>"; };
-		6DEBD8E1CF05EBDF6FE20AFBD8866F5A /* statement_transaction.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_transaction.cpp; path = objc/WCDB/abstract/statement_transaction.cpp; sourceTree = "<group>"; };
-		6E4E4D13D5B89981AC88C37670B29CB3 /* libSQLiteRepairKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSQLiteRepairKit.a; path = libSQLiteRepairKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABFCB6FF908F4AD8273661500FA53F4 /* prepare.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = prepare.c; path = src/prepare.c; sourceTree = "<group>"; };
+		6AC0226C6073626B7873DB03FB3DE2AA /* WCTTransaction+Table.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTTransaction+Table.mm"; path = "objc/WCDB/interface/table/WCTTransaction+Table.mm"; sourceTree = "<group>"; };
+		6C15603AEE7319A5F5FFB2BE9F44B0EE /* fts3_tokenize_vtab.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3_tokenize_vtab.c; path = ext/fts3/fts3_tokenize_vtab.c; sourceTree = "<group>"; };
+		6CD006FB993D0613C4FBCF66939AAFDB /* tokenize.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = tokenize.c; path = src/tokenize.c; sourceTree = "<group>"; };
+		6DEBD8E1CF05EBDF6FE20AFBD8866F5A /* statement_transaction.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_transaction.cpp; path = objc/WCDB/abstract/statement_transaction.cpp; sourceTree = "<group>"; };
+		6E4E4D13D5B89981AC88C37670B29CB3 /* libSQLiteRepairKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSQLiteRepairKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8EAA5655A3425243D7E51FA372DF0D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		6F5048D390B06FA16B56DED2F3DAEEAA /* transaction.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = transaction.cpp; path = objc/WCDB/core/transaction.cpp; sourceTree = "<group>"; };
+		6F5048D390B06FA16B56DED2F3DAEEAA /* transaction.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = transaction.cpp; path = objc/WCDB/core/transaction.cpp; sourceTree = "<group>"; };
 		6F778153F3D63B026A8F5C53426A179D /* WCTTable+Convenient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTTable+Convenient.h"; path = "objc/WCDB/interface/convenient/WCTTable+Convenient.h"; sourceTree = "<group>"; };
 		7053C83C767F4F8BEE308721447A96D4 /* Pods-AnalyticsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnalyticsSDK.release.xcconfig"; sourceTree = "<group>"; };
-		70F1F9BBEB4608197594032317C51131 /* column.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = column.cpp; path = objc/WCDB/abstract/column.cpp; sourceTree = "<group>"; };
-		71373BB2BD215EBD4A03D506CC0D11E2 /* fts3_unicode.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_unicode.c; path = ext/fts3/fts3_unicode.c; sourceTree = "<group>"; };
-		718214F54643C767190BEB8124A65B13 /* wal.c */ = {isa = PBXFileReference; includeInIndex = 1; name = wal.c; path = src/wal.c; sourceTree = "<group>"; };
+		70F1F9BBEB4608197594032317C51131 /* column.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = column.cpp; path = objc/WCDB/abstract/column.cpp; sourceTree = "<group>"; };
+		71373BB2BD215EBD4A03D506CC0D11E2 /* fts3_unicode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3_unicode.c; path = ext/fts3/fts3_unicode.c; sourceTree = "<group>"; };
+		718214F54643C767190BEB8124A65B13 /* wal.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = wal.c; path = src/wal.c; sourceTree = "<group>"; };
 		718D75375F5C44AC1AF1DC80827EE177 /* WCTDelete+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDelete+Private.h"; path = "objc/WCDB/interface/chaincall/WCTDelete+Private.h"; sourceTree = "<group>"; };
-		7214F6DFE9A1C6484DFFE43C2D61098A /* WCTMaster.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTMaster.mm; path = objc/WCDB/interface/builtin/WCTMaster.mm; sourceTree = "<group>"; };
+		7214F6DFE9A1C6484DFFE43C2D61098A /* WCTMaster.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTMaster.mm; path = objc/WCDB/interface/builtin/WCTMaster.mm; sourceTree = "<group>"; };
 		723B6F847FD3EB7E9563ED92D794171D /* WCTDatabase+File.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDatabase+File.h"; path = "objc/WCDB/interface/database/WCTDatabase+File.h"; sourceTree = "<group>"; };
-		728A0FE8C8EF86D45B3443439F596A62 /* handle_recyclable.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = handle_recyclable.hpp; path = objc/WCDB/core/handle_recyclable.hpp; sourceTree = "<group>"; };
+		728A0FE8C8EF86D45B3443439F596A62 /* handle_recyclable.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = handle_recyclable.hpp; path = objc/WCDB/core/handle_recyclable.hpp; sourceTree = "<group>"; };
 		730AAD338D0133C8F0316F21B457ED67 /* WCTInterface+Table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTInterface+Table.h"; path = "objc/WCDB/interface/table/WCTInterface+Table.h"; sourceTree = "<group>"; };
-		735C2ED1E9F1666AA112A34A42D8E81C /* statement_rollback.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_rollback.hpp; path = objc/WCDB/abstract/statement_rollback.hpp; sourceTree = "<group>"; };
+		735C2ED1E9F1666AA112A34A42D8E81C /* statement_rollback.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_rollback.hpp; path = objc/WCDB/abstract/statement_rollback.hpp; sourceTree = "<group>"; };
 		73CB29BBC63D004C5AC4A7A550CD07CD /* WCTSelect+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTSelect+Private.h"; path = "objc/WCDB/interface/chaincall/WCTSelect+Private.h"; sourceTree = "<group>"; };
-		74010C7B2B041F76A62AF7CF6DC646EE /* os.c */ = {isa = PBXFileReference; includeInIndex = 1; name = os.c; path = src/os.c; sourceTree = "<group>"; };
+		74010C7B2B041F76A62AF7CF6DC646EE /* os.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = os.c; path = src/os.c; sourceTree = "<group>"; };
 		7472CCDA56F91398CECBBE0DAF091B8C /* WCTInterface+Convenient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTInterface+Convenient.h"; path = "objc/WCDB/interface/convenient/WCTInterface+Convenient.h"; sourceTree = "<group>"; };
 		74FAD34AB0EA30DE7868253994A049CD /* WCTBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTBinding.h; path = objc/WCDB/interface/orm/binding/WCTBinding.h; sourceTree = "<group>"; };
 		7519A5A08935846EFA747A579E487DC7 /* WCTSelect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTSelect.h; path = objc/WCDB/interface/chaincall/WCTSelect.h; sourceTree = "<group>"; };
 		75276802118A0E41F25AC5C87793F8C7 /* hwtime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwtime.h; path = src/hwtime.h; sourceTree = "<group>"; };
 		75D6F3C7EB2453EA61CE3DE627621025 /* msvc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = msvc.h; path = src/msvc.h; sourceTree = "<group>"; };
-		76262E08C9C67455B900EF23D036D419 /* statement_update.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_update.hpp; path = objc/WCDB/abstract/statement_update.hpp; sourceTree = "<group>"; };
-		76660D41A933C46C5CD8B988B13EF31E /* fts3_porter.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_porter.c; path = ext/fts3/fts3_porter.c; sourceTree = "<group>"; };
-		769713AF2B0641C5388BA9C2BAED31FC /* WCTSelectBase+WCTExpr.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTSelectBase+WCTExpr.mm"; path = "objc/WCDB/interface/orm/coding/WCTSelectBase+WCTExpr.mm"; sourceTree = "<group>"; };
-		7827637D39812067C3AE2A2C17018AD1 /* handle.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = handle.hpp; path = objc/WCDB/abstract/handle.hpp; sourceTree = "<group>"; };
-		78617957009A4F4C10C17F32E6FA6180 /* statement_create_index.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_create_index.hpp; path = objc/WCDB/abstract/statement_create_index.hpp; sourceTree = "<group>"; };
-		78F30D4FE50D43FC1B48EB969E468AC1 /* pager.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pager.c; path = src/pager.c; sourceTree = "<group>"; };
+		76262E08C9C67455B900EF23D036D419 /* statement_update.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_update.hpp; path = objc/WCDB/abstract/statement_update.hpp; sourceTree = "<group>"; };
+		76660D41A933C46C5CD8B988B13EF31E /* fts3_porter.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3_porter.c; path = ext/fts3/fts3_porter.c; sourceTree = "<group>"; };
+		769713AF2B0641C5388BA9C2BAED31FC /* WCTSelectBase+WCTExpr.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTSelectBase+WCTExpr.mm"; path = "objc/WCDB/interface/orm/coding/WCTSelectBase+WCTExpr.mm"; sourceTree = "<group>"; };
+		7827637D39812067C3AE2A2C17018AD1 /* handle.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = handle.hpp; path = objc/WCDB/abstract/handle.hpp; sourceTree = "<group>"; };
+		78617957009A4F4C10C17F32E6FA6180 /* statement_create_index.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_create_index.hpp; path = objc/WCDB/abstract/statement_create_index.hpp; sourceTree = "<group>"; };
+		78F30D4FE50D43FC1B48EB969E468AC1 /* pager.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pager.c; path = src/pager.c; sourceTree = "<group>"; };
 		7925AC9B1928BCF121ED9BAC9F497A0B /* WCTTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTTransaction.h; path = objc/WCDB/interface/transaction/WCTTransaction.h; sourceTree = "<group>"; };
 		7ABC688B63E11AF45F82DA7B96E9651A /* WCTPropertyBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTPropertyBase.h; path = objc/WCDB/interface/orm/coding/WCTPropertyBase.h; sourceTree = "<group>"; };
-		7AC1F6CF0A4C4748CFF4896231867C62 /* column_def.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = column_def.hpp; path = objc/WCDB/abstract/column_def.hpp; sourceTree = "<group>"; };
-		7AF5BF430CC28AFAE0798C354BD300AC /* fts3_unicode2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_unicode2.c; path = ext/fts3/fts3_unicode2.c; sourceTree = "<group>"; };
-		7BC7F6EB53DE2755CD393876D0D84E5C /* spin.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = spin.hpp; path = objc/WCDB/util/spin.hpp; sourceTree = "<group>"; };
-		7BDB52B9420494668B36CA704FE89C10 /* vdbemem.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vdbemem.c; path = src/vdbemem.c; sourceTree = "<group>"; };
-		7CB19C8F7DA956FFA5FFED47E7FDB3BE /* rwlock.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = rwlock.cpp; path = objc/WCDB/util/rwlock.cpp; sourceTree = "<group>"; };
+		7AC1F6CF0A4C4748CFF4896231867C62 /* column_def.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = column_def.hpp; path = objc/WCDB/abstract/column_def.hpp; sourceTree = "<group>"; };
+		7AF5BF430CC28AFAE0798C354BD300AC /* fts3_unicode2.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3_unicode2.c; path = ext/fts3/fts3_unicode2.c; sourceTree = "<group>"; };
+		7BC7F6EB53DE2755CD393876D0D84E5C /* spin.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = spin.hpp; path = objc/WCDB/util/spin.hpp; sourceTree = "<group>"; };
+		7BDB52B9420494668B36CA704FE89C10 /* vdbemem.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = vdbemem.c; path = src/vdbemem.c; sourceTree = "<group>"; };
+		7CB19C8F7DA956FFA5FFED47E7FDB3BE /* rwlock.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = rwlock.cpp; path = objc/WCDB/util/rwlock.cpp; sourceTree = "<group>"; };
 		7CF4205E5141CA39219AD0EB0E8938FA /* WCTORM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTORM.h; path = objc/WCDB/interface/orm/WCTORM.h; sourceTree = "<group>"; };
-		7DA482384A2EF5B28A12B381775641A8 /* hash.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hash.c; path = src/hash.c; sourceTree = "<group>"; };
+		7DA482384A2EF5B28A12B381775641A8 /* hash.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = hash.c; path = src/hash.c; sourceTree = "<group>"; };
 		7DD06B1D4FCA8683D15675C178D566CB /* sqliterk_column.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_column.h; path = repair/sqliterk_column.h; sourceTree = "<group>"; };
 		7DD907363AEC080AD59EBB33D8C4B948 /* fts3Int.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3Int.h; path = ext/fts3/fts3Int.h; sourceTree = "<group>"; };
 		7EC0D42F4E1E7A818B58E083433CC4E6 /* WCTMaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTMaster.h; path = objc/WCDB/interface/builtin/WCTMaster.h; sourceTree = "<group>"; };
-		7F3F652B79D2390E14400EABA13942B3 /* WCTDatabase+Compatible.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTDatabase+Compatible.mm"; path = "objc/WCDB/interface/compatible/WCTDatabase+Compatible.mm"; sourceTree = "<group>"; };
+		7F3F652B79D2390E14400EABA13942B3 /* WCTDatabase+Compatible.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTDatabase+Compatible.mm"; path = "objc/WCDB/interface/compatible/WCTDatabase+Compatible.mm"; sourceTree = "<group>"; };
 		802F50496CDDF75FF9A9C4E5DBA56725 /* sqliteicu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliteicu.h; path = ext/icu/sqliteicu.h; sourceTree = "<group>"; };
-		80932ED935346D8762E96E60F8C5D6C0 /* declare.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = declare.hpp; path = objc/WCDB/abstract/declare.hpp; sourceTree = "<group>"; };
-		811E8B7FDAFA51906C325B19722CB10E /* fts_module.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = fts_module.cpp; path = objc/WCDB/abstract/fts_module.cpp; sourceTree = "<group>"; };
-		814818598BC2EFD16B3A1AE8A37C7291 /* global.c */ = {isa = PBXFileReference; includeInIndex = 1; name = global.c; path = src/global.c; sourceTree = "<group>"; };
-		815555B122A1FBA005BCC7A3BF28512D /* WCTTable+Convenient.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTTable+Convenient.mm"; path = "objc/WCDB/interface/convenient/WCTTable+Convenient.mm"; sourceTree = "<group>"; };
-		8204E2A078A55999B208BED0113CEB22 /* sqliterk_crypto.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqliterk_crypto.c; path = repair/sqliterk_crypto.c; sourceTree = "<group>"; };
-		835571B60F3EC424F4211DD116784AC0 /* random.c */ = {isa = PBXFileReference; includeInIndex = 1; name = random.c; path = src/random.c; sourceTree = "<group>"; };
+		80932ED935346D8762E96E60F8C5D6C0 /* declare.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = declare.hpp; path = objc/WCDB/abstract/declare.hpp; sourceTree = "<group>"; };
+		811E8B7FDAFA51906C325B19722CB10E /* fts_module.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = fts_module.cpp; path = objc/WCDB/abstract/fts_module.cpp; sourceTree = "<group>"; };
+		814818598BC2EFD16B3A1AE8A37C7291 /* global.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = global.c; path = src/global.c; sourceTree = "<group>"; };
+		815555B122A1FBA005BCC7A3BF28512D /* WCTTable+Convenient.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTTable+Convenient.mm"; path = "objc/WCDB/interface/convenient/WCTTable+Convenient.mm"; sourceTree = "<group>"; };
+		8204E2A078A55999B208BED0113CEB22 /* sqliterk_crypto.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqliterk_crypto.c; path = repair/sqliterk_crypto.c; sourceTree = "<group>"; };
+		835571B60F3EC424F4211DD116784AC0 /* random.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = random.c; path = src/random.c; sourceTree = "<group>"; };
 		844854A7922F26E2F4F87BBB6A9D2B45 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		84998E0930077B32A54D81E767B7DEDC /* statement_delete.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_delete.cpp; path = objc/WCDB/abstract/statement_delete.cpp; sourceTree = "<group>"; };
+		84998E0930077B32A54D81E767B7DEDC /* statement_delete.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_delete.cpp; path = objc/WCDB/abstract/statement_delete.cpp; sourceTree = "<group>"; };
 		84B10193ADB095EC0D79AEF1C49DA2B3 /* Pods-AnalyticsSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnalyticsSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		85751EBA521B1426DD7CEE61FF4E5B09 /* NSData+WCTColumnCoding.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSData+WCTColumnCoding.mm"; path = "objc/WCDB/interface/builtin/NSData+WCTColumnCoding.mm"; sourceTree = "<group>"; };
+		85751EBA521B1426DD7CEE61FF4E5B09 /* NSData+WCTColumnCoding.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "NSData+WCTColumnCoding.mm"; path = "objc/WCDB/interface/builtin/NSData+WCTColumnCoding.mm"; sourceTree = "<group>"; };
 		858C18E3EC9B81243B079197ADD391F9 /* vdbeInt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vdbeInt.h; path = src/vdbeInt.h; sourceTree = "<group>"; };
-		8620802DAC1A52F0F15CF66BDAD1C6D7 /* WCTInterface.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTInterface.mm; path = objc/WCDB/interface/declare/WCTInterface.mm; sourceTree = "<group>"; };
-		86AA180A83B919FCE4CE10036417A489 /* opcodes.c */ = {isa = PBXFileReference; includeInIndex = 1; path = opcodes.c; sourceTree = "<group>"; };
+		8620802DAC1A52F0F15CF66BDAD1C6D7 /* WCTInterface.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTInterface.mm; path = objc/WCDB/interface/declare/WCTInterface.mm; sourceTree = "<group>"; };
+		86AA180A83B919FCE4CE10036417A489 /* opcodes.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = opcodes.c; sourceTree = "<group>"; };
 		87767906D81F80C7E27D8B89568183EB /* WCTAnyProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTAnyProperty.h; path = objc/WCDB/interface/orm/coding/WCTAnyProperty.h; sourceTree = "<group>"; };
-		87F73014C1E01B52CAB9E8D7C4519C25 /* libWCDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWCDB.a; path = libWCDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F73014C1E01B52CAB9E8D7C4519C25 /* libWCDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWCDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		886448FC25C717F8D80EF3E1CAA924F9 /* WCTRowSelect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTRowSelect.h; path = objc/WCDB/interface/chaincall/WCTRowSelect.h; sourceTree = "<group>"; };
-		88740FD97A63D462925B7C28EAF2CE0F /* insert.c */ = {isa = PBXFileReference; includeInIndex = 1; name = insert.c; path = src/insert.c; sourceTree = "<group>"; };
-		88DFD20E97A56E759E38E26DE690E3AB /* vtab.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vtab.c; path = src/vtab.c; sourceTree = "<group>"; };
-		8A6BAF6C9E6443CA26140E054314531F /* date.c */ = {isa = PBXFileReference; includeInIndex = 1; name = date.c; path = src/date.c; sourceTree = "<group>"; };
-		8BF19FA19B722D75ABA771DABBF4D35A /* column.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = column.hpp; path = objc/WCDB/abstract/column.hpp; sourceTree = "<group>"; };
-		8CDDA4959F1A4E75E5E12E51E3905033 /* select.c */ = {isa = PBXFileReference; includeInIndex = 1; name = select.c; path = src/select.c; sourceTree = "<group>"; };
-		8D2D94B734111EE9D9EBD2DF34D168E0 /* handle_statement.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = handle_statement.hpp; path = objc/WCDB/abstract/handle_statement.hpp; sourceTree = "<group>"; };
-		8DC0EA3EDA5FFA6A945BEB79A8CA5351 /* WCTMultiSelect.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTMultiSelect.mm; path = objc/WCDB/interface/chaincall/WCTMultiSelect.mm; sourceTree = "<group>"; };
+		88740FD97A63D462925B7C28EAF2CE0F /* insert.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = insert.c; path = src/insert.c; sourceTree = "<group>"; };
+		88DFD20E97A56E759E38E26DE690E3AB /* vtab.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = vtab.c; path = src/vtab.c; sourceTree = "<group>"; };
+		8A6BAF6C9E6443CA26140E054314531F /* date.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = date.c; path = src/date.c; sourceTree = "<group>"; };
+		8BF19FA19B722D75ABA771DABBF4D35A /* column.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = column.hpp; path = objc/WCDB/abstract/column.hpp; sourceTree = "<group>"; };
+		8CDDA4959F1A4E75E5E12E51E3905033 /* select.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = select.c; path = src/select.c; sourceTree = "<group>"; };
+		8D2D94B734111EE9D9EBD2DF34D168E0 /* handle_statement.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = handle_statement.hpp; path = objc/WCDB/abstract/handle_statement.hpp; sourceTree = "<group>"; };
+		8DC0EA3EDA5FFA6A945BEB79A8CA5351 /* WCTMultiSelect.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTMultiSelect.mm; path = objc/WCDB/interface/chaincall/WCTMultiSelect.mm; sourceTree = "<group>"; };
 		8E699346AF2641927CD130B7285D729B /* btreeInt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = btreeInt.h; path = src/btreeInt.h; sourceTree = "<group>"; };
-		8EA90A4E9445E879A6CC8F9868396C2C /* sqliterk_output.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sqliterk_output.cpp; path = repair/sqliterk_output.cpp; sourceTree = "<group>"; };
+		8EA90A4E9445E879A6CC8F9868396C2C /* sqliterk_output.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = sqliterk_output.cpp; path = repair/sqliterk_output.cpp; sourceTree = "<group>"; };
 		8EB9D08E09A7240525D52E736A2D8E22 /* WCTDatabase+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDatabase+Private.h"; path = "objc/WCDB/interface/database/WCTDatabase+Private.h"; sourceTree = "<group>"; };
-		900CBDC71C5E6CE3DA863CD5A74320C4 /* btmutex.c */ = {isa = PBXFileReference; includeInIndex = 1; name = btmutex.c; path = src/btmutex.c; sourceTree = "<group>"; };
-		906904CB4BA3152F8D0F2D099385B9FA /* database.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = database.cpp; path = objc/WCDB/core/database.cpp; sourceTree = "<group>"; };
-		90DFCE1A14750A48B6F6005528865596 /* WCTPropertyBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTPropertyBase.mm; path = objc/WCDB/interface/orm/coding/WCTPropertyBase.mm; sourceTree = "<group>"; };
-		90E9B6420041760F2598599CFDA5D480 /* handle_statement.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = handle_statement.cpp; path = objc/WCDB/abstract/handle_statement.cpp; sourceTree = "<group>"; };
-		92051A70AB7059F05D593710074DE651 /* complete.c */ = {isa = PBXFileReference; includeInIndex = 1; name = complete.c; path = src/complete.c; sourceTree = "<group>"; };
+		900CBDC71C5E6CE3DA863CD5A74320C4 /* btmutex.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = btmutex.c; path = src/btmutex.c; sourceTree = "<group>"; };
+		906904CB4BA3152F8D0F2D099385B9FA /* database.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = database.cpp; path = objc/WCDB/core/database.cpp; sourceTree = "<group>"; };
+		90DFCE1A14750A48B6F6005528865596 /* WCTPropertyBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTPropertyBase.mm; path = objc/WCDB/interface/orm/coding/WCTPropertyBase.mm; sourceTree = "<group>"; };
+		90E9B6420041760F2598599CFDA5D480 /* handle_statement.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = handle_statement.cpp; path = objc/WCDB/abstract/handle_statement.cpp; sourceTree = "<group>"; };
+		92051A70AB7059F05D593710074DE651 /* complete.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = complete.c; path = src/complete.c; sourceTree = "<group>"; };
 		92A1A5C288528026DD4FC4527DCE23A7 /* Pods-AnalyticsSDKDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnalyticsSDKDemo-frameworks.sh"; sourceTree = "<group>"; };
-		92B3E65B9342E959F1AFB6EF80C1ECFF /* statement_alter_table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_alter_table.cpp; path = objc/WCDB/abstract/statement_alter_table.cpp; sourceTree = "<group>"; };
+		92B3E65B9342E959F1AFB6EF80C1ECFF /* statement_alter_table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_alter_table.cpp; path = objc/WCDB/abstract/statement_alter_table.cpp; sourceTree = "<group>"; };
 		934E7022DD85AE89A117DFEA6A8F3554 /* Pods-AnalyticsSDK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnalyticsSDK-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94C1DBA30C7BEB884E54E16A8E50D0DF /* WCTTable+ChainCall.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTTable+ChainCall.mm"; path = "objc/WCDB/interface/chaincall/WCTTable+ChainCall.mm"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C1DBA30C7BEB884E54E16A8E50D0DF /* WCTTable+ChainCall.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTTable+ChainCall.mm"; path = "objc/WCDB/interface/chaincall/WCTTable+ChainCall.mm"; sourceTree = "<group>"; };
 		94D0F276F2B8764EFF04A329D9419EBE /* WCTSequence+WCTTableCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTSequence+WCTTableCoding.h"; path = "objc/WCDB/interface/builtin/WCTSequence+WCTTableCoding.h"; sourceTree = "<group>"; };
 		951FFDF20AD6A536E33BDE1A131A024B /* WCTDatabase+Database.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDatabase+Database.h"; path = "objc/WCDB/interface/database/WCTDatabase+Database.h"; sourceTree = "<group>"; };
-		955C0D61BB91D3335B67E3DDDC5FCBC5 /* column_def.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = column_def.cpp; path = objc/WCDB/abstract/column_def.cpp; sourceTree = "<group>"; };
-		958C7593D0C73F8B2D157E826C6BC482 /* file.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = file.hpp; path = objc/WCDB/util/file.hpp; sourceTree = "<group>"; };
+		955C0D61BB91D3335B67E3DDDC5FCBC5 /* column_def.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = column_def.cpp; path = objc/WCDB/abstract/column_def.cpp; sourceTree = "<group>"; };
+		958C7593D0C73F8B2D157E826C6BC482 /* file.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = file.hpp; path = objc/WCDB/util/file.hpp; sourceTree = "<group>"; };
 		95FFC849ABA4D7D2F8DB974948D13B98 /* WCTInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTInterface.h; path = objc/WCDB/interface/declare/WCTInterface.h; sourceTree = "<group>"; };
-		9675FCF348FE8B3CC15E35D8C1B1A601 /* WCTDatabase+Transaction.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTDatabase+Transaction.mm"; path = "objc/WCDB/interface/transaction/WCTDatabase+Transaction.mm"; sourceTree = "<group>"; };
-		96E8F977119BC98798CC60321446F5CC /* NSObject+WCTColumnCoding.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSObject+WCTColumnCoding.mm"; path = "objc/WCDB/interface/builtin/NSObject+WCTColumnCoding.mm"; sourceTree = "<group>"; };
-		976F57B5FE721DCD4AD33691DE6B860E /* WCTDatabase+RepairKit.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTDatabase+RepairKit.mm"; path = "objc/WCDB/interface/database/WCTDatabase+RepairKit.mm"; sourceTree = "<group>"; };
-		978C3D18F4E51659C96CBDC4C4766974 /* WCTUpdate.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTUpdate.mm; path = objc/WCDB/interface/chaincall/WCTUpdate.mm; sourceTree = "<group>"; };
-		987B9183E91739A6A4AF88FCD4F61669 /* trigger.c */ = {isa = PBXFileReference; includeInIndex = 1; name = trigger.c; path = src/trigger.c; sourceTree = "<group>"; };
-		988E9009EF64BE9B09435D266E07B99E /* mutex_wcdb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mutex_wcdb.c; path = src/mutex_wcdb.c; sourceTree = "<group>"; };
-		994FD4831A60CC959F4A4E1E75D12B86 /* column_type.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = column_type.hpp; path = objc/WCDB/abstract/column_type.hpp; sourceTree = "<group>"; };
-		99D267FA2AC53B55F3F8675F37A4E292 /* pragma.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = pragma.cpp; path = objc/WCDB/abstract/pragma.cpp; sourceTree = "<group>"; };
-		9A4D76B145CFD896F79788B632A95BA9 /* recyclable.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = recyclable.hpp; path = objc/WCDB/util/recyclable.hpp; sourceTree = "<group>"; };
+		9675FCF348FE8B3CC15E35D8C1B1A601 /* WCTDatabase+Transaction.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTDatabase+Transaction.mm"; path = "objc/WCDB/interface/transaction/WCTDatabase+Transaction.mm"; sourceTree = "<group>"; };
+		96E8F977119BC98798CC60321446F5CC /* NSObject+WCTColumnCoding.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "NSObject+WCTColumnCoding.mm"; path = "objc/WCDB/interface/builtin/NSObject+WCTColumnCoding.mm"; sourceTree = "<group>"; };
+		976F57B5FE721DCD4AD33691DE6B860E /* WCTDatabase+RepairKit.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTDatabase+RepairKit.mm"; path = "objc/WCDB/interface/database/WCTDatabase+RepairKit.mm"; sourceTree = "<group>"; };
+		978C3D18F4E51659C96CBDC4C4766974 /* WCTUpdate.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTUpdate.mm; path = objc/WCDB/interface/chaincall/WCTUpdate.mm; sourceTree = "<group>"; };
+		987B9183E91739A6A4AF88FCD4F61669 /* trigger.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = trigger.c; path = src/trigger.c; sourceTree = "<group>"; };
+		988E9009EF64BE9B09435D266E07B99E /* mutex_wcdb.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mutex_wcdb.c; path = src/mutex_wcdb.c; sourceTree = "<group>"; };
+		994FD4831A60CC959F4A4E1E75D12B86 /* column_type.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = column_type.hpp; path = objc/WCDB/abstract/column_type.hpp; sourceTree = "<group>"; };
+		99D267FA2AC53B55F3F8675F37A4E292 /* pragma.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = pragma.cpp; path = objc/WCDB/abstract/pragma.cpp; sourceTree = "<group>"; };
+		9A4D76B145CFD896F79788B632A95BA9 /* recyclable.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = recyclable.hpp; path = objc/WCDB/util/recyclable.hpp; sourceTree = "<group>"; };
 		9A523A7EEDD7C4AC9CA6E533FEB3AD4E /* os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os.h; path = src/os.h; sourceTree = "<group>"; };
-		9A59C3C7EC99D0B4CF83E564367E2253 /* statement_create_virtual_table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_create_virtual_table.cpp; path = objc/WCDB/abstract/statement_create_virtual_table.cpp; sourceTree = "<group>"; };
-		9ADBBF5AF88B8D5D056ABC944CA358DB /* fts3_write.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_write.c; path = ext/fts3/fts3_write.c; sourceTree = "<group>"; };
-		9C6F6A234747C1BFDE297DA8C5A7523E /* WCTInterface+ChainCall.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTInterface+ChainCall.mm"; path = "objc/WCDB/interface/chaincall/WCTInterface+ChainCall.mm"; sourceTree = "<group>"; };
+		9A59C3C7EC99D0B4CF83E564367E2253 /* statement_create_virtual_table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_create_virtual_table.cpp; path = objc/WCDB/abstract/statement_create_virtual_table.cpp; sourceTree = "<group>"; };
+		9ADBBF5AF88B8D5D056ABC944CA358DB /* fts3_write.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3_write.c; path = ext/fts3/fts3_write.c; sourceTree = "<group>"; };
+		9C6F6A234747C1BFDE297DA8C5A7523E /* WCTInterface+ChainCall.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTInterface+ChainCall.mm"; path = "objc/WCDB/interface/chaincall/WCTInterface+ChainCall.mm"; sourceTree = "<group>"; };
 		9CC1180998B72512BBA33C1DFC319485 /* WCTSelectBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTSelectBase.h; path = objc/WCDB/interface/chaincall/WCTSelectBase.h; sourceTree = "<group>"; };
-		9D32004AB5378C35BCDBE9529F96F8FD /* auth.c */ = {isa = PBXFileReference; includeInIndex = 1; name = auth.c; path = src/auth.c; sourceTree = "<group>"; };
-		9E4379DCBCC2F4C85088016B630C4727 /* pragma.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = pragma.hpp; path = objc/WCDB/abstract/pragma.hpp; sourceTree = "<group>"; };
+		9D32004AB5378C35BCDBE9529F96F8FD /* auth.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = auth.c; path = src/auth.c; sourceTree = "<group>"; };
+		9E4379DCBCC2F4C85088016B630C4727 /* pragma.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = pragma.hpp; path = objc/WCDB/abstract/pragma.hpp; sourceTree = "<group>"; };
 		9ECC737263D777C3617A5C64CABE1339 /* sqliterk_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_util.h; path = repair/sqliterk_util.h; sourceTree = "<group>"; };
-		9EEF87F50F0AB6CA3650628A61F94872 /* constraint_table.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = constraint_table.hpp; path = objc/WCDB/abstract/constraint_table.hpp; sourceTree = "<group>"; };
+		9EEF87F50F0AB6CA3650628A61F94872 /* constraint_table.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = constraint_table.hpp; path = objc/WCDB/abstract/constraint_table.hpp; sourceTree = "<group>"; };
 		9F40C28867F3FCDBDB13B24C6A9C40D0 /* vdbe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vdbe.h; path = src/vdbe.h; sourceTree = "<group>"; };
-		9F53F45D7BECBFDEEFCE8DD22F6C72DC /* fts_modules.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = fts_modules.cpp; path = objc/WCDB/abstract/fts_modules.cpp; sourceTree = "<group>"; };
-		A0E238F277A050BB69D1963B0F34FF4B /* WCTTransaction.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTTransaction.mm; path = objc/WCDB/interface/transaction/WCTTransaction.mm; sourceTree = "<group>"; };
+		9F53F45D7BECBFDEEFCE8DD22F6C72DC /* fts_modules.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = fts_modules.cpp; path = objc/WCDB/abstract/fts_modules.cpp; sourceTree = "<group>"; };
+		A0E238F277A050BB69D1963B0F34FF4B /* WCTTransaction.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTTransaction.mm; path = objc/WCDB/interface/transaction/WCTTransaction.mm; sourceTree = "<group>"; };
 		A1A02CA60CCA01B1AD26F3E22F2795BB /* WCTBaseAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTBaseAccessor.h; path = objc/WCDB/interface/orm/accessor/WCTBaseAccessor.h; sourceTree = "<group>"; };
-		A21D145983CE5851FC82EAEC411740CD /* database_file.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = database_file.cpp; path = objc/WCDB/core/database_file.cpp; sourceTree = "<group>"; };
+		A21D145983CE5851FC82EAEC411740CD /* database_file.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = database_file.cpp; path = objc/WCDB/core/database_file.cpp; sourceTree = "<group>"; };
 		A665DFCA8C5EE19C965E21BCAFF87CAD /* WCTDatabase+Transaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDatabase+Transaction.h"; path = "objc/WCDB/interface/transaction/WCTDatabase+Transaction.h"; sourceTree = "<group>"; };
 		A66EA505301E93C33ECF0995646750BF /* WCTMacroHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTMacroHelper.h; path = objc/WCDB/interface/orm/macro/WCTMacroHelper.h; sourceTree = "<group>"; };
 		A70F8FC9701742FB39BA161474AC88C7 /* rtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rtree.h; path = ext/rtree/rtree.h; sourceTree = "<group>"; };
 		A7451DDD119A43D39CD0B0E08FC7D826 /* WCTDatabase+Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDatabase+Core.h"; path = "objc/WCDB/interface/core/WCTDatabase+Core.h"; sourceTree = "<group>"; };
 		A9009045996095163CB7F7DD210367D2 /* WCTPropertyMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTPropertyMacro.h; path = objc/WCDB/interface/orm/macro/WCTPropertyMacro.h; sourceTree = "<group>"; };
-		A9A4EC2E4ADB903C00FA1903D030D8FB /* vdbeblob.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vdbeblob.c; path = src/vdbeblob.c; sourceTree = "<group>"; };
-		AACE0CDD0EEE52946FAC63A408D24654 /* WCTTokenizer+WCDB.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTTokenizer+WCDB.mm"; path = "objc/WCDB/interface/fts/WCTTokenizer+WCDB.mm"; sourceTree = "<group>"; };
-		AADB4028C5681F29A86D5DB658431417 /* WCTStatistics+Compatible.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTStatistics+Compatible.mm"; path = "objc/WCDB/interface/compatible/WCTStatistics+Compatible.mm"; sourceTree = "<group>"; };
-		ABB64133EE3BA5869B9C5B61BA3DD0E4 /* statement_drop_table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_drop_table.cpp; path = objc/WCDB/abstract/statement_drop_table.cpp; sourceTree = "<group>"; };
-		AC2486203A9D0D082C5FCA4A194403DB /* handle_pool.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = handle_pool.hpp; path = objc/WCDB/core/handle_pool.hpp; sourceTree = "<group>"; };
-		AC2EA758E33C65BC9AD61076A71780AA /* file.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = file.cpp; path = objc/WCDB/util/file.cpp; sourceTree = "<group>"; };
+		A9A4EC2E4ADB903C00FA1903D030D8FB /* vdbeblob.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = vdbeblob.c; path = src/vdbeblob.c; sourceTree = "<group>"; };
+		AACE0CDD0EEE52946FAC63A408D24654 /* WCTTokenizer+WCDB.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTTokenizer+WCDB.mm"; path = "objc/WCDB/interface/fts/WCTTokenizer+WCDB.mm"; sourceTree = "<group>"; };
+		AADB4028C5681F29A86D5DB658431417 /* WCTStatistics+Compatible.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTStatistics+Compatible.mm"; path = "objc/WCDB/interface/compatible/WCTStatistics+Compatible.mm"; sourceTree = "<group>"; };
+		ABB64133EE3BA5869B9C5B61BA3DD0E4 /* statement_drop_table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_drop_table.cpp; path = objc/WCDB/abstract/statement_drop_table.cpp; sourceTree = "<group>"; };
+		AC2486203A9D0D082C5FCA4A194403DB /* handle_pool.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = handle_pool.hpp; path = objc/WCDB/core/handle_pool.hpp; sourceTree = "<group>"; };
+		AC2EA758E33C65BC9AD61076A71780AA /* file.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = file.cpp; path = objc/WCDB/util/file.cpp; sourceTree = "<group>"; };
 		AE0346F8C252D241BABDC1E5B225E645 /* WCTDelete.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTDelete.h; path = objc/WCDB/interface/chaincall/WCTDelete.h; sourceTree = "<group>"; };
-		AE761DB9F000187936ACFE47367BA9DB /* concurrent_list.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = concurrent_list.hpp; path = objc/WCDB/util/concurrent_list.hpp; sourceTree = "<group>"; };
-		AE761FF2534CF503D077FCE27D1B560E /* subquery.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = subquery.hpp; path = objc/WCDB/abstract/subquery.hpp; sourceTree = "<group>"; };
+		AE761DB9F000187936ACFE47367BA9DB /* concurrent_list.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = concurrent_list.hpp; path = objc/WCDB/util/concurrent_list.hpp; sourceTree = "<group>"; };
+		AE761FF2534CF503D077FCE27D1B560E /* subquery.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = subquery.hpp; path = objc/WCDB/abstract/subquery.hpp; sourceTree = "<group>"; };
 		AFF703211637A57187E4CAD9F555DA0E /* WCTMultiSelect+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTMultiSelect+Private.h"; path = "objc/WCDB/interface/chaincall/WCTMultiSelect+Private.h"; sourceTree = "<group>"; };
 		B0CFB85C77B9E80B6A8F44F90EBCB5FE /* WCTMultiSelect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTMultiSelect.h; path = objc/WCDB/interface/chaincall/WCTMultiSelect.h; sourceTree = "<group>"; };
 		B12459828413E586A91D44CB5D634077 /* WCTStatement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTStatement.h; path = objc/WCDB/interface/core/WCTStatement.h; sourceTree = "<group>"; };
-		B2E4D8EB701B6F1365CA80A0909D033E /* rtree.c */ = {isa = PBXFileReference; includeInIndex = 1; name = rtree.c; path = ext/rtree/rtree.c; sourceTree = "<group>"; };
-		B2EBDF272DFF55A6F23F8A79A9E7F8F2 /* vdbesort.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vdbesort.c; path = src/vdbesort.c; sourceTree = "<group>"; };
-		B323AC0AAA88076882825254EBCB5FD8 /* database.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = database.hpp; path = objc/WCDB/core/database.hpp; sourceTree = "<group>"; };
-		B377577896EEFA89D59BBF164D447922 /* WCTDatabase+File.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTDatabase+File.mm"; path = "objc/WCDB/interface/database/WCTDatabase+File.mm"; sourceTree = "<group>"; };
-		B42E0E5756B3D88C4EC6432E59CAE542 /* foreign_key.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = foreign_key.hpp; path = objc/WCDB/abstract/foreign_key.hpp; sourceTree = "<group>"; };
+		B2E4D8EB701B6F1365CA80A0909D033E /* rtree.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = rtree.c; path = ext/rtree/rtree.c; sourceTree = "<group>"; };
+		B2EBDF272DFF55A6F23F8A79A9E7F8F2 /* vdbesort.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = vdbesort.c; path = src/vdbesort.c; sourceTree = "<group>"; };
+		B323AC0AAA88076882825254EBCB5FD8 /* database.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = database.hpp; path = objc/WCDB/core/database.hpp; sourceTree = "<group>"; };
+		B377577896EEFA89D59BBF164D447922 /* WCTDatabase+File.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTDatabase+File.mm"; path = "objc/WCDB/interface/database/WCTDatabase+File.mm"; sourceTree = "<group>"; };
+		B42E0E5756B3D88C4EC6432E59CAE542 /* foreign_key.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = foreign_key.hpp; path = objc/WCDB/abstract/foreign_key.hpp; sourceTree = "<group>"; };
 		B453397118953CB345A67E97A03D8301 /* WCTTransaction+Statistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTTransaction+Statistics.h"; path = "objc/WCDB/interface/statictics/WCTTransaction+Statistics.h"; sourceTree = "<group>"; };
 		B478AA0158DAC362E85841FCD03FC079 /* vxworks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vxworks.h; path = src/vxworks.h; sourceTree = "<group>"; };
 		B4C424B4601ABD56006152BE9DCA9B2D /* WCTDatabase+Table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDatabase+Table.h"; path = "objc/WCDB/interface/table/WCTDatabase+Table.h"; sourceTree = "<group>"; };
-		B61C335D6238F2917A703E80CC09EABC /* statement_attach.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_attach.cpp; path = objc/WCDB/abstract/statement_attach.cpp; sourceTree = "<group>"; };
-		B68FEEC65B291AD2EF6C367271926487 /* whereexpr.c */ = {isa = PBXFileReference; includeInIndex = 1; name = whereexpr.c; path = src/whereexpr.c; sourceTree = "<group>"; };
-		B7E740BF281BAEB189D4DF1A14C3A6BB /* statement_recyclable.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_recyclable.cpp; path = objc/WCDB/core/statement_recyclable.cpp; sourceTree = "<group>"; };
-		B85D8069F27C67038D149B26A4F15076 /* alter.c */ = {isa = PBXFileReference; includeInIndex = 1; name = alter.c; path = src/alter.c; sourceTree = "<group>"; };
-		B8A17F814973352D4C10B7AE5361847C /* WCTInterface+Table.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTInterface+Table.mm"; path = "objc/WCDB/interface/table/WCTInterface+Table.mm"; sourceTree = "<group>"; };
+		B61C335D6238F2917A703E80CC09EABC /* statement_attach.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_attach.cpp; path = objc/WCDB/abstract/statement_attach.cpp; sourceTree = "<group>"; };
+		B68FEEC65B291AD2EF6C367271926487 /* whereexpr.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = whereexpr.c; path = src/whereexpr.c; sourceTree = "<group>"; };
+		B7E740BF281BAEB189D4DF1A14C3A6BB /* statement_recyclable.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_recyclable.cpp; path = objc/WCDB/core/statement_recyclable.cpp; sourceTree = "<group>"; };
+		B85D8069F27C67038D149B26A4F15076 /* alter.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = alter.c; path = src/alter.c; sourceTree = "<group>"; };
+		B8A17F814973352D4C10B7AE5361847C /* WCTInterface+Table.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTInterface+Table.mm"; path = "objc/WCDB/interface/table/WCTInterface+Table.mm"; sourceTree = "<group>"; };
 		B992F1C5A9D4F22F72D25B2AC7E4EB35 /* Pods-AnalyticsSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnalyticsSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B9E468BB00F8EA8408C2D539C2A503F8 /* WCDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCDB.h; path = objc/WCDB/WCDB.h; sourceTree = "<group>"; };
-		BA90F7BE4F47DB35D0BC64C60E49E8F8 /* statement_pragma.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_pragma.hpp; path = objc/WCDB/abstract/statement_pragma.hpp; sourceTree = "<group>"; };
-		BAC7A52F37A08EFC311F0BAEA1D8F167 /* statement_vacuum.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_vacuum.cpp; path = objc/WCDB/abstract/statement_vacuum.cpp; sourceTree = "<group>"; };
-		BBCBACA6B4EC8E29D9E2921900FE2BD0 /* statement_release.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_release.cpp; path = objc/WCDB/abstract/statement_release.cpp; sourceTree = "<group>"; };
+		BA90F7BE4F47DB35D0BC64C60E49E8F8 /* statement_pragma.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_pragma.hpp; path = objc/WCDB/abstract/statement_pragma.hpp; sourceTree = "<group>"; };
+		BAC7A52F37A08EFC311F0BAEA1D8F167 /* statement_vacuum.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_vacuum.cpp; path = objc/WCDB/abstract/statement_vacuum.cpp; sourceTree = "<group>"; };
+		BBCBACA6B4EC8E29D9E2921900FE2BD0 /* statement_release.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_release.cpp; path = objc/WCDB/abstract/statement_release.cpp; sourceTree = "<group>"; };
 		BC1CCD94A4E2533948A891E13598CC6C /* WCTCompatible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTCompatible.h; path = objc/WCDB/interface/compatible/WCTCompatible.h; sourceTree = "<group>"; };
-		BC3FDD724C734191BF7D1F3A5D8BEFAD /* fts3_expr.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_expr.c; path = ext/fts3/fts3_expr.c; sourceTree = "<group>"; };
-		BDB78379F168B2FFB2E8A485A09106A0 /* queue.c */ = {isa = PBXFileReference; includeInIndex = 1; name = queue.c; path = src/queue.c; sourceTree = "<group>"; };
-		BDD9316AEFF1CC20EDBA777A713A7E12 /* libPods-AnalyticsSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AnalyticsSDK.a"; path = "libPods-AnalyticsSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDF65AECE15D91ADD4CE3605A70ACBAB /* transaction.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = transaction.hpp; path = objc/WCDB/core/transaction.hpp; sourceTree = "<group>"; };
-		BEF5FF7217C2370C7CD01F782F379F0C /* vdbe.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vdbe.c; path = src/vdbe.c; sourceTree = "<group>"; };
+		BC3FDD724C734191BF7D1F3A5D8BEFAD /* fts3_expr.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3_expr.c; path = ext/fts3/fts3_expr.c; sourceTree = "<group>"; };
+		BDB78379F168B2FFB2E8A485A09106A0 /* queue.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = queue.c; path = src/queue.c; sourceTree = "<group>"; };
+		BDD9316AEFF1CC20EDBA777A713A7E12 /* libPods-AnalyticsSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnalyticsSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF65AECE15D91ADD4CE3605A70ACBAB /* transaction.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = transaction.hpp; path = objc/WCDB/core/transaction.hpp; sourceTree = "<group>"; };
+		BEF5FF7217C2370C7CD01F782F379F0C /* vdbe.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = vdbe.c; path = src/vdbe.c; sourceTree = "<group>"; };
 		BEFC335F002569D9A025826D3EA61698 /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto.h; path = src/crypto.h; sourceTree = "<group>"; };
-		BFED87FEEF3B0F3013EB8BC06A3DF31B /* fts_module.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = fts_module.hpp; path = objc/WCDB/abstract/fts_module.hpp; sourceTree = "<group>"; };
-		C0267C5F047FC71A7A7DBAD786421D7C /* update.c */ = {isa = PBXFileReference; includeInIndex = 1; name = update.c; path = src/update.c; sourceTree = "<group>"; };
-		C02E3C7AD73084063EA4596BC3240A40 /* core_base.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = core_base.cpp; path = objc/WCDB/core/core_base.cpp; sourceTree = "<group>"; };
-		C08C422D5946ACD017811B35FB9ED223 /* vdbeapi.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vdbeapi.c; path = src/vdbeapi.c; sourceTree = "<group>"; };
-		C19D4408A09A517257644D71A76D09C5 /* bitvec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = bitvec.c; path = src/bitvec.c; sourceTree = "<group>"; };
-		C1F03CFEFD2D7318BC6C7DB0006E74D8 /* main.c */ = {isa = PBXFileReference; includeInIndex = 1; name = main.c; path = src/main.c; sourceTree = "<group>"; };
-		C1F692A78E5BCD241487936E8026206F /* pcache.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pcache.c; path = src/pcache.c; sourceTree = "<group>"; };
+		BFED87FEEF3B0F3013EB8BC06A3DF31B /* fts_module.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = fts_module.hpp; path = objc/WCDB/abstract/fts_module.hpp; sourceTree = "<group>"; };
+		C0267C5F047FC71A7A7DBAD786421D7C /* update.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = update.c; path = src/update.c; sourceTree = "<group>"; };
+		C02E3C7AD73084063EA4596BC3240A40 /* core_base.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = core_base.cpp; path = objc/WCDB/core/core_base.cpp; sourceTree = "<group>"; };
+		C08C422D5946ACD017811B35FB9ED223 /* vdbeapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = vdbeapi.c; path = src/vdbeapi.c; sourceTree = "<group>"; };
+		C19D4408A09A517257644D71A76D09C5 /* bitvec.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = bitvec.c; path = src/bitvec.c; sourceTree = "<group>"; };
+		C1F03CFEFD2D7318BC6C7DB0006E74D8 /* main.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = main.c; path = src/main.c; sourceTree = "<group>"; };
+		C1F692A78E5BCD241487936E8026206F /* pcache.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pcache.c; path = src/pcache.c; sourceTree = "<group>"; };
 		C2FEBC3E715EE907EE0762AF248BB76B /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
-		C300C4AB63E04FF557765B858B3A1F3E /* statement_insert.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_insert.cpp; path = objc/WCDB/abstract/statement_insert.cpp; sourceTree = "<group>"; };
+		C300C4AB63E04FF557765B858B3A1F3E /* statement_insert.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_insert.cpp; path = objc/WCDB/abstract/statement_insert.cpp; sourceTree = "<group>"; };
 		C3D340B354FB3B0F86C4022ABAA947D8 /* WCTUpdate+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTUpdate+Private.h"; path = "objc/WCDB/interface/chaincall/WCTUpdate+Private.h"; sourceTree = "<group>"; };
-		C454BD14AC3A5336E317E3DB9E4AD313 /* WCTDatabase+Statistics.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTDatabase+Statistics.mm"; path = "objc/WCDB/interface/statictics/WCTDatabase+Statistics.mm"; sourceTree = "<group>"; };
-		C47C0142DBBFD7F10E99556B0A82F7B2 /* statement_drop_table.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_drop_table.hpp; path = objc/WCDB/abstract/statement_drop_table.hpp; sourceTree = "<group>"; };
-		C592F98BDDA0D6338CD7B8F511A9B1C5 /* error.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = error.hpp; path = objc/WCDB/util/error.hpp; sourceTree = "<group>"; };
-		C5C04A9D7648E2241FDD09F9ACBF2AE9 /* module_argument.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = module_argument.cpp; path = objc/WCDB/abstract/module_argument.cpp; sourceTree = "<group>"; };
+		C454BD14AC3A5336E317E3DB9E4AD313 /* WCTDatabase+Statistics.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTDatabase+Statistics.mm"; path = "objc/WCDB/interface/statictics/WCTDatabase+Statistics.mm"; sourceTree = "<group>"; };
+		C47C0142DBBFD7F10E99556B0A82F7B2 /* statement_drop_table.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_drop_table.hpp; path = objc/WCDB/abstract/statement_drop_table.hpp; sourceTree = "<group>"; };
+		C592F98BDDA0D6338CD7B8F511A9B1C5 /* error.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = error.hpp; path = objc/WCDB/util/error.hpp; sourceTree = "<group>"; };
+		C5C04A9D7648E2241FDD09F9ACBF2AE9 /* module_argument.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = module_argument.cpp; path = objc/WCDB/abstract/module_argument.cpp; sourceTree = "<group>"; };
 		C68EAEC4E3AD07887853D024DB2E8A29 /* Pods-AnalyticsSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnalyticsSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C703A20B3B7C69A160CBFB552BFC9FA1 /* literal_value.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = literal_value.cpp; path = objc/WCDB/abstract/literal_value.cpp; sourceTree = "<group>"; };
+		C703A20B3B7C69A160CBFB552BFC9FA1 /* literal_value.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = literal_value.cpp; path = objc/WCDB/abstract/literal_value.cpp; sourceTree = "<group>"; };
 		C74021D5353D58098393E2CE092BA044 /* Pods-AnalyticsSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnalyticsSDK-acknowledgements.plist"; sourceTree = "<group>"; };
-		C8BF1F1772CFB013605F71B4B16AAF94 /* statement.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement.cpp; path = objc/WCDB/abstract/statement.cpp; sourceTree = "<group>"; };
-		C9D83D49A72DF0D807D9CB330B4ED92F /* mem1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mem1.c; path = src/mem1.c; sourceTree = "<group>"; };
+		C8BF1F1772CFB013605F71B4B16AAF94 /* statement.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement.cpp; path = objc/WCDB/abstract/statement.cpp; sourceTree = "<group>"; };
+		C9D83D49A72DF0D807D9CB330B4ED92F /* mem1.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mem1.c; path = src/mem1.c; sourceTree = "<group>"; };
 		C9F840A72E5AB95DF2871F0E5922419F /* queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = queue.h; path = src/queue.h; sourceTree = "<group>"; };
-		CA7E47DCA3C193E6C2B16ECEF8C2076D /* wherecode.c */ = {isa = PBXFileReference; includeInIndex = 1; name = wherecode.c; path = src/wherecode.c; sourceTree = "<group>"; };
-		CACEAE6653DB7A451B7E011EDDBDA70F /* timed_queue.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = timed_queue.hpp; path = objc/WCDB/util/timed_queue.hpp; sourceTree = "<group>"; };
+		CA7E47DCA3C193E6C2B16ECEF8C2076D /* wherecode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = wherecode.c; path = src/wherecode.c; sourceTree = "<group>"; };
+		CACEAE6653DB7A451B7E011EDDBDA70F /* timed_queue.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = timed_queue.hpp; path = objc/WCDB/util/timed_queue.hpp; sourceTree = "<group>"; };
 		CC5DE26CE81F07D69AD03B53C30D69CA /* WCTSelectBase+NoARC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTSelectBase+NoARC.h"; path = "objc/WCDB/interface/chaincall/WCTSelectBase+NoARC.h"; sourceTree = "<group>"; };
-		CD3C49515B11A855842EA8A692058280 /* statement_insert.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_insert.hpp; path = objc/WCDB/abstract/statement_insert.hpp; sourceTree = "<group>"; };
-		CD7C0BE93D822122A665F2AAF9F5C8D9 /* fts3_aux.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_aux.c; path = ext/fts3/fts3_aux.c; sourceTree = "<group>"; };
-		CD8BA3C64D649C1882B11D1D7A523A53 /* WCTInterface+Core.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTInterface+Core.mm"; path = "objc/WCDB/interface/core/WCTInterface+Core.mm"; sourceTree = "<group>"; };
-		CD974C57933404A3F05C4B5353501134 /* attach.c */ = {isa = PBXFileReference; includeInIndex = 1; name = attach.c; path = src/attach.c; sourceTree = "<group>"; };
+		CD3C49515B11A855842EA8A692058280 /* statement_insert.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_insert.hpp; path = objc/WCDB/abstract/statement_insert.hpp; sourceTree = "<group>"; };
+		CD7C0BE93D822122A665F2AAF9F5C8D9 /* fts3_aux.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3_aux.c; path = ext/fts3/fts3_aux.c; sourceTree = "<group>"; };
+		CD8BA3C64D649C1882B11D1D7A523A53 /* WCTInterface+Core.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTInterface+Core.mm"; path = "objc/WCDB/interface/core/WCTInterface+Core.mm"; sourceTree = "<group>"; };
+		CD974C57933404A3F05C4B5353501134 /* attach.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = attach.c; path = src/attach.c; sourceTree = "<group>"; };
 		CDB840EF1E4890AE3F545FD2D868AA42 /* abstract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = abstract.h; path = objc/WCDB/abstract/abstract.h; sourceTree = "<group>"; };
-		CE55194C2CA5C8D4F3D49566B22CB194 /* btree.c */ = {isa = PBXFileReference; includeInIndex = 1; name = btree.c; path = src/btree.c; sourceTree = "<group>"; };
-		CEFA005F50FD44C451CEF64C08536D5C /* walker.c */ = {isa = PBXFileReference; includeInIndex = 1; name = walker.c; path = src/walker.c; sourceTree = "<group>"; };
-		CF0D0CB183157CCE2028BD9D62071518 /* mem3.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mem3.c; path = src/mem3.c; sourceTree = "<group>"; };
-		CF332D27135EE8F12B74FFBF767AF680 /* backup.c */ = {isa = PBXFileReference; includeInIndex = 1; name = backup.c; path = src/backup.c; sourceTree = "<group>"; };
+		CE55194C2CA5C8D4F3D49566B22CB194 /* btree.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = btree.c; path = src/btree.c; sourceTree = "<group>"; };
+		CEFA005F50FD44C451CEF64C08536D5C /* walker.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = walker.c; path = src/walker.c; sourceTree = "<group>"; };
+		CF0D0CB183157CCE2028BD9D62071518 /* mem3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mem3.c; path = src/mem3.c; sourceTree = "<group>"; };
+		CF332D27135EE8F12B74FFBF767AF680 /* backup.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = backup.c; path = src/backup.c; sourceTree = "<group>"; };
 		CFC89ABF6C2ED98842165C93E08DBAA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D0490B5DB393452C309E8DD83ECCCF51 /* handle_pool.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = handle_pool.cpp; path = objc/WCDB/core/handle_pool.cpp; sourceTree = "<group>"; };
-		D10A34BF3A8C653ECA562BC20E2E0D1B /* config.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = config.cpp; path = objc/WCDB/core/config.cpp; sourceTree = "<group>"; };
-		D1115A07B068754444B06497D41F5816 /* util.c */ = {isa = PBXFileReference; includeInIndex = 1; name = util.c; path = src/util.c; sourceTree = "<group>"; };
-		D1552AFD44F1D9B44214D90CBAC5692D /* crypto.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto.c; path = src/crypto.c; sourceTree = "<group>"; };
-		D183B1CA6B0486C605715388DFACD615 /* mem5.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mem5.c; path = src/mem5.c; sourceTree = "<group>"; };
+		D0490B5DB393452C309E8DD83ECCCF51 /* handle_pool.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = handle_pool.cpp; path = objc/WCDB/core/handle_pool.cpp; sourceTree = "<group>"; };
+		D10A34BF3A8C653ECA562BC20E2E0D1B /* config.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = config.cpp; path = objc/WCDB/core/config.cpp; sourceTree = "<group>"; };
+		D1115A07B068754444B06497D41F5816 /* util.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = util.c; path = src/util.c; sourceTree = "<group>"; };
+		D1552AFD44F1D9B44214D90CBAC5692D /* crypto.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto.c; path = src/crypto.c; sourceTree = "<group>"; };
+		D183B1CA6B0486C605715388DFACD615 /* mem5.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mem5.c; path = src/mem5.c; sourceTree = "<group>"; };
 		D244A12163D207744BD9E9782473D26E /* sqliterk_crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_crypto.h; path = repair/sqliterk_crypto.h; sourceTree = "<group>"; };
-		D2E0BC4149203952F56A65D86BD24A0E /* WCTTransaction+Statistics.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTTransaction+Statistics.mm"; path = "objc/WCDB/interface/statictics/WCTTransaction+Statistics.mm"; sourceTree = "<group>"; };
+		D2E0BC4149203952F56A65D86BD24A0E /* WCTTransaction+Statistics.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTTransaction+Statistics.mm"; path = "objc/WCDB/interface/statictics/WCTTransaction+Statistics.mm"; sourceTree = "<group>"; };
 		D3424FBD04DA3E8B5BB834C5C854D4B6 /* sqlite3userauth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3userauth.h; path = ext/userauth/sqlite3userauth.h; sourceTree = "<group>"; };
-		D3948FAD58A2536D316C0DF540C29A19 /* pcache1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pcache1.c; path = src/pcache1.c; sourceTree = "<group>"; };
-		D3F2241E18551448110F3D5CD6390F89 /* thread_local.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = thread_local.hpp; path = objc/WCDB/util/thread_local.hpp; sourceTree = "<group>"; };
+		D3948FAD58A2536D316C0DF540C29A19 /* pcache1.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pcache1.c; path = src/pcache1.c; sourceTree = "<group>"; };
+		D3F2241E18551448110F3D5CD6390F89 /* thread_local.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = thread_local.hpp; path = objc/WCDB/util/thread_local.hpp; sourceTree = "<group>"; };
 		D46871577EB1710801E3A4A001650E9F /* WCTStatistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTStatistics.h; path = objc/WCDB/interface/statictics/WCTStatistics.h; sourceTree = "<group>"; };
-		D4FFFF3B6202805E991DAF25C3787D4C /* treeview.c */ = {isa = PBXFileReference; includeInIndex = 1; name = treeview.c; path = src/treeview.c; sourceTree = "<group>"; };
+		D4FFFF3B6202805E991DAF25C3787D4C /* treeview.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = treeview.c; path = src/treeview.c; sourceTree = "<group>"; };
 		D552EC678E59F90B202901B898E911BA /* WCTTable+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTTable+Private.h"; path = "objc/WCDB/interface/table/WCTTable+Private.h"; sourceTree = "<group>"; };
-		D5933898F6194B1DCB1366F7FC2F1DB5 /* WCTDatabase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTDatabase.mm; path = objc/WCDB/interface/declare/WCTDatabase.mm; sourceTree = "<group>"; };
-		D5D7781F51EDCCF3D02C2C68098CC4CD /* mutex_noop.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mutex_noop.c; path = src/mutex_noop.c; sourceTree = "<group>"; };
-		D60BE59CCFB36C0B571C71D0455EE661 /* WCTSelectBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTSelectBase.mm; path = objc/WCDB/interface/chaincall/WCTSelectBase.mm; sourceTree = "<group>"; };
-		D6376E8E4A46CD054E2F025A0DC5F213 /* statement_release.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_release.hpp; path = objc/WCDB/abstract/statement_release.hpp; sourceTree = "<group>"; };
-		D649A2F22A7A9F25CBEC8A21A96D3178 /* threads.c */ = {isa = PBXFileReference; includeInIndex = 1; name = threads.c; path = src/threads.c; sourceTree = "<group>"; };
-		D6610806F3B95DBB9BA331CFC8941CEE /* handle_recyclable.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = handle_recyclable.cpp; path = objc/WCDB/core/handle_recyclable.cpp; sourceTree = "<group>"; };
-		D67C6E31A02D7F5B420727E3116D8496 /* legacy.c */ = {isa = PBXFileReference; includeInIndex = 1; name = legacy.c; path = src/legacy.c; sourceTree = "<group>"; };
+		D5933898F6194B1DCB1366F7FC2F1DB5 /* WCTDatabase.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTDatabase.mm; path = objc/WCDB/interface/declare/WCTDatabase.mm; sourceTree = "<group>"; };
+		D5D7781F51EDCCF3D02C2C68098CC4CD /* mutex_noop.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mutex_noop.c; path = src/mutex_noop.c; sourceTree = "<group>"; };
+		D60BE59CCFB36C0B571C71D0455EE661 /* WCTSelectBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTSelectBase.mm; path = objc/WCDB/interface/chaincall/WCTSelectBase.mm; sourceTree = "<group>"; };
+		D6376E8E4A46CD054E2F025A0DC5F213 /* statement_release.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_release.hpp; path = objc/WCDB/abstract/statement_release.hpp; sourceTree = "<group>"; };
+		D649A2F22A7A9F25CBEC8A21A96D3178 /* threads.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = threads.c; path = src/threads.c; sourceTree = "<group>"; };
+		D6610806F3B95DBB9BA331CFC8941CEE /* handle_recyclable.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = handle_recyclable.cpp; path = objc/WCDB/core/handle_recyclable.cpp; sourceTree = "<group>"; };
+		D67C6E31A02D7F5B420727E3116D8496 /* legacy.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = legacy.c; path = src/legacy.c; sourceTree = "<group>"; };
 		D7380BA1423211329E90CCFC443843DE /* sqliterk_values.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_values.h; path = repair/sqliterk_values.h; sourceTree = "<group>"; };
 		D7439C5BBCE00871FEA23610E393CA3D /* os_setup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_setup.h; path = src/os_setup.h; sourceTree = "<group>"; };
 		D7BD49AC8BFC320543C13953B280377A /* sqliterk_btree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_btree.h; path = repair/sqliterk_btree.h; sourceTree = "<group>"; };
-		D84696D8751CC0AF9EF10E0E22B83296 /* WCTRuntimeObjCAccessor.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTRuntimeObjCAccessor.mm; path = objc/WCDB/interface/orm/accessor/WCTRuntimeObjCAccessor.mm; sourceTree = "<group>"; };
-		D8B709BEE69CD0C7D9C1B76E49F1D2B6 /* WCTProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTProperty.mm; path = objc/WCDB/interface/orm/coding/WCTProperty.mm; sourceTree = "<group>"; };
+		D84696D8751CC0AF9EF10E0E22B83296 /* WCTRuntimeObjCAccessor.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTRuntimeObjCAccessor.mm; path = objc/WCDB/interface/orm/accessor/WCTRuntimeObjCAccessor.mm; sourceTree = "<group>"; };
+		D8B709BEE69CD0C7D9C1B76E49F1D2B6 /* WCTProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTProperty.mm; path = objc/WCDB/interface/orm/coding/WCTProperty.mm; sourceTree = "<group>"; };
 		D9430E8EEF353CD1D42A11F1FD2FA501 /* WCTTokenizer+WCDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTTokenizer+WCDB.h"; path = "objc/WCDB/interface/fts/WCTTokenizer+WCDB.h"; sourceTree = "<group>"; };
-		D9D281AA017D0BD81DC6E5F0766C4E06 /* sqliterk_api.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqliterk_api.c; path = repair/sqliterk_api.c; sourceTree = "<group>"; };
+		D9D281AA017D0BD81DC6E5F0766C4E06 /* sqliterk_api.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqliterk_api.c; path = repair/sqliterk_api.c; sourceTree = "<group>"; };
 		DA671B33757B39F0B566049B1AB3234B /* WCTSelectBase+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTSelectBase+Private.h"; path = "objc/WCDB/interface/chaincall/WCTSelectBase+Private.h"; sourceTree = "<group>"; };
-		DABCC1EF943BF1051113BE1740403AEC /* statement_attach.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_attach.hpp; path = objc/WCDB/abstract/statement_attach.hpp; sourceTree = "<group>"; };
+		DABCC1EF943BF1051113BE1740403AEC /* statement_attach.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_attach.hpp; path = objc/WCDB/abstract/statement_attach.hpp; sourceTree = "<group>"; };
 		DB877FF1F7439FAFEA973D8DC0171445 /* mutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mutex.h; path = src/mutex.h; sourceTree = "<group>"; };
-		DBA9AE1663C3CD9179AF6FAC08D23AA6 /* constraint_table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = constraint_table.cpp; path = objc/WCDB/abstract/constraint_table.cpp; sourceTree = "<group>"; };
+		DBA9AE1663C3CD9179AF6FAC08D23AA6 /* constraint_table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = constraint_table.cpp; path = objc/WCDB/abstract/constraint_table.cpp; sourceTree = "<group>"; };
 		DC9DF77C2E47FA5D3F4350F77955F709 /* WCTStatistics+Compatible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTStatistics+Compatible.h"; path = "objc/WCDB/interface/compatible/WCTStatistics+Compatible.h"; sourceTree = "<group>"; };
-		DCE9C23F407B8A5125290BF6F7A3FF1C /* WCTDatabase+Database.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTDatabase+Database.mm"; path = "objc/WCDB/interface/database/WCTDatabase+Database.mm"; sourceTree = "<group>"; };
+		DCE9C23F407B8A5125290BF6F7A3FF1C /* WCTDatabase+Database.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTDatabase+Database.mm"; path = "objc/WCDB/interface/database/WCTDatabase+Database.mm"; sourceTree = "<group>"; };
 		DD0140A7593BCA8C98F04834CBB016C9 /* os_wcdb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_wcdb.h; path = src/os_wcdb.h; sourceTree = "<group>"; };
-		DD520EF3383110D971D428EFE37E98EE /* crypto_impl.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_impl.c; path = src/crypto_impl.c; sourceTree = "<group>"; };
-		DF8D2BB10B2680AE9151B03F018DB782 /* ticker.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ticker.hpp; path = objc/WCDB/util/ticker.hpp; sourceTree = "<group>"; };
-		DF9D9A69DED11940DE6F02F044C7415A /* NSString+WCTColumnCoding.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSString+WCTColumnCoding.mm"; path = "objc/WCDB/interface/builtin/NSString+WCTColumnCoding.mm"; sourceTree = "<group>"; };
+		DD520EF3383110D971D428EFE37E98EE /* crypto_impl.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_impl.c; path = src/crypto_impl.c; sourceTree = "<group>"; };
+		DF8D2BB10B2680AE9151B03F018DB782 /* ticker.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ticker.hpp; path = objc/WCDB/util/ticker.hpp; sourceTree = "<group>"; };
+		DF9D9A69DED11940DE6F02F044C7415A /* NSString+WCTColumnCoding.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "NSString+WCTColumnCoding.mm"; path = "objc/WCDB/interface/builtin/NSString+WCTColumnCoding.mm"; sourceTree = "<group>"; };
 		DFD8D5079E89ED6221EC37A2FDAF6518 /* WCTConstraintMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTConstraintMacro.h; path = objc/WCDB/interface/orm/macro/WCTConstraintMacro.h; sourceTree = "<group>"; };
 		E0E703A1149F209E5152DE6BC2B9A6C5 /* parse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = parse.h; sourceTree = "<group>"; };
-		E1B4FA89F57F18BB87A03BC04CAADD94 /* subquery.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = subquery.cpp; path = objc/WCDB/abstract/subquery.cpp; sourceTree = "<group>"; };
-		E1D2809DF9FE0A9BA81B031251C0B8A6 /* WCTTable.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTTable.mm; path = objc/WCDB/interface/declare/WCTTable.mm; sourceTree = "<group>"; };
-		E235F35535F1AF9EC27A1923D16D1386 /* WCTRuntimeBaseAccessor.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTRuntimeBaseAccessor.mm; path = objc/WCDB/interface/orm/accessor/WCTRuntimeBaseAccessor.mm; sourceTree = "<group>"; };
+		E1B4FA89F57F18BB87A03BC04CAADD94 /* subquery.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = subquery.cpp; path = objc/WCDB/abstract/subquery.cpp; sourceTree = "<group>"; };
+		E1D2809DF9FE0A9BA81B031251C0B8A6 /* WCTTable.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTTable.mm; path = objc/WCDB/interface/declare/WCTTable.mm; sourceTree = "<group>"; };
+		E235F35535F1AF9EC27A1923D16D1386 /* WCTRuntimeBaseAccessor.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTRuntimeBaseAccessor.mm; path = objc/WCDB/interface/orm/accessor/WCTRuntimeBaseAccessor.mm; sourceTree = "<group>"; };
 		E2F494BD96AA992414EE932345CA85EA /* sqliterk_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_os.h; path = repair/sqliterk_os.h; sourceTree = "<group>"; };
 		E3343AE914C25667E409E300FEAFE0E0 /* sqliterk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk.h; path = repair/sqliterk.h; sourceTree = "<group>"; };
-		E4B0289EB87A5B04054B1B0F6CD1315F /* func.c */ = {isa = PBXFileReference; includeInIndex = 1; name = func.c; path = src/func.c; sourceTree = "<group>"; };
+		E4B0289EB87A5B04054B1B0F6CD1315F /* func.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = func.c; path = src/func.c; sourceTree = "<group>"; };
 		E4BB83A6A6315C07F13F1A63CC3D735A /* WCTCodingMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTCodingMacro.h; path = objc/WCDB/interface/orm/macro/WCTCodingMacro.h; sourceTree = "<group>"; };
-		E696241A609EAFFF222AE7F75E301A73 /* statement_delete.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_delete.hpp; path = objc/WCDB/abstract/statement_delete.hpp; sourceTree = "<group>"; };
-		E6C60194DB0A6BD12A650EF97E4A9446 /* database_sql.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = database_sql.cpp; path = objc/WCDB/core/database_sql.cpp; sourceTree = "<group>"; };
+		E696241A609EAFFF222AE7F75E301A73 /* statement_delete.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_delete.hpp; path = objc/WCDB/abstract/statement_delete.hpp; sourceTree = "<group>"; };
+		E6C60194DB0A6BD12A650EF97E4A9446 /* database_sql.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = database_sql.cpp; path = objc/WCDB/core/database_sql.cpp; sourceTree = "<group>"; };
 		E80B48301EFAE99A343B509DF9E854B3 /* WCTTable+ChainCall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTTable+ChainCall.h"; path = "objc/WCDB/interface/chaincall/WCTTable+ChainCall.h"; sourceTree = "<group>"; };
 		E8582EB099D8096E393175B9DB25DC70 /* WCTInterface+ChainCall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTInterface+ChainCall.h"; path = "objc/WCDB/interface/chaincall/WCTInterface+ChainCall.h"; sourceTree = "<group>"; };
 		E93FEA875356A434460CE17D1779233E /* WCTTransaction+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTTransaction+Private.h"; path = "objc/WCDB/interface/transaction/WCTTransaction+Private.h"; sourceTree = "<group>"; };
-		E998530BF0525922F15354183F264331 /* resolve.c */ = {isa = PBXFileReference; includeInIndex = 1; name = resolve.c; path = src/resolve.c; sourceTree = "<group>"; };
-		E9FFD19116EB2D1515C5F9A4F3203BB6 /* libWCDBOptimizedSQLCipher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWCDBOptimizedSQLCipher.a; path = libWCDBOptimizedSQLCipher.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA77B6F11974A3C0C5E02426A03F3B43 /* crypto_libtomcrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_libtomcrypt.c; path = src/crypto_libtomcrypt.c; sourceTree = "<group>"; };
-		EAD5F999BDFBE99CBE541C869A663217 /* status.c */ = {isa = PBXFileReference; includeInIndex = 1; name = status.c; path = src/status.c; sourceTree = "<group>"; };
-		EADD0D946223C262A8DD25C9C10964BC /* order_term.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = order_term.cpp; path = objc/WCDB/abstract/order_term.cpp; sourceTree = "<group>"; };
-		EC283728DC696BD7F1FA8E9194945A2D /* foreign_key.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = foreign_key.cpp; path = objc/WCDB/abstract/foreign_key.cpp; sourceTree = "<group>"; };
-		EC4B993C4E3B5952420E0A588F918538 /* sqlite3rbu.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqlite3rbu.c; path = ext/rbu/sqlite3rbu.c; sourceTree = "<group>"; };
-		EC7ABA93726DBBCEBBC8EE035553582D /* core_base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = core_base.hpp; path = objc/WCDB/core/core_base.hpp; sourceTree = "<group>"; };
-		EE38DF9A06FA62EF79EA8368377DE556 /* fts3_snippet.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_snippet.c; path = ext/fts3/fts3_snippet.c; sourceTree = "<group>"; };
-		EF7314401F79F295D91E3AF5BDA93924 /* NSNumber+WCTColumnCoding.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSNumber+WCTColumnCoding.mm"; path = "objc/WCDB/interface/builtin/NSNumber+WCTColumnCoding.mm"; sourceTree = "<group>"; };
+		E998530BF0525922F15354183F264331 /* resolve.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = resolve.c; path = src/resolve.c; sourceTree = "<group>"; };
+		E9FFD19116EB2D1515C5F9A4F3203BB6 /* libWCDBOptimizedSQLCipher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWCDBOptimizedSQLCipher.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA77B6F11974A3C0C5E02426A03F3B43 /* crypto_libtomcrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypto_libtomcrypt.c; path = src/crypto_libtomcrypt.c; sourceTree = "<group>"; };
+		EAD5F999BDFBE99CBE541C869A663217 /* status.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = status.c; path = src/status.c; sourceTree = "<group>"; };
+		EADD0D946223C262A8DD25C9C10964BC /* order_term.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = order_term.cpp; path = objc/WCDB/abstract/order_term.cpp; sourceTree = "<group>"; };
+		EC283728DC696BD7F1FA8E9194945A2D /* foreign_key.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = foreign_key.cpp; path = objc/WCDB/abstract/foreign_key.cpp; sourceTree = "<group>"; };
+		EC4B993C4E3B5952420E0A588F918538 /* sqlite3rbu.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqlite3rbu.c; path = ext/rbu/sqlite3rbu.c; sourceTree = "<group>"; };
+		EC7ABA93726DBBCEBBC8EE035553582D /* core_base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = core_base.hpp; path = objc/WCDB/core/core_base.hpp; sourceTree = "<group>"; };
+		EE38DF9A06FA62EF79EA8368377DE556 /* fts3_snippet.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3_snippet.c; path = ext/fts3/fts3_snippet.c; sourceTree = "<group>"; };
+		EF7314401F79F295D91E3AF5BDA93924 /* NSNumber+WCTColumnCoding.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "NSNumber+WCTColumnCoding.mm"; path = "objc/WCDB/interface/builtin/NSNumber+WCTColumnCoding.mm"; sourceTree = "<group>"; };
 		EFE8EEB4F620F43742E56D891404F19C /* WCTSelectBase+WCTExpr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTSelectBase+WCTExpr.h"; path = "objc/WCDB/interface/orm/coding/WCTSelectBase+WCTExpr.h"; sourceTree = "<group>"; };
-		F035C3C54D702DB11CC25331761973AF /* WCTChainCall+Statistics.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTChainCall+Statistics.mm"; path = "objc/WCDB/interface/statictics/WCTChainCall+Statistics.mm"; sourceTree = "<group>"; };
-		F038E492EA3F0DF3689B03B5062F748C /* statement_detach.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_detach.cpp; path = objc/WCDB/abstract/statement_detach.cpp; sourceTree = "<group>"; };
+		F035C3C54D702DB11CC25331761973AF /* WCTChainCall+Statistics.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTChainCall+Statistics.mm"; path = "objc/WCDB/interface/statictics/WCTChainCall+Statistics.mm"; sourceTree = "<group>"; };
+		F038E492EA3F0DF3689B03B5062F748C /* statement_detach.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_detach.cpp; path = objc/WCDB/abstract/statement_detach.cpp; sourceTree = "<group>"; };
 		F0BE92D3E0EA5540D45FA0F2B483B2C3 /* fts3_hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_hash.h; path = ext/fts3/fts3_hash.h; sourceTree = "<group>"; };
 		F0DB91A96830A544683ED4333D6C1BD2 /* WCTDatabase+RepairKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDatabase+RepairKit.h"; path = "objc/WCDB/interface/database/WCTDatabase+RepairKit.h"; sourceTree = "<group>"; };
-		F191B36051D806287D7DD4ACC9B6D100 /* sqliterk.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqliterk.c; path = repair/sqliterk.c; sourceTree = "<group>"; };
-		F1BDC8149AFC868B97B051C66525DCD0 /* spin.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = spin.cpp; path = objc/WCDB/util/spin.cpp; sourceTree = "<group>"; };
+		F191B36051D806287D7DD4ACC9B6D100 /* sqliterk.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqliterk.c; path = repair/sqliterk.c; sourceTree = "<group>"; };
+		F1BDC8149AFC868B97B051C66525DCD0 /* spin.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = spin.cpp; path = objc/WCDB/util/spin.cpp; sourceTree = "<group>"; };
 		F1F8D131A3443118CB190D1336288A7B /* WCTInterface+Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTInterface+Core.h"; path = "objc/WCDB/interface/core/WCTInterface+Core.h"; sourceTree = "<group>"; };
-		F23029F1618B100E0FE03A22F568947E /* conflict.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = conflict.hpp; path = objc/WCDB/abstract/conflict.hpp; sourceTree = "<group>"; };
-		F3144057BF509D4F8AF66089F75B8424 /* literal_value.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = literal_value.hpp; path = objc/WCDB/abstract/literal_value.hpp; sourceTree = "<group>"; };
-		F31A13814B1AA2819163983734B0BAE4 /* fts3_icu.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_icu.c; path = ext/fts3/fts3_icu.c; sourceTree = "<group>"; };
+		F23029F1618B100E0FE03A22F568947E /* conflict.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = conflict.hpp; path = objc/WCDB/abstract/conflict.hpp; sourceTree = "<group>"; };
+		F3144057BF509D4F8AF66089F75B8424 /* literal_value.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = literal_value.hpp; path = objc/WCDB/abstract/literal_value.hpp; sourceTree = "<group>"; };
+		F31A13814B1AA2819163983734B0BAE4 /* fts3_icu.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3_icu.c; path = ext/fts3/fts3_icu.c; sourceTree = "<group>"; };
 		F3EE5BB2867A8E7F5ADAAB08C5038F5A /* Pods-AnalyticsSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnalyticsSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		F3F00E04801BF67E6FDC937A89C64764 /* dbstat.c */ = {isa = PBXFileReference; includeInIndex = 1; name = dbstat.c; path = src/dbstat.c; sourceTree = "<group>"; };
-		F41F07154EDD87B41A2B4A7B73D43766 /* statement_explain.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_explain.hpp; path = objc/WCDB/abstract/statement_explain.hpp; sourceTree = "<group>"; };
+		F3F00E04801BF67E6FDC937A89C64764 /* dbstat.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = dbstat.c; path = src/dbstat.c; sourceTree = "<group>"; };
+		F41F07154EDD87B41A2B4A7B73D43766 /* statement_explain.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_explain.hpp; path = objc/WCDB/abstract/statement_explain.hpp; sourceTree = "<group>"; };
 		F450258D7B00432CB682C9A819D5C5E8 /* WCTCore+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTCore+Private.h"; path = "objc/WCDB/interface/core/WCTCore+Private.h"; sourceTree = "<group>"; };
-		F46491DD51C96FD9D5E31E61F449F1EC /* WCTValue.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTValue.mm; path = objc/WCDB/interface/core/WCTValue.mm; sourceTree = "<group>"; };
-		F4FCFC4ECD08482FE0B3C9B70F24EEC2 /* statement_pragma.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_pragma.cpp; path = objc/WCDB/abstract/statement_pragma.cpp; sourceTree = "<group>"; };
+		F46491DD51C96FD9D5E31E61F449F1EC /* WCTValue.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTValue.mm; path = objc/WCDB/interface/core/WCTValue.mm; sourceTree = "<group>"; };
+		F4FCFC4ECD08482FE0B3C9B70F24EEC2 /* statement_pragma.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_pragma.cpp; path = objc/WCDB/abstract/statement_pragma.cpp; sourceTree = "<group>"; };
 		F5FD6D548CE59A509525F0041E6EBE09 /* WCDBOptimizedSQLCipher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCDBOptimizedSQLCipher.xcconfig; sourceTree = "<group>"; };
-		F5FEEE7B7704BADCF951EB7BE5613A36 /* conflict.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = conflict.cpp; path = objc/WCDB/abstract/conflict.cpp; sourceTree = "<group>"; };
-		F6DCC0EC7AAA3DBB4979C8E924D3C12B /* statement_savepoint.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_savepoint.cpp; path = objc/WCDB/abstract/statement_savepoint.cpp; sourceTree = "<group>"; };
+		F5FEEE7B7704BADCF951EB7BE5613A36 /* conflict.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = conflict.cpp; path = objc/WCDB/abstract/conflict.cpp; sourceTree = "<group>"; };
+		F6DCC0EC7AAA3DBB4979C8E924D3C12B /* statement_savepoint.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_savepoint.cpp; path = objc/WCDB/abstract/statement_savepoint.cpp; sourceTree = "<group>"; };
 		F752854127F0764FADAEF55740141CBE /* WCDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCDB-prefix.pch"; sourceTree = "<group>"; };
 		F7D97B674F2C14D9BB2D87C1015CF9F5 /* WCTDatabase+Compatible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDatabase+Compatible.h"; path = "objc/WCDB/interface/compatible/WCTDatabase+Compatible.h"; sourceTree = "<group>"; };
-		F7F26F4F6F4FDF90EA20FFDF938CC8CA /* tokenizer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = tokenizer.hpp; path = objc/WCDB/core/tokenizer.hpp; sourceTree = "<group>"; };
-		F85E4F92868FAE0AE129D4FBE030E76E /* config.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = config.hpp; path = objc/WCDB/core/config.hpp; sourceTree = "<group>"; };
-		F85E7DB7AE9D49BD733E278FC21739B2 /* sqliterk_os.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqliterk_os.c; path = repair/sqliterk_os.c; sourceTree = "<group>"; };
+		F7F26F4F6F4FDF90EA20FFDF938CC8CA /* tokenizer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = tokenizer.hpp; path = objc/WCDB/core/tokenizer.hpp; sourceTree = "<group>"; };
+		F85E4F92868FAE0AE129D4FBE030E76E /* config.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = config.hpp; path = objc/WCDB/core/config.hpp; sourceTree = "<group>"; };
+		F85E7DB7AE9D49BD733E278FC21739B2 /* sqliterk_os.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqliterk_os.c; path = repair/sqliterk_os.c; sourceTree = "<group>"; };
 		F8AD3E7240736D34249793758034F236 /* WCTInsert+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTInsert+Private.h"; path = "objc/WCDB/interface/chaincall/WCTInsert+Private.h"; sourceTree = "<group>"; };
 		F998C583F02B83C4E9F225B0B0F2099F /* sqliteLimit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliteLimit.h; path = src/sqliteLimit.h; sourceTree = "<group>"; };
-		FA3AFDDEFF3242A565230DBC3F893F80 /* icu.c */ = {isa = PBXFileReference; includeInIndex = 1; name = icu.c; path = ext/icu/icu.c; sourceTree = "<group>"; };
+		FA3AFDDEFF3242A565230DBC3F893F80 /* icu.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = icu.c; path = ext/icu/icu.c; sourceTree = "<group>"; };
 		FA534EC93E13057602CE3C5D4E0CD363 /* btree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = btree.h; path = src/btree.h; sourceTree = "<group>"; };
-		FAB293010E7B4229F96063D5B1308AAA /* statement_reindex.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_reindex.hpp; path = objc/WCDB/abstract/statement_reindex.hpp; sourceTree = "<group>"; };
+		FAB293010E7B4229F96063D5B1308AAA /* statement_reindex.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_reindex.hpp; path = objc/WCDB/abstract/statement_reindex.hpp; sourceTree = "<group>"; };
 		FC77E78524F00E692DA1236CA3B10A39 /* WCTDeclare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTDeclare.h; path = objc/WCDB/interface/declare/WCTDeclare.h; sourceTree = "<group>"; };
 		FCE3C09D7D67E45E68433CC0C99E7D77 /* opcodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = opcodes.h; sourceTree = "<group>"; };
 		FD25A1E2E061E5C643405568358BFBF4 /* WCTMaster+WCTTableCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTMaster+WCTTableCoding.h"; path = "objc/WCDB/interface/builtin/WCTMaster+WCTTableCoding.h"; sourceTree = "<group>"; };
 		FD687D367D71C3288F07BC80356A7B10 /* whereInt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = whereInt.h; path = src/whereInt.h; sourceTree = "<group>"; };
-		FDFE85ECBEE1ADF84A93C0C3FB743B6F /* fts3_tokenizer1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_tokenizer1.c; path = ext/fts3/fts3_tokenizer1.c; sourceTree = "<group>"; };
-		FE7A008ADE87F523CE40587BFBDE991D /* delete.c */ = {isa = PBXFileReference; includeInIndex = 1; name = delete.c; path = src/delete.c; sourceTree = "<group>"; };
-		FEE7118FE7C02F991E008731E3A2F9B5 /* statement_savepoint.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_savepoint.hpp; path = objc/WCDB/abstract/statement_savepoint.hpp; sourceTree = "<group>"; };
+		FDFE85ECBEE1ADF84A93C0C3FB743B6F /* fts3_tokenizer1.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3_tokenizer1.c; path = ext/fts3/fts3_tokenizer1.c; sourceTree = "<group>"; };
+		FE7A008ADE87F523CE40587BFBDE991D /* delete.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = delete.c; path = src/delete.c; sourceTree = "<group>"; };
+		FEE7118FE7C02F991E008731E3A2F9B5 /* statement_savepoint.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_savepoint.hpp; path = objc/WCDB/abstract/statement_savepoint.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1297,7 +1297,6 @@
 				F46491DD51C96FD9D5E31E61F449F1EC /* WCTValue.mm */,
 				81ACE49D4D9B57B2DAF426B3AB193A75 /* Support Files */,
 			);
-			name = WCDB;
 			path = WCDB;
 			sourceTree = "<group>";
 		};
@@ -1460,7 +1459,6 @@
 				FD687D367D71C3288F07BC80356A7B10 /* whereInt.h */,
 				ECD30D210F6B62FA2B9E1A31D9F0F74B /* Support Files */,
 			);
-			name = WCDBOptimizedSQLCipher;
 			path = WCDBOptimizedSQLCipher;
 			sourceTree = "<group>";
 		};
@@ -1556,7 +1554,6 @@
 				D7380BA1423211329E90CCFC443843DE /* sqliterk_values.h */,
 				4C48D12F4CA2261E0300577EAC86AF33 /* Support Files */,
 			);
-			name = SQLiteRepairKit;
 			path = SQLiteRepairKit;
 			sourceTree = "<group>";
 		};
@@ -1944,6 +1941,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -2299,6 +2297,48 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/WCDBOptimizedSQLCipher/WCDBOptimizedSQLCipher-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"COCOAPODS=1",
+					SQLITE_ENABLE_FTS3,
+					SQLITE_ENABLE_FTS3_PARENTHESIS,
+					SQLITE_ENABLE_API_ARMOR,
+					SQLITE_OMIT_BUILTIN_TEST,
+					SQLITE_OMIT_AUTORESET,
+					SQLITE_ENABLE_UPDATE_DELETE_LIMIT,
+					SQLITE_ENABLE_RTREE,
+					"SQLITE_ENABLE_LOCKING_STYLE=1",
+					SQLITE_SYSTEM_MALLOC,
+					SQLITE_OMIT_LOAD_EXTENSION,
+					SQLITE_CORE,
+					"SQLITE_THREADSAFE=2",
+					"SQLITE_DEFAULT_CACHE_SIZE=250",
+					"SQLITE_DEFAULT_CKPTFULLFSYNC=1",
+					"SQLITE_DEFAULT_PAGE_SIZE=4096",
+					SQLITE_OMIT_SHARED_CACHE,
+					SQLITE_HAS_CODEC,
+					SQLCIPHER_CRYPTO_CC,
+					"USE_PREAD=1",
+					"SQLITE_TEMP_STORE=2",
+					SQLCIPHER_PREPROCESSED,
+					HAVE_USLEEP,
+					"SQLITE_MALLOC_SOFT_LIMIT=0",
+					"SQLITE_WCDB_SIGNAL_RETRY=1",
+					"SQLITE_DEFAULT_MEMSTATUS=0",
+					SQLITE_ENABLE_COLUMN_METADATA,
+					"SQLITE_DEFAULT_WAL_SYNCHRONOUS=1",
+					SQLITE_LIKE_DOESNT_MATCH_BLOBS,
+					"SQLITE_MAX_EXPR_DEPTH=0",
+					SQLITE_OMIT_DEPRECATED,
+					SQLITE_OMIT_PROGRESS_CALLBACK,
+					SQLITE_OMIT_SHARED_CACHE,
+					OMIT_CONSTTIME_MEM,
+					OMIT_MEMLOCK,
+					SQLITE_ENABLE_FTS3_TOKENIZER,
+					SQLITE_WCDB_CHECKPOINT_HANDLER,
+					SQLITE_MMAP_READWRITE,
+					SQLITE_ENABLE_DBSTAT_VTAB,
+					SQLITE_ENABLE_FTS5,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -2355,7 +2395,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
+					
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -2368,8 +2408,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -2468,7 +2507,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
-					"$(inherited)",
+					
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -2498,6 +2537,48 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/WCDBOptimizedSQLCipher/WCDBOptimizedSQLCipher-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"COCOAPODS=1",
+					SQLITE_ENABLE_FTS3,
+					SQLITE_ENABLE_FTS3_PARENTHESIS,
+					SQLITE_ENABLE_API_ARMOR,
+					SQLITE_OMIT_BUILTIN_TEST,
+					SQLITE_OMIT_AUTORESET,
+					SQLITE_ENABLE_UPDATE_DELETE_LIMIT,
+					SQLITE_ENABLE_RTREE,
+					"SQLITE_ENABLE_LOCKING_STYLE=1",
+					SQLITE_SYSTEM_MALLOC,
+					SQLITE_OMIT_LOAD_EXTENSION,
+					SQLITE_CORE,
+					"SQLITE_THREADSAFE=2",
+					"SQLITE_DEFAULT_CACHE_SIZE=250",
+					"SQLITE_DEFAULT_CKPTFULLFSYNC=1",
+					"SQLITE_DEFAULT_PAGE_SIZE=4096",
+					SQLITE_OMIT_SHARED_CACHE,
+					SQLITE_HAS_CODEC,
+					SQLCIPHER_CRYPTO_CC,
+					"USE_PREAD=1",
+					"SQLITE_TEMP_STORE=2",
+					SQLCIPHER_PREPROCESSED,
+					HAVE_USLEEP,
+					"SQLITE_MALLOC_SOFT_LIMIT=0",
+					"SQLITE_WCDB_SIGNAL_RETRY=1",
+					"SQLITE_DEFAULT_MEMSTATUS=0",
+					SQLITE_ENABLE_COLUMN_METADATA,
+					"SQLITE_DEFAULT_WAL_SYNCHRONOUS=1",
+					SQLITE_LIKE_DOESNT_MATCH_BLOBS,
+					"SQLITE_MAX_EXPR_DEPTH=0",
+					SQLITE_OMIT_DEPRECATED,
+					SQLITE_OMIT_PROGRESS_CALLBACK,
+					SQLITE_OMIT_SHARED_CACHE,
+					OMIT_CONSTTIME_MEM,
+					OMIT_MEMLOCK,
+					SQLITE_ENABLE_FTS3_TOKENIZER,
+					SQLITE_WCDB_CHECKPOINT_HANDLER,
+					SQLITE_MMAP_READWRITE,
+					SQLITE_ENABLE_DBSTAT_VTAB,
+					SQLITE_ENABLE_FTS5,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -2608,6 +2689,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/SQLiteRepairKit/SQLiteRepairKit-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"COCOAPODS=1",
+					SQLITE_HAS_CODEC,
+					WCDB_BUILTIN_SQLCIPHER,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -2631,6 +2717,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/WCDB/WCDB-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"COCOAPODS=1",
+					WCDB_BUILTIN_COLUMN_CODING,
+					SQLITE_HAS_CODEC,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";

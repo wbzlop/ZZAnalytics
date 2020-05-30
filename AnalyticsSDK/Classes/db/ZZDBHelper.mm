@@ -9,6 +9,9 @@
 #import "ZZDBHelper.h"
 #import <WCDB/WCDB.h>
 #import "ZZDBModel.h"
+
+
+
 @implementation ZZDBHelper
 
 
@@ -40,27 +43,56 @@
 
 -(void)addToTable:(NSString *)table content:(NSString *)content
 {
+
     ZZDBModel *model = [[ZZDBModel alloc] init];
     model.body = content;
-    model.createTime = [NSDate date];
+    model.createTime = [self getLocalDate];
+    model.retry = 1;
     model.isAutoIncrement = YES;
     [self.database insertObject:model into:table];
 }
 
--(NSArray<ZZDBModel *> *)getFromTable:(NSString *)table
+-(NSArray<ZZDBModel *> *)getFromTable:(NSString *)table offset:(NSInteger)offset
 {
-    NSArray<ZZDBModel *> *models = [self.database getObjectsOfClass:ZZDBModel.class
-    fromTable:table
-      limit:100];
+    NSArray<ZZDBModel *> *models = [self.database getObjectsOfClass:ZZDBModel.class fromTable:table limit:100 offset:offset];
+    
+
     return models;
 }
 
 -(void)deleteFromTable:(NSString *)table limit:(NSInteger)limit
 {
-    
+    [self.database deleteObjectsFromTable:table limit:limit];
 }
 
 
 
+-(void)increaseRetry:(NSArray<ZZDBModel *> *)models inTable:(NSString *)table
+{
+    if(models != nil)
+    {
+        for (ZZDBModel *model in models) {
+            model.retry++;
+            [self.database updateRowsInTable:table onProperties:ZZDBModel.retry withObject:model where:ZZDBModel.localID == model.localID];
+        }
+
+    }
+}
+
+-(void)deleteInvalidData
+{
+    //超过24小时 重试超过5次 的数据丢弃
+    NSDate *invalidDate = [[NSDate alloc] initWithTimeInterval:-(24 * 60 * 60) sinceDate:[self getLocalDate]];
+    [self.database deleteObjectsFromTable:ZZSDK_TABLE_USER where:ZZDBModel.retry > 5 or ZZDBModel.createTime < invalidDate ];
+}
+
+
+-(NSDate *)getLocalDate
+{
+    NSDate *date = [NSDate date];
+    NSTimeZone *zone = [NSTimeZone systemTimeZone];
+    NSInteger interval = [zone secondsFromGMTForDate: date];
+    return [date dateByAddingTimeInterval: interval];
+}
 
 @end

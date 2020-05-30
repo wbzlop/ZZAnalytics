@@ -12,13 +12,21 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZZDBModel : NSObject<WCTTableCoding>
 
+
+/// 数据
 @property(nonatomic,copy)NSString *body;
+
+/// 重试次数
+@property(nonatomic,assign)int retry;
+
+/// 时间
 @property(nonatomic,retain)NSDate *createTime;
 @property(nonatomic,assign)int localID;
 
 WCDB_PROPERTY(localID)
 WCDB_PROPERTY(body)
 WCDB_PROPERTY(createTime)
+WCDB_PROPERTY(retry)
 
 @end
 

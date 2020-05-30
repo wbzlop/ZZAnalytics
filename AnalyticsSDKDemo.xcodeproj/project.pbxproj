@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5200227A2474E3A6009A0517 /* ZZAnalyticsUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 520022782474E3A6009A0517 /* ZZAnalyticsUser.h */; };
-		5200227B2474E3A6009A0517 /* ZZAnalyticsUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 520022792474E3A6009A0517 /* ZZAnalyticsUser.m */; };
+		5200227B2474E3A6009A0517 /* ZZAnalyticsUser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 520022792474E3A6009A0517 /* ZZAnalyticsUser.mm */; };
 		52315E3924725CE7001DB71A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52315E3824725CE7001DB71A /* AppDelegate.m */; };
 		52315E3C24725CE7001DB71A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52315E3B24725CE7001DB71A /* SceneDelegate.m */; };
-		52315E3F24725CE7001DB71A /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52315E3E24725CE7001DB71A /* ViewController.mm */; };
+		52315E3F24725CE7001DB71A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52315E3E24725CE7001DB71A /* ViewController.m */; };
 		52315E4224725CE7001DB71A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52315E4024725CE7001DB71A /* Main.storyboard */; };
 		52315E4424725CE7001DB71A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52315E4324725CE7001DB71A /* Assets.xcassets */; };
 		52315E4724725CE7001DB71A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52315E4524725CE7001DB71A /* LaunchScreen.storyboard */; };
@@ -49,12 +49,14 @@
 		523719EA2473E36C0072B556 /* NSString+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 523719E82473E36C0072B556 /* NSString+AES.m */; };
 		523719ED2473E9A90072B556 /* ZZNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 523719EB2473E9A90072B556 /* ZZNetwork.h */; };
 		523719EE2473E9A90072B556 /* ZZNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 523719EC2473E9A90072B556 /* ZZNetwork.m */; };
+		52AF3D3424824B6100C13602 /* ZZAnalyticsTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 52AF3D3224824B6100C13602 /* ZZAnalyticsTask.h */; };
+		52AF3D3524824B6100C13602 /* ZZAnalyticsTask.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52AF3D3324824B6100C13602 /* ZZAnalyticsTask.mm */; };
 		52C21F0D247FF8BF0049240B /* ZZDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 52C21F09247FF8BF0049240B /* ZZDBHelper.h */; };
 		52C21F0E247FF8BF0049240B /* ZZDBModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52C21F0A247FF8BF0049240B /* ZZDBModel.h */; };
 		52C21F0F247FF8BF0049240B /* ZZDBHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52C21F0B247FF8BF0049240B /* ZZDBHelper.mm */; };
 		52C21F10247FF8BF0049240B /* ZZDBModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52C21F0C247FF8BF0049240B /* ZZDBModel.mm */; };
 		52EB6D78247681D00011F97C /* ZZAnalyticsBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 52EB6D76247681D00011F97C /* ZZAnalyticsBase.h */; };
-		52EB6D79247681D00011F97C /* ZZAnalyticsBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EB6D77247681D00011F97C /* ZZAnalyticsBase.m */; };
+		52EB6D79247681D00011F97C /* ZZAnalyticsBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52EB6D77247681D00011F97C /* ZZAnalyticsBase.mm */; };
 		BF46AAF3E0CCFEBF17493422 /* libPods-AnalyticsSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8606DA53AB285E00321756 /* libPods-AnalyticsSDKDemo.a */; };
 		D41705D8C95133001F39C1A2 /* libPods-AnalyticsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE181EE46E8A9D38393C373 /* libPods-AnalyticsSDK.a */; };
 /* End PBXBuildFile section */
@@ -87,14 +89,14 @@
 		0BC31DEE6D1B25C457FDA025 /* Pods-AnalyticsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnalyticsSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnalyticsSDK/Pods-AnalyticsSDK.release.xcconfig"; sourceTree = "<group>"; };
 		3C7C64B823D3A944A8CA6A35 /* Pods-AnalyticsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnalyticsSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnalyticsSDK/Pods-AnalyticsSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		520022782474E3A6009A0517 /* ZZAnalyticsUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAnalyticsUser.h; sourceTree = "<group>"; };
-		520022792474E3A6009A0517 /* ZZAnalyticsUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAnalyticsUser.m; sourceTree = "<group>"; };
+		520022792474E3A6009A0517 /* ZZAnalyticsUser.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZAnalyticsUser.mm; sourceTree = "<group>"; };
 		52315E3424725CE7001DB71A /* AnalyticsSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalyticsSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52315E3724725CE7001DB71A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52315E3824725CE7001DB71A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		52315E3A24725CE7001DB71A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		52315E3B24725CE7001DB71A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		52315E3D24725CE7001DB71A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		52315E3E24725CE7001DB71A /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		52315E3E24725CE7001DB71A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		52315E4124725CE7001DB71A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52315E4324725CE7001DB71A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52315E4624725CE7001DB71A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -133,12 +135,14 @@
 		523719E82473E36C0072B556 /* NSString+AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
 		523719EB2473E9A90072B556 /* ZZNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZNetwork.h; sourceTree = "<group>"; };
 		523719EC2473E9A90072B556 /* ZZNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZNetwork.m; sourceTree = "<group>"; };
+		52AF3D3224824B6100C13602 /* ZZAnalyticsTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAnalyticsTask.h; sourceTree = "<group>"; };
+		52AF3D3324824B6100C13602 /* ZZAnalyticsTask.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZAnalyticsTask.mm; sourceTree = "<group>"; };
 		52C21F09247FF8BF0049240B /* ZZDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDBHelper.h; sourceTree = "<group>"; };
 		52C21F0A247FF8BF0049240B /* ZZDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDBModel.h; sourceTree = "<group>"; };
 		52C21F0B247FF8BF0049240B /* ZZDBHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZDBHelper.mm; sourceTree = "<group>"; };
 		52C21F0C247FF8BF0049240B /* ZZDBModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZDBModel.mm; sourceTree = "<group>"; };
 		52EB6D76247681D00011F97C /* ZZAnalyticsBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAnalyticsBase.h; sourceTree = "<group>"; };
-		52EB6D77247681D00011F97C /* ZZAnalyticsBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAnalyticsBase.m; sourceTree = "<group>"; };
+		52EB6D77247681D00011F97C /* ZZAnalyticsBase.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZAnalyticsBase.mm; sourceTree = "<group>"; };
 		6EF93C9E0207E9B24B074B4F /* Pods-AnalyticsSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnalyticsSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnalyticsSDKDemo/Pods-AnalyticsSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BC83DF6EA98426DD4E4D95AF /* Pods-AnalyticsSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnalyticsSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnalyticsSDKDemo/Pods-AnalyticsSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DE8606DA53AB285E00321756 /* libPods-AnalyticsSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnalyticsSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,7 +219,7 @@
 				52315E3A24725CE7001DB71A /* SceneDelegate.h */,
 				52315E3B24725CE7001DB71A /* SceneDelegate.m */,
 				52315E3D24725CE7001DB71A /* ViewController.h */,
-				52315E3E24725CE7001DB71A /* ViewController.mm */,
+				52315E3E24725CE7001DB71A /* ViewController.m */,
 				52315E4024725CE7001DB71A /* Main.storyboard */,
 				52315E4324725CE7001DB71A /* Assets.xcassets */,
 				52315E4524725CE7001DB71A /* LaunchScreen.storyboard */,
@@ -239,6 +243,7 @@
 		52315E6324725DAA001DB71A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				52AF3D3124824B4000C13602 /* analytics */,
 				52C21F08247FF8BF0049240B /* db */,
 				523719BC2473CFBD0072B556 /* SAMKeychain */,
 				52315E6424725DAA001DB71A /* category */,
@@ -271,9 +276,9 @@
 				523719EB2473E9A90072B556 /* ZZNetwork.h */,
 				523719EC2473E9A90072B556 /* ZZNetwork.m */,
 				520022782474E3A6009A0517 /* ZZAnalyticsUser.h */,
-				520022792474E3A6009A0517 /* ZZAnalyticsUser.m */,
+				520022792474E3A6009A0517 /* ZZAnalyticsUser.mm */,
 				52EB6D76247681D00011F97C /* ZZAnalyticsBase.h */,
-				52EB6D77247681D00011F97C /* ZZAnalyticsBase.m */,
+				52EB6D77247681D00011F97C /* ZZAnalyticsBase.mm */,
 			);
 			path = network;
 			sourceTree = "<group>";
@@ -333,6 +338,15 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		52AF3D3124824B4000C13602 /* analytics */ = {
+			isa = PBXGroup;
+			children = (
+				52AF3D3224824B6100C13602 /* ZZAnalyticsTask.h */,
+				52AF3D3324824B6100C13602 /* ZZAnalyticsTask.mm */,
+			);
+			path = analytics;
+			sourceTree = "<group>";
+		};
 		52C21EF5247FC6700049240B /* lib */ = {
 			isa = PBXGroup;
 			children = (
@@ -365,6 +379,7 @@
 				523719E12473CFCA0072B556 /* TPDeviceHelper.h in Headers */,
 				52315E5924725CFE001DB71A /* AnalyticsSDK.h in Headers */,
 				52C21F0D247FF8BF0049240B /* ZZDBHelper.h in Headers */,
+				52AF3D3424824B6100C13602 /* ZZAnalyticsTask.h in Headers */,
 				523719DC2473CFBD0072B556 /* SAMKeychainQuery.h in Headers */,
 				523719D92473CFBD0072B556 /* SAMKeychain.h in Headers */,
 				52315E9A24725DAA001DB71A /* AnalyticsSDK-Prefix.pch in Headers */,
@@ -533,7 +548,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52315E3F24725CE7001DB71A /* ViewController.mm in Sources */,
+				52315E3F24725CE7001DB71A /* ViewController.m in Sources */,
 				52315E3924725CE7001DB71A /* AppDelegate.m in Sources */,
 				52315E4A24725CE7001DB71A /* main.m in Sources */,
 				52315E3C24725CE7001DB71A /* SceneDelegate.m in Sources */,
@@ -544,17 +559,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52EB6D79247681D00011F97C /* ZZAnalyticsBase.m in Sources */,
+				52EB6D79247681D00011F97C /* ZZAnalyticsBase.mm in Sources */,
 				52315EBF24725DAA001DB71A /* ZZConstant.m in Sources */,
 				52315EA924725DAA001DB71A /* ZZReachability.m in Sources */,
 				52C21F0F247FF8BF0049240B /* ZZDBHelper.mm in Sources */,
-				5200227B2474E3A6009A0517 /* ZZAnalyticsUser.m in Sources */,
+				5200227B2474E3A6009A0517 /* ZZAnalyticsUser.mm in Sources */,
 				52315EC424725DAA001DB71A /* ZZBaseHelper.m in Sources */,
 				523719E62473DFC60072B556 /* NSDictionary+Log.m in Sources */,
 				52315EA324725DAA001DB71A /* AnalyticsSDK.mm in Sources */,
 				523719D82473CFBD0072B556 /* SAMKeychainQuery.m in Sources */,
 				523719B024737B6F0072B556 /* ZZBodyHelper.m in Sources */,
 				523719EE2473E9A90072B556 /* ZZNetwork.m in Sources */,
+				52AF3D3524824B6100C13602 /* ZZAnalyticsTask.mm in Sources */,
 				523719E22473CFCA0072B556 /* TPDeviceHelper.m in Sources */,
 				52315EC024725DAA001DB71A /* ZZCache.m in Sources */,
 				523719EA2473E36C0072B556 /* NSString+AES.m in Sources */,
@@ -635,10 +651,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -810,11 +823,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "AnalyticsSDK/AnalyticsSDK-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-					"ANALYTICS_DEBUG=1",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				HEADER_SEARCH_PATHS = (
 					"\"${PODS_ROOT}/Headers/Public\"",
 					"\"${PODS_ROOT}/Headers/Public/WCDB\"",
@@ -828,6 +837,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -883,6 +893,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

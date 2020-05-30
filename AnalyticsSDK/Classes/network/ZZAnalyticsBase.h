@@ -19,8 +19,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 +(instancetype)shareInstance;
 
-/// 统计用户基本信息
+/// 统计用户基本信息，实时
 -(void)track;
+
+/// 统计用户基本信息，批量
+/// @param body <#body description#>
+/// @param complete <#complete description#>
+-(void)track:(NSString * )body complete:(TrackComplete)complete;
 
 
 @end

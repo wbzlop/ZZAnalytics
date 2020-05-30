@@ -13,12 +13,16 @@
 #import "ZZAnalyticsUser.h"
 
 #import "ZZAnalyticsBase.h"
-//#import "ZZDBHelper.h"
-//#import "ZZDBModel.h"
+#import "ZZDBHelper.h"
+#import "ZZDBModel.h"
+#import "ZZAnalyticsTask.h"
+
+
 @interface AnalyticsSDK()
 
 
 @property (nonatomic,assign)BOOL initComplete;
+@property (nonatomic,retain)ZZAnalyticsTask *task;
 
 @end
 
@@ -35,8 +39,6 @@
     return instance;
 }
 
-
-
 -(void)addObserver
 {
     // 进入前台
@@ -47,6 +49,12 @@
   
 }
 
+-(void)beginTask
+{
+    _task = [[ZZAnalyticsTask alloc] init];
+    [_task begin];
+    
+}
 
 -(void)applicationDidBecomeActive
 {
@@ -66,16 +74,10 @@
     
     [[AnalyticsSDK defaultSDK] addObserver];
     
+     [[AnalyticsSDK defaultSDK] beginTask];
+    
     [[ZZAnalyticsBase shareInstance] track];
-    
-//    [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_USER content:@"1111"];
-//
-//    NSArray<ZZDBModel *> *models = [[ZZDBHelper shareInstance] getFromTable:ZZSDK_TABLE_USER];
-//
-//    for (ZZDBModel *model in models) {
-//        NSLog(@"数据库：%@",model.createTime);
-//    }
-    
+
 }
 
 
@@ -91,12 +93,7 @@
 }
 
 
-+(void)load{
-  
 
-   
-    
-}
 
 @end
 

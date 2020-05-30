@@ -28,5 +28,7 @@
 /// @param channel <#channel description#>
 +(void)setChannel:(NSString *)channel;
 
+
+
 @end
 

@@ -46,12 +46,12 @@
         __block NSURLSessionDataTask *dataTask = nil;
         dataTask = [self.session dataTaskWithRequest:mutableRequest completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
             
-            if(!error){
+            if(!error && data == nil){
 
-                NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-            
-                NSLog(@"return:%@",dict);
-
+//                NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+//                NSLog(@"return:%@",dict);
+                
+                completeHandler(dataTask,YES,nil,nil);
                 
             }else {
                 

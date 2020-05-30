@@ -19,9 +19,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(void)addToTable:(NSString *)table content:(NSString *)content;
 
--(NSArray<ZZDBModel *> *)getFromTable:(NSString *)table;
+-(NSArray<ZZDBModel *> *)getFromTable:(NSString *)table offset:(NSInteger)offset;
 
 -(void)deleteFromTable:(NSString *)table limit:(NSInteger )limit;
+
+-(void)deleteInvalidData;
+
+-(void)increaseRetry:(NSArray<ZZDBModel *> *)models inTable:(NSString *)table;
+
+
 
 @end
 
