@@ -204,5 +204,13 @@
 }
 
 
+-(NSDate *)getLocalTime
+{
+    NSDate *date = [NSDate date];
+    NSTimeZone *zone = [NSTimeZone systemTimeZone];
+    NSInteger interval = [zone secondsFromGMTForDate: date];
+    return [date dateByAddingTimeInterval: interval];
+}
+
 
 @end

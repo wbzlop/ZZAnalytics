@@ -28,7 +28,7 @@
     lineDelimiter =[NSString stringWithFormat:@"%C", 0x0002];
     dispatch_queue_t  queue = dispatch_get_global_queue(0, 0);
      _timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queue);
-    dispatch_source_set_timer(_timer, DISPATCH_TIME_NOW, 15 * NSEC_PER_SEC, 0);
+    dispatch_source_set_timer(_timer, DISPATCH_TIME_NOW, 30 * NSEC_PER_SEC, 0);
     dispatch_source_set_event_handler(_timer, ^{
        
         //删除失效数据

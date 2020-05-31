@@ -27,20 +27,20 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param status 事件状态 0：未成功，1：成功 （默认成功）
 /// @param msg 错误信息
 /// @param info 事件信息（json）
--(void)track:(NSString *)configVersion
-          withName:(NSString *)name
-         withValue:(NSString *)value
-            withId:(NSString *)Id
-        withStatus:(NSUInteger)status
-           withMsg:(NSString *)msg
-          withInfo:(NSDictionary *)info;
+-(void)track:(NSString * __nullable)configVersion
+          withName:(NSString * __nonnull)name
+         withValue:(NSString * __nullable)value
+            withId:(NSString * __nullable)Id
+        withStatus:(NSUInteger )status
+           withMsg:(NSString * __nullable)msg
+          withInfo:(NSDictionary * __nullable)info;
 
 
 
 /// 统计用户操作，批量
 /// @param body <#body description#>
 /// @param complete <#complete description#>
--(void)track:(NSString * )body complete:(TrackComplete)complete;
+-(void)track:(NSString * __nonnull)body complete:(TrackComplete)complete;
 
 @end
 

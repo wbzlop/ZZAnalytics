@@ -28,7 +28,6 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)increaseRetry:(NSArray<ZZDBModel *> *)models inTable:(NSString *)table;
 
 
-
 @end
 
 NS_ASSUME_NONNULL_END

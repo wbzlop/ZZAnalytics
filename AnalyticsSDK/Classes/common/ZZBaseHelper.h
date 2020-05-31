@@ -104,4 +104,7 @@
 + (NSString *)getNetconnType;
 
 +(NSString *)getDeviceType;
+
+/// 本地时间
+-(NSDate *)getLocalTime;
 @end

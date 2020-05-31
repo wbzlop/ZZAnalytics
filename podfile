@@ -1,3 +1,6 @@
+
+
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
 target 'AnalyticsSDKDemo' do
  platform :ios, '9.0'
  
@@ -9,5 +12,6 @@ target 'AnalyticsSDK' do
  platform :ios, '9.0'
  
 pod 'WCDB'
+
  
 end

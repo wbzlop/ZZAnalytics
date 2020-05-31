@@ -25,12 +25,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param Id 事件ID
 /// @param status 事件状态 0：未成功，1：成功 （默认成功）
 /// @param info 事件信息（json）
--(NSString *)creatUserBody:(NSString *)configVersion
-              withName:(NSString *)name
-             withValue:(NSString *)value withId:(NSString *)Id
+-(NSString *)creatUserBody:(NSString * __nullable)configVersion
+              withName:(NSString * __nonnull)name
+             withValue:(NSString * __nullable)value
+                withId:(NSString * __nullable)Id
             withStatus:(NSUInteger)status
-               withMsg:(NSString *)msg
-              withInfo:(NSDictionary *)info;
+               withMsg:(NSString * __nullable)msg
+              withInfo:(NSDictionary * __nullable)info;
 
 ///创建90-4请求数据
 ///http://wiki.batcloud.cn/pages/viewpage.action?pageId=16680484

@@ -14,9 +14,9 @@
 
 
 /// 初始化sdk
-/// @param debug 是否调试
+/// @param debug 是否打印日志
 /// @param isCN 是否国内
-+(void)initWithAppkey:(NSString *)appkey andIsDebug:(BOOL )debug andIsCN:(BOOL)isCN;
++(void)initWithAppkey:(NSString *)appkey printLog:(BOOL )printLog andIsCN:(BOOL)isCN;
 
 
 /// 设置uk
@@ -28,7 +28,13 @@
 /// @param channel <#channel description#>
 +(void)setChannel:(NSString *)channel;
 
++(void)trackWithName:(NSString *)name eventInfo:(NSDictionary *)info;
 
++(void)trackWithName:(NSString *)name eventValue:(NSString *)value;
+
++(void)trackWithName:(NSString *)name;
+
++(void)trackWithName:(NSString *)name eventValue:(NSString *)value eventId:(NSString *)eventId eventConfigVersion:(NSString *)configVersion enentInfo:(NSDictionary *)info;
 
 @end
 
