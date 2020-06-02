@@ -123,7 +123,7 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
 
 -(void)applicationEnterBackground
 {
-    if(!_initComplete)return;
+
     
     NSTimeInterval now = [[NSDate now] timeIntervalSince1970];
 
@@ -158,7 +158,7 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
     NSString *channel = [userDefault objectForKey:ARCHIVE_KEY_CHANNEL];
     _first = YES;
     //是否有网络
-    if((!_initComplete && [self.reach currentReachabilityStatus] != 0 && channel != nil) || _force)
+    if(!_initComplete && [self.reach currentReachabilityStatus] != 0 && (channel != nil || _force))
     {
         [[AnalyticsSDK defaultSDK] beginTask];
         
