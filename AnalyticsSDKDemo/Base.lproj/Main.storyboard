@@ -56,17 +56,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="na4-IO-rcH">
                                 <rect key="frame" x="31" y="515" width="155" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="查看90-5数据库"/>
+                                <state key="normal" title="传入渠道"/>
                                 <connections>
                                     <action selector="check905:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hd2-S5-JHd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jL9-za-h8Y">
-                                <rect key="frame" x="41" y="595" width="155" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="查看90-4数据库"/>
-                                <connections>
-                                    <action selector="check904:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hhg-7S-9tt"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="info.key" textAlignment="natural" minimumFontSize="17" id="efg-rR-WDo">

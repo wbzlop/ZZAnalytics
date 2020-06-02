@@ -1,11 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
 
-
-ENV['COCOAPODS_DISABLE_STATS'] = 'true'
 target 'AnalyticsSDKDemo' do
  platform :ios, '9.0'
  
 pod 'WCDB'
- 
+
 end
 
 target 'AnalyticsSDK' do

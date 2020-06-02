@@ -12,7 +12,7 @@
 #import "ZZAnalyticsUser.h"
 @interface ZZAnalyticsTask()
 @property (nonatomic,retain) dispatch_source_t timer;
-@property (nonatomic,assign) BOOL first;
+@property (nonatomic,assign) BOOL running;
 @end
 
 @implementation ZZAnalyticsTask
@@ -23,40 +23,65 @@
 
 -(void)begin
 {
-    _first = YES;
+//    _first = YES;
     __weak ZZAnalyticsTask* weakSelf = self;
     lineDelimiter =[NSString stringWithFormat:@"%C", 0x0002];
     dispatch_queue_t  queue = dispatch_get_global_queue(0, 0);
      _timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queue);
-    dispatch_source_set_timer(_timer, DISPATCH_TIME_NOW, 30 * NSEC_PER_SEC, 0);
+    dispatch_source_set_timer(_timer, DISPATCH_TIME_NOW, 10 * NSEC_PER_SEC, 0);
     dispatch_source_set_event_handler(_timer, ^{
-       
-        //删除失效数据
-        if(!weakSelf.first)
-        {
-            [[ZZDBHelper shareInstance] deleteInvalidData];
+
+//         NSLog(@"时间到，开始批量任务");
+//        if(!weakSelf.first)
+//        {
             [weakSelf analyticsTask];
-        }
-        else
-        {
-            weakSelf.first = NO;
-        }
-        
+//        }
+//        else
+//        {
+//            weakSelf.first = NO;
+//        }
+       
       
     });
     dispatch_resume(_timer);
 }
 
+-(void)pause
+{
+    if (_timer) {
+        dispatch_suspend(self.timer);
+    }
+}
+
+-(void)resume
+{
+    if (_timer) {
+        dispatch_resume(_timer);
+    }
+}
+
 -(void)analyticsTask
 {
-    [self trackUserEvent:0];
+    if(!_running)
+    {
+        _running = YES;
+        //删除失效数据
+         [[ZZDBHelper shareInstance] deleteInvalidData];
+        [self trackUserEvent:0];
+        
+       
+    }
+    else
+    {
+        NSLog(@"批量任务正在进行中");
+    }
 }
 
 
 /// 批量上报用户行为
 -(void)trackUserEvent:(NSInteger)offset
 {
-    
+    NSLog(@"批量======90-5=======开始");
     NSArray<ZZDBModel *> *models = [[ZZDBHelper shareInstance] getFromTable:ZZSDK_TABLE_USER offset:offset];
     if([models count] != 0)
     {
@@ -85,6 +110,7 @@
     }
     else
     {
+        NSLog(@"批量======90-5=======完成");
         [self trackBaseEvent:0];
     }
         
@@ -93,6 +119,7 @@
 /// 批量上报基本信息
 -(void)trackBaseEvent:(NSInteger)offset
 {
+    NSLog(@"批量======90-4=======开始");
     NSArray<ZZDBModel *> *models = [[ZZDBHelper shareInstance] getFromTable:ZZSDK_TABLE_BASE offset:offset];
     if([models count] != 0)
     {
@@ -118,6 +145,12 @@
             }
             
         }];
+    }
+    else
+    {
+         NSLog(@"批量======90-4=======完成");
+        _running = NO;
+        
     }
 }
 

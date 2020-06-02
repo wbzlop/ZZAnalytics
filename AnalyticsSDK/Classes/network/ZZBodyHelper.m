@@ -12,7 +12,7 @@
 #import <CoreTelephony/CTCarrier.h>
 #import "ZZReachability.h"
 
-const NSString * TIME_FORMAT = @"YYYY-MM-dd hh:MM:SS";
+ NSString * const TIME_FORMAT = @"YYYY-MM-dd HH:MM:SS";
 
 @implementation ZZBodyHelper
 {
@@ -69,7 +69,7 @@ const NSString * TIME_FORMAT = @"YYYY-MM-dd hh:MM:SS";
 
 {
     NSString* log_time = [self getBJTime];
-    NSString* create_date = log_time;
+    NSString* create_date = [log_time substringToIndex:[log_time length] - 9];
 
     NSArray *componentArray = @[
      log_time,
@@ -107,7 +107,7 @@ const NSString * TIME_FORMAT = @"YYYY-MM-dd hh:MM:SS";
 -(NSString *)creatBaseBody
 {
     NSString* log_time = [self getBJTime];
-    NSString* create_date = log_time;
+    NSString* create_date =  [log_time substringToIndex:[log_time length] - 9];
     
     //国家代码（大写）
     NSString *country = [[[NSLocale currentLocale] objectForKey:NSLocaleCountryCode] uppercaseString];
@@ -148,7 +148,7 @@ const NSString * TIME_FORMAT = @"YYYY-MM-dd hh:MM:SS";
      emptyStr,//batId       无
      [ZZBaseHelper defaultBaseHelper].appkey,
      emptyStr,//usr_id 即uk
-     emptyStr,//channel_code
+     [ZZBaseHelper defaultBaseHelper].channel==nil?emptyStr:[ZZBaseHelper defaultBaseHelper].channel,//channel_code
      country,//国家
      emptyStr,//province    暂时不采集
      emptyStr,//city        暂时不采集
@@ -185,17 +185,31 @@ const NSString * TIME_FORMAT = @"YYYY-MM-dd hh:MM:SS";
 
 -(NSString *)getBJTime
 {
-    NSDateFormatter*formatter = [[NSDateFormatter alloc]init];
 
+    // 获取当前时间
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:TIME_FORMAT];
+
+    // 得到当前时间（世界标准时间 UTC/GMT）
+    NSDate *nowDate = [NSDate date];
+    // 北京时区
     NSTimeZone* timeZone = [NSTimeZone timeZoneForSecondsFromGMT:8*60*60];
+//    NSTimeZone* timeZone = [NSTimeZone timeZoneWithAbbreviation:@"UTC"];
+    // 计算本地时区与 GMT 时区的时间差
+    NSInteger interval = [timeZone secondsFromGMT];
+    // 在 GMT 时间基础上追加时间差值，得到本地时间
+    nowDate = [nowDate dateByAddingTimeInterval:interval];
 
-    [formatter setTimeZone:timeZone];
+    [dateFormatter setTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"UTC"]];
+   
+    NSString *nowDateString = [NSString stringWithFormat:@"%@",nowDate];
 
-    [formatter setDateFormat:TIME_FORMAT];
+ 
+    
+    return [[nowDateString substringToIndex:[nowDateString length] - 6] stringByReplacingOccurrencesOfString:@" " withString:@"-"];
+    
 
-    NSDate*datenow = [NSDate date];
-
-    return [formatter stringFromDate:datenow];
+    
 }
 
 

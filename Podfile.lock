@@ -10,7 +10,7 @@ DEPENDENCIES:
   - WCDB
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs:
     - SQLiteRepairKit
     - WCDB
     - WCDBOptimizedSQLCipher
@@ -20,6 +20,6 @@ SPEC CHECKSUMS:
   WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
 
-PODFILE CHECKSUM: ae77986bbb6c93028c742ad2e618ea92d9ee09bb
+PODFILE CHECKSUM: 90374319cf528629d051bd0c82de600ffb3c2af9
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.3

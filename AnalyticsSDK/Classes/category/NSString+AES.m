@@ -19,26 +19,22 @@
                                         key:[ZZBaseHelper defaultBaseHelper].cn?ZZSDK_CN_KEY:ZZSDK_US_KEY
                                          iv:ZZSDK_OFFSET];
     NSString *baseStr_GTM = [self hexStringWithData:AESData];
-
+    
     return baseStr_GTM;
 }
 
 - (NSString*)decryptWithAES {
     
     NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding];
-//    NSData *baseData_GTM = [self decodeBase64Data:data];
+
     NSData *baseData = [[NSData alloc]initWithBase64EncodedString:self options:0];
     
-//    NSData *AESData_GTM = [self AES128operation:kCCDecrypt
-//                                           data:baseData_GTM
-//                                            key:[ZZBaseHelper defaultBaseHelper].cn?ZZSDK_CN_KEY:ZZSDK_US_KEY
-//                                             iv:ZZSDK_OFFSET];
+
     NSData *AESData = [self AES128operation:kCCDecrypt
                                        data:baseData
                                         key:[ZZBaseHelper defaultBaseHelper].cn?ZZSDK_CN_KEY:ZZSDK_US_KEY
                                          iv:ZZSDK_OFFSET];
-    
-//    NSString *decStr_GTM = [[NSString alloc] initWithData:AESData_GTM encoding:NSUTF8StringEncoding];
+
 
     NSString *decStr = [[NSString alloc] initWithData:AESData encoding:NSUTF8StringEncoding];
     
@@ -82,11 +78,11 @@
                                             &numBytesEncrypted);
     
     if(cryptorStatus == kCCSuccess) {
-//        NSLog(@"Success");
+
         return [NSData dataWithBytesNoCopy:buffer length:numBytesEncrypted];
         
     } else {
-//        NSLog(@"Error");
+
     }
     
     free(buffer);

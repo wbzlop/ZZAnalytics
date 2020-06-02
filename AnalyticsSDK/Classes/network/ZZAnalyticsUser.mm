@@ -50,17 +50,27 @@
     [postDict setValue:@(ZZSDK_DataVersion) forKey:@"tblVersion"];
     [postDict setValue:body forKey:@"logData"];
     
-    [self.network postRequest:postDict withCompleteHandler:^(NSURLSessionDataTask *task, BOOL success, NSError *error, NSString *returnString) {
-        complete(success);
-        if(success)
-        {
-            NSLog(@"success");
-        }
-        else
-        {
-            NSLog(@"failed");
-        }
-    }];
+    
+    zz_work_queue_dispatch_async(^(){
+        
+        [self.network postRequest:postDict withCompleteHandler:^(NSURLSessionDataTask *task, BOOL success, NSError *error, NSString *returnString) {
+                   complete(success);
+                   if(success)
+                   {
+                       NSLog(@"success");
+                   }
+                   else
+                   {
+                       NSLog(@"failed");
+                   }
+               }];
+        
+    });
+        
+       
+  
+    
+    
 }
 
 #pragma mark Private

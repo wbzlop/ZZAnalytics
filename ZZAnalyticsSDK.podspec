@@ -6,6 +6,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 
+
 Pod::Spec.new do |s|
   s.name             = 'ZZAnalyticsSDK'
   s.version='1.0.0'
@@ -27,8 +28,8 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wubaozeng' => 'wubaozeng@gamegoing.net' }
   
-  s.source           = { :git => 'https://github.com/wbzlop/ZZAnalytics.git',:branch => "release/#{s.version}"}
-  s.source           = { :git => '/Users/wbz/Documents/work/AnalyticsSDK',:branch => "release/#{s.version}"}
+  s.source           = { :git => 'https://github.com/wbzlop/ZZAnalytics.git',:tag => "#{s.version}"}
+  #s.source           = { :git => '/Users/wbz/Documents/work/AnalyticsSDK',:branch => "release/#{s.version}"}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

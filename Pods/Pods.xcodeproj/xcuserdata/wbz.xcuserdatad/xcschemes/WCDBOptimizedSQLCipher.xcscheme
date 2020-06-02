@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6E917AB043D53B1D0A1D29A680F96F37"
+               BlueprintIdentifier = "7AC2C6E1735146F1E0A04614976C5D18"
+               BuildableName = "libWCDBOptimizedSQLCipher.a"
                BlueprintName = "WCDBOptimizedSQLCipher"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libWCDBOptimizedSQLCipher.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
