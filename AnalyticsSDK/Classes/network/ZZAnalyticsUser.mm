@@ -54,7 +54,7 @@
     zz_work_queue_dispatch_async(^(){
         
         [self.network postRequest:postDict withCompleteHandler:^(NSURLSessionDataTask *task, BOOL success, NSError *error, NSString *returnString) {
-                   complete(success);
+                   
                    if(success)
                    {
                        NSLog(@"success");
@@ -63,7 +63,8 @@
                    {
                        NSLog(@"failed");
                    }
-               }];
+                    complete(success);
+        }];
         
     });
         

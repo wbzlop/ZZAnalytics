@@ -13,6 +13,7 @@
 @interface ZZAnalyticsTask()
 @property (nonatomic,retain) dispatch_source_t timer;
 @property (nonatomic,assign) BOOL running;
+@property (nonatomic,assign) BOOL hasPause;
 @end
 
 @implementation ZZAnalyticsTask
@@ -43,20 +44,28 @@
        
       
     });
+     _hasPause = NO;
     dispatch_resume(_timer);
 }
 
 -(void)pause
 {
-    if (_timer) {
+    if (_timer && !_hasPause) {
+        _hasPause = YES;
+        NSLog(@"批量暂停");
         dispatch_suspend(self.timer);
+        
     }
 }
 
 -(void)resume
 {
-    if (_timer) {
+    
+    if (_timer  && _hasPause) {
+        NSLog(@"批量继续");
+        _hasPause = NO;
         dispatch_resume(_timer);
+        
     }
 }
 
@@ -81,7 +90,7 @@
 /// 批量上报用户行为
 -(void)trackUserEvent:(NSInteger)offset
 {
-    NSLog(@"批量======90-5=======开始");
+    NSLog(@"批量======90-5=======开始====%d",offset);
     NSArray<ZZDBModel *> *models = [[ZZDBHelper shareInstance] getFromTable:ZZSDK_TABLE_USER offset:offset];
     if([models count] != 0)
     {
@@ -96,7 +105,7 @@
            {
                //失败则重试次数+1
                [[ZZDBHelper shareInstance] increaseRetry:models inTable:ZZSDK_TABLE_USER];
-                [weakSelf trackUserEvent:[models count]];
+                [weakSelf trackUserEvent:[models count] + offset];
            }
             else
             {
@@ -135,7 +144,7 @@
             {
                 //失败则重试次数+1
                 [[ZZDBHelper shareInstance] increaseRetry:models inTable:ZZSDK_TABLE_BASE];
-                [weakSelf trackBaseEvent:[models count]];
+                [weakSelf trackBaseEvent:[models count] + offset];
             }
             else
             {
