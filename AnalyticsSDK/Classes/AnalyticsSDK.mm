@@ -97,11 +97,11 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
     {
         [[ZZAnalyticsUser shareInstance] track:nil withName:@"app_front" withValue:@"8" withId:nil withStatus:1 withMsg:nil withInfo:nil];
         
-        if(!_first && self.task != nil)
+        if(!_first && self.task != nil && ![self isNotReachable])
         {
 //            NSLog(@"回到前台，开始批量任务");
            [self.task analyticsTask];
-
+            
            [self.task resume];
             
 
@@ -176,10 +176,13 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
     {
         _reach = [ZZReachability zzReachabilityForInternetConnection];
            [_reach startNotifier];
-        
     }
-    
     return _reach;
+}
+
+-(BOOL)isNotReachable
+{
+    return [self.reach currentReachabilityStatus] == NotReachable;
 }
 
 -(void)checkChannel
