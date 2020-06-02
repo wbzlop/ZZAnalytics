@@ -38,6 +38,7 @@
     mutableRequest.timeoutInterval = 10;
     
     NSString *json = [[ZZBaseHelper defaultBaseHelper] convertToJsonData:requestData];
+
     NSString *aesJson = [_delegate encrypt:json];
     
     [mutableRequest setHTTPBody:[aesJson dataUsingEncoding:NSUTF8StringEncoding]];

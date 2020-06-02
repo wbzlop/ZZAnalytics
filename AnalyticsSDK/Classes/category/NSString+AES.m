@@ -14,12 +14,15 @@
 @implementation NSString (AES)
 - (NSString*)encryptWithAES {
     NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding];
+    
+
+    
     NSData *AESData = [self AES128operation:kCCEncrypt
                                        data:data
                                         key:[ZZBaseHelper defaultBaseHelper].cn?ZZSDK_CN_KEY:ZZSDK_US_KEY
                                          iv:ZZSDK_OFFSET];
-    NSString *baseStr_GTM = [self hexStringWithData:AESData];
     
+    NSString *baseStr_GTM = [self hexStringWithData:AESData];
     return baseStr_GTM;
 }
 
@@ -104,6 +107,10 @@
     return result;
     
 }
+
+
+
+
 
 - (NSString*)encodeBase64Data:(NSData *)data {
      return [data base64EncodedStringWithOptions:0];

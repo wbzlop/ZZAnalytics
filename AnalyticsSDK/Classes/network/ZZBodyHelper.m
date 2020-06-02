@@ -206,10 +206,9 @@
 
  
     
-    return [[nowDateString substringToIndex:[nowDateString length] - 6] stringByReplacingOccurrencesOfString:@" " withString:@"-"];
+    return [nowDateString substringToIndex:[nowDateString length] - 6];
     
 
-    
 }
 
 
