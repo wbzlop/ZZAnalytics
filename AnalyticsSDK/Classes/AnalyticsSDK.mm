@@ -25,7 +25,7 @@
 @property (nonatomic,retain)ZZAnalyticsTask *task;
 @property (nonatomic,assign)NSTimeInterval enterTimer;
 @property (nonatomic,retain)ZZReachability *reach;
-@property (nonatomic,assign)BOOL first;
+@property (nonatomic,assign)BOOL canUploadByFront;
 @property (nonatomic,assign)BOOL force;
 @end
 
@@ -97,15 +97,15 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
     {
         [[ZZAnalyticsUser shareInstance] track:nil withName:@"app_front" withValue:@"8" withId:nil withStatus:1 withMsg:nil withInfo:nil];
         
-        if(!_first && self.task != nil && ![self isNotReachable])
+        if(_canUploadByFront && self.task != nil && ![self isNotReachable])
         {
 //            NSLog(@"回到前台，开始批量任务");
            [self.task analyticsTask];
             
            [self.task resume];
-            
-
         }
+        
+        _canUploadByFront = YES;
     }
     else
     {
@@ -116,7 +116,7 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
         
 
     }
-    _first = NO;
+   
     
     
 }
@@ -156,7 +156,7 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
 {
     NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
     NSString *channel = [userDefault objectForKey:ARCHIVE_KEY_CHANNEL];
-    _first = YES;
+
     //是否有网络
     if(!_initComplete && [self.reach currentReachabilityStatus] != 0 && (channel != nil || _force))
     {
@@ -238,6 +238,12 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
 }
 
 
+/// 统计事件
+/// @param name 事件名
+/// @param value 事件值（可nil）
+/// @param eventId 事件ID（可nil）
+/// @param configVersion 策略版本（可nil）
+/// @param info 事件map（可nil）
 +(void)trackWithName:(NSString *)name eventValue:(NSString *)value eventId:(NSString *)eventId eventConfigVersion:(NSString *)configVersion enentInfo:(NSDictionary *)info
 {
 
@@ -245,6 +251,9 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
     [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_USER content:body];
 }
 
+
+/// 统计事件
+/// @param name 事件名
 +(void)trackWithName:(NSString *)name
 {
     
@@ -252,12 +261,20 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
     [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_USER content:body];
 }
 
+
+/// 统计事件
+/// @param name  事件名
+/// @param info 事件map（可nil）
 +(void)trackWithName:(NSString *)name eventInfo:(NSDictionary *)info
 {
        NSString *body = [[ZZBodyHelper defaultBodyHelper] creatUserBody:nil withName:name withValue:nil withId:nil withStatus:1 withMsg:nil withInfo:info];
     [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_USER content:body];
 }
 
+
+/// 统计事件
+/// @param name 事件名
+/// @param value 事件值（可nil）
 +(void)trackWithName:(NSString *)name eventValue:(NSString *)value
 {
         NSString *body = [[ZZBodyHelper defaultBodyHelper] creatUserBody:nil withName:name withValue:value withId:nil withStatus:1 withMsg:nil withInfo:nil];

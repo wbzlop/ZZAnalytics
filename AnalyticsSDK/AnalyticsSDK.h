@@ -28,12 +28,30 @@
 /// @param channel <#channel description#>
 +(void)setChannel:(NSString *)channel;
 
+
+/// 统计事件
+/// @param name  事件名
+/// @param info 事件map（可nil）
 +(void)trackWithName:(NSString *)name eventInfo:(NSDictionary *)info;
 
+
+/// 统计事件
+/// @param name 事件名
+/// @param value 事件值（可nil）
 +(void)trackWithName:(NSString *)name eventValue:(NSString *)value;
 
+
+
+/// 统计事件
+/// @param name 事件名
 +(void)trackWithName:(NSString *)name;
 
+/// 统计事件
+/// @param name 事件名
+/// @param value 事件值（可nil）
+/// @param eventId 事件ID（可nil）
+/// @param configVersion 策略版本（可nil）
+/// @param info 事件map（可nil）
 +(void)trackWithName:(NSString *)name eventValue:(NSString *)value eventId:(NSString *)eventId eventConfigVersion:(NSString *)configVersion enentInfo:(NSDictionary *)info;
 
 @end

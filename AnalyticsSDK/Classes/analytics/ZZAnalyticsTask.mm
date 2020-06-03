@@ -29,7 +29,7 @@
     lineDelimiter =[NSString stringWithFormat:@"%C", 0x0002];
     dispatch_queue_t  queue = dispatch_get_global_queue(0, 0);
      _timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queue);
-    dispatch_source_set_timer(_timer, DISPATCH_TIME_NOW, 10 * NSEC_PER_SEC, 0);
+    dispatch_source_set_timer(_timer, DISPATCH_TIME_NOW,2 * 60 * NSEC_PER_SEC, 0);
     dispatch_source_set_event_handler(_timer, ^{
 
 //         NSLog(@"时间到，开始批量任务");

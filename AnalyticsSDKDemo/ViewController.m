@@ -31,9 +31,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [AnalyticsSDK initWithAppkey:@"B7P1QWHQROD9FRJ1YL49YX90" printLog:YES andIsCN:YES];
-    
-
-
 
 }
 
@@ -44,6 +41,14 @@
     [dict setValue:_infoValueText.text forKey:_infoKeyText.text];
     
     [AnalyticsSDK trackWithName:_nameText.text eventValue:_valueText.text eventId:_idText.text eventConfigVersion:_configVersionText.text enentInfo:dict];
+    
+    
+    
+    NSMutableDictionary<NSString *,NSString *> *eventInfo = [NSMutableDictionary dictionary];
+    [dict setValue:@"value1" forKey:@"key1"];
+    [dict setValue:@"value2" forKey:@"key2"];
+    
+    [AnalyticsSDK trackWithName:@"eventName" eventValue:@"eventValue" eventId:@"eventId" eventConfigVersion:@"configVersion" enentInfo:eventInfo];
 }
 
 - (IBAction)check905:(id)sender {
