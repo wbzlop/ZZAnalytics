@@ -16,7 +16,7 @@
 
 ```objective-c
 //引入库
-#import <AnalyticsSDK/AnalyticsSDK.h>
+#import <ZZAnalyticsSDK/AnalyticsSDK.h>
 ```
 
 ⚠️：如果采用**静态库集成**，**需要将引用AnalyticsSDK的源文件后缀.m改为.mm**。
