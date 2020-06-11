@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZZAnalyticsSDK'
-  s.version='1.0.1'
+  s.version='1.0.4'
 
   s.summary          = 'A short description of ZZAnalyticsSDK.'
 
@@ -40,7 +40,9 @@ TODO: Add long description of the pod here.
 
   s.frameworks = "AdSupport", "CoreTelephony", "SystemConfiguration"
 
-  s.public_header_files = ['AnalyticsSDK/AnalyticsSDK.h']
+  s.public_header_files = ['AnalyticsSDK/AnalyticsSDK.h',
+                          'AnalyticsSDK/Classes/SAMKeychain/Sources/SAMKeychain.h',
+                          'AnalyticsSDK/Classes/common/TPDeviceHelper.h',]
 
   s.requires_arc = true
 
