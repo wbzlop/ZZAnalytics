@@ -54,5 +54,13 @@
 /// @param info 事件map（可nil）
 +(void)trackWithName:(NSString *)name eventValue:(NSString *)value eventId:(NSString *)eventId eventConfigVersion:(NSString *)configVersion enentInfo:(NSDictionary *)info;
 
+/// 统计事件
+/// @param name 事件名
+/// @param value 事件值（可nil）
+/// @param eventId 事件ID（可nil）
+/// @param configVersion 策略版本（可nil）
+/// @param infoStr 事件map（可nil）
++(void)trackWithName:(NSString *)name eventValue:(NSString *)value eventId:(NSString *)eventId eventConfigVersion:(NSString *)configVersion enentInfoStr:(NSString *)infoStr;
+
 @end
 

@@ -104,6 +104,43 @@
 }
 
 
+-(NSString *)creatUserBody:(NSString *)configVersion withName:(NSString *)name withValue:(NSString *)value withId:(NSString *)Id withStatus:(NSUInteger)status withMsg:(NSString *)msg withInfoStr:(NSString *)infoStr
+{
+    NSString* log_time = [self getBJTime];
+    NSString* create_date = [log_time substringToIndex:[log_time length] - 9];
+
+    NSArray *componentArray = @[
+     log_time,
+     create_date,
+     ZZSDK_VersionCode,
+     ZZSDK_VersionString,
+     productVersionCode,
+     productVersionNmae,
+     @(ZZSDK_ServiceVersion),
+     @(ZZSDK_DataVersion),
+     emptyStr,//imei
+     emptyStr,//android
+     emptyStr,//googleId
+     emptyStr,//batId
+     [ZZBaseHelper defaultBaseHelper].appkey,
+     configVersion==nil?emptyStr:configVersion,
+     name,
+     infoStr==nil?emptyStr:infoStr,
+     value==nil?emptyStr:value,
+     @(status),
+     msg==nil?emptyStr:msg,//msg
+     Id==nil?emptyStr:Id,
+     [self serial],
+     emptyStr,//oaid
+     [ZZBaseHelper defaultBaseHelper].odid==nil?emptyStr:[ZZBaseHelper defaultBaseHelper].odid,//user_id
+     idfa
+    ];
+    
+    NSLog(@"======90-5=======\n%@",[componentArray componentsJoinedByString:@"--"]);
+
+    return [componentArray componentsJoinedByString:paramDelimiter];
+}
+
 -(NSString *)creatBaseBody
 {
     NSString* log_time = [self getBJTime];

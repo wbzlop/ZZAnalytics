@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <AnalyticsSDK/AnalyticsSDK.h>
-
+#import <ZZAnalyticsSDK/AnalyticsSDK.h>
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *nameText;
 @property (weak, nonatomic) IBOutlet UITextField *idText;

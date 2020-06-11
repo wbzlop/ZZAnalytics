@@ -3,8 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5282769724874D4C004A670F /* lipoScript */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5282769824874D4C004A670F /* Build configuration list for PBXAggregateTarget "lipoScript" */;
+			buildPhases = (
+				5282769B24874D54004A670F /* ShellScript */,
+			);
+			dependencies = (
+				5282769D24874D6F004A670F /* PBXTargetDependency */,
+			);
+			name = lipoScript;
+			productName = lipoScript;
+		};
+/* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
 		5200227A2474E3A6009A0517 /* ZZAnalyticsUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 520022782474E3A6009A0517 /* ZZAnalyticsUser.h */; };
@@ -17,8 +32,8 @@
 		52315E4724725CE7001DB71A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52315E4524725CE7001DB71A /* LaunchScreen.storyboard */; };
 		52315E4A24725CE7001DB71A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52315E4924725CE7001DB71A /* main.m */; };
 		52315E5924725CFE001DB71A /* AnalyticsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 52315E5724725CFE001DB71A /* AnalyticsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52315E5C24725CFE001DB71A /* AnalyticsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52315E5524725CFE001DB71A /* AnalyticsSDK.framework */; };
-		52315E5D24725CFE001DB71A /* AnalyticsSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52315E5524725CFE001DB71A /* AnalyticsSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52315E5C24725CFE001DB71A /* ZZAnalyticsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52315E5524725CFE001DB71A /* ZZAnalyticsSDK.framework */; };
+		52315E5D24725CFE001DB71A /* ZZAnalyticsSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52315E5524725CFE001DB71A /* ZZAnalyticsSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		52315E9A24725DAA001DB71A /* AnalyticsSDK-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 52315E6224725DAA001DB71A /* AnalyticsSDK-Prefix.pch */; };
 		52315EA324725DAA001DB71A /* AnalyticsSDK.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52315E6D24725DAA001DB71A /* AnalyticsSDK.mm */; };
 		52315EA624725DAA001DB71A /* ZZReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 52315E7124725DAA001DB71A /* ZZReachability.h */; };
@@ -69,6 +84,13 @@
 			remoteGlobalIDString = 52315E5424725CFE001DB71A;
 			remoteInfo = AnalyticsSDK;
 		};
+		5282769C24874D6F004A670F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52315E2C24725CE6001DB71A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52315E5424725CFE001DB71A;
+			remoteInfo = AnalyticsSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -78,7 +100,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				52315E5D24725CFE001DB71A /* AnalyticsSDK.framework in Embed Frameworks */,
+				52315E5D24725CFE001DB71A /* ZZAnalyticsSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,7 +124,7 @@
 		52315E4624725CE7001DB71A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52315E4824725CE7001DB71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52315E4924725CE7001DB71A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		52315E5524725CFE001DB71A /* AnalyticsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnalyticsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52315E5524725CFE001DB71A /* ZZAnalyticsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZZAnalyticsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52315E5724725CFE001DB71A /* AnalyticsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalyticsSDK.h; sourceTree = "<group>"; };
 		52315E5824725CFE001DB71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52315E6224725DAA001DB71A /* AnalyticsSDK-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AnalyticsSDK-Prefix.pch"; sourceTree = "<group>"; };
@@ -154,7 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52315E5C24725CFE001DB71A /* AnalyticsSDK.framework in Frameworks */,
+				52315E5C24725CFE001DB71A /* ZZAnalyticsSDK.framework in Frameworks */,
 				BF46AAF3E0CCFEBF17493422 /* libPods-AnalyticsSDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,7 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				52315E3424725CE7001DB71A /* AnalyticsSDKDemo.app */,
-				52315E5524725CFE001DB71A /* AnalyticsSDK.framework */,
+				52315E5524725CFE001DB71A /* ZZAnalyticsSDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -435,7 +457,7 @@
 			);
 			name = AnalyticsSDK;
 			productName = AnalyticsSDK;
-			productReference = 52315E5524725CFE001DB71A /* AnalyticsSDK.framework */;
+			productReference = 52315E5524725CFE001DB71A /* ZZAnalyticsSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -451,6 +473,9 @@
 						CreatedOnToolsVersion = 11.3.1;
 					};
 					52315E5424725CFE001DB71A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					5282769724874D4C004A670F = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -471,6 +496,7 @@
 			targets = (
 				52315E3324725CE7001DB71A /* AnalyticsSDKDemo */,
 				52315E5424725CFE001DB71A /* AnalyticsSDK */,
+				5282769724874D4C004A670F /* lipoScript */,
 			);
 		};
 /* End PBXProject section */
@@ -518,6 +544,23 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		5282769B24874D54004A670F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${ACTION}\" = \"build\" ]\n\nthen\nPROJECT_NAME=\"ZZAnalyticsSDK\"\nSQLITE_NAME=\"SQLiteRepairKit\"\nWCDB_NAME=\"WCDB\"\nWCDB_SQLCIPHER=\"WCDBOptimizedSQLCipher\"\n\nINSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework\n\n\n\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\n\n\n\nif [ -d \"${INSTALL_DIR}\" ]\n\nthen\n\nrm -rf \"${INSTALL_DIR}\"\n\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n\nlipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${INSTALL_DIR}/${PROJECT_NAME}\"\n\nrm -rf \"${SRCROOT}/Products/${PROJECT_NAME}.framework/_CodeSignature\"\nrm -rf \"${SRCROOT}/Products/${PROJECT_NAME}.framework/info.plist\"\n\nlipo -create \"${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${SQLITE_NAME}/lib${SQLITE_NAME}.a\" \"${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${SQLITE_NAME}/lib${SQLITE_NAME}.a\" -output \"${SRCROOT}/Products/${SQLITE_NAME}.a\"\n\nlipo -create \"${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${WCDB_NAME}/lib${WCDB_NAME}.a\" \"${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${WCDB_NAME}/lib${WCDB_NAME}.a\" -output \"${SRCROOT}/Products/${WCDB_NAME}.a\"\n\nlipo -create \"${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${WCDB_SQLCIPHER}/lib${WCDB_SQLCIPHER}.a\" \"${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${WCDB_SQLCIPHER}/lib${WCDB_SQLCIPHER}.a\" -output \"${SRCROOT}/Products/${WCDB_SQLCIPHER}.a\"\n\n#open \"${DEVICE_DIR}\"\n\nopen \"${SRCROOT}/Products\"\n\nfi\n";
 		};
 		C050DF9E280F110BB6D76A33 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -588,6 +631,12 @@
 			isa = PBXTargetDependency;
 			target = 52315E5424725CFE001DB71A /* AnalyticsSDK */;
 			targetProxy = 52315E5A24725CFE001DB71A /* PBXContainerItemProxy */;
+		};
+		5282769D24874D6F004A670F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 52315E5424725CFE001DB71A /* AnalyticsSDK */;
+			targetProxy = 5282769C24874D6F004A670F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -817,6 +866,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 48Y2723L8Y;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -837,6 +887,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -858,7 +909,7 @@
 				);
 				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zz.AnalyticsSDK;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ZZAnalyticsSDK;
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -874,6 +925,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 48Y2723L8Y;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -893,6 +945,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -914,12 +967,28 @@
 				);
 				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zz.AnalyticsSDK;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ZZAnalyticsSDK;
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5282769924874D4C004A670F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5282769A24874D4C004A670F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -949,6 +1018,15 @@
 			buildConfigurations = (
 				52315E5F24725CFE001DB71A /* Debug */,
 				52315E6024725CFE001DB71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5282769824874D4C004A670F /* Build configuration list for PBXAggregateTarget "lipoScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5282769924874D4C004A670F /* Debug */,
+				5282769A24874D4C004A670F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

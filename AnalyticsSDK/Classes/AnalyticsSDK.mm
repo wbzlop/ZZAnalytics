@@ -97,13 +97,12 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
     {
         [[ZZAnalyticsUser shareInstance] track:nil withName:@"app_front" withValue:@"8" withId:nil withStatus:1 withMsg:nil withInfo:nil];
         
-        if(_canUploadByFront && self.task != nil && ![self isNotReachable])
-        {
-//            NSLog(@"回到前台，开始批量任务");
-           [self.task analyticsTask];
-            
-           [self.task resume];
-        }
+//        if(_canUploadByFront && self.task != nil && ![self isNotReachable])
+//        {
+//           [self.task analyticsTask];
+//            
+//           [self.task resume];
+//        }
         
         _canUploadByFront = YES;
     }
@@ -248,6 +247,19 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
 {
 
     NSString *body = [[ZZBodyHelper defaultBodyHelper] creatUserBody:configVersion withName:name withValue:value withId:eventId withStatus:1 withMsg:nil withInfo:info];
+    [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_USER content:body];
+}
+
+/// 统计事件
+/// @param name 事件名
+/// @param value 事件值（可nil）
+/// @param eventId 事件ID（可nil）
+/// @param configVersion 策略版本（可nil）
+/// @param info 事件map（可nil）
++(void)trackWithName:(NSString *)name eventValue:(NSString *)value eventId:(NSString *)eventId eventConfigVersion:(NSString *)configVersion enentInfoStr:(NSString *)infoStr
+{
+
+    NSString *body = [[ZZBodyHelper defaultBodyHelper] creatUserBody:configVersion withName:name withValue:value withId:eventId withStatus:1 withMsg:nil withInfoStr:infoStr];
     [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_USER content:body];
 }
 
