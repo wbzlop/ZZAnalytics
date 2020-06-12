@@ -42,7 +42,8 @@ TODO: Add long description of the pod here.
 
   s.public_header_files = ['AnalyticsSDK/AnalyticsSDK.h',
                           'AnalyticsSDK/Classes/SAMKeychain/Sources/SAMKeychain.h',
-                          'AnalyticsSDK/Classes/common/TPDeviceHelper.h',]
+                          'AnalyticsSDK/Classes/SAMKeychain/Sources/SAMKeychainQuery.h',
+                          'AnalyticsSDK/Classes/common/TPDeviceHelper.h']
 
   s.requires_arc = true
 

@@ -54,7 +54,7 @@
 		523719D52473CFBD0072B556 /* SAMKeychain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 523719C42473CFBD0072B556 /* SAMKeychain.bundle */; };
 		523719D82473CFBD0072B556 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 523719C82473CFBD0072B556 /* SAMKeychainQuery.m */; };
 		523719D92473CFBD0072B556 /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 523719C92473CFBD0072B556 /* SAMKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		523719DC2473CFBD0072B556 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 523719CC2473CFBD0072B556 /* SAMKeychainQuery.h */; };
+		523719DC2473CFBD0072B556 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 523719CC2473CFBD0072B556 /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		523719DD2473CFBD0072B556 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 523719CD2473CFBD0072B556 /* SAMKeychain.m */; };
 		523719E12473CFCA0072B556 /* TPDeviceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 523719DF2473CFCA0072B556 /* TPDeviceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		523719E22473CFCA0072B556 /* TPDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 523719E02473CFCA0072B556 /* TPDeviceHelper.m */; };
@@ -396,6 +396,7 @@
 			files = (
 				52C21F0E247FF8BF0049240B /* ZZDBModel.h in Headers */,
 				523719D92473CFBD0072B556 /* SAMKeychain.h in Headers */,
+				523719DC2473CFBD0072B556 /* SAMKeychainQuery.h in Headers */,
 				523719E12473CFCA0072B556 /* TPDeviceHelper.h in Headers */,
 				5200227A2474E3A6009A0517 /* ZZAnalyticsUser.h in Headers */,
 				52315EB724725DAA001DB71A /* ZZConstant.h in Headers */,
@@ -403,7 +404,6 @@
 				52315E5924725CFE001DB71A /* AnalyticsSDK.h in Headers */,
 				52C21F0D247FF8BF0049240B /* ZZDBHelper.h in Headers */,
 				52AF3D3424824B6100C13602 /* ZZAnalyticsTask.h in Headers */,
-				523719DC2473CFBD0072B556 /* SAMKeychainQuery.h in Headers */,
 				52315E9A24725DAA001DB71A /* AnalyticsSDK-Prefix.pch in Headers */,
 				52315EBA24725DAA001DB71A /* ZZCache.h in Headers */,
 				52315EC224725DAA001DB71A /* ZZBaseObject.h in Headers */,

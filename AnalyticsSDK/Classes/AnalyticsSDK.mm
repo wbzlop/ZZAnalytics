@@ -97,13 +97,11 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
     {
         [[ZZAnalyticsUser shareInstance] track:nil withName:@"app_front" withValue:@"8" withId:nil withStatus:1 withMsg:nil withInfo:nil];
         
-//        if(_canUploadByFront && self.task != nil && ![self isNotReachable])
-//        {
-//           [self.task analyticsTask];
-//            
-//           [self.task resume];
-//        }
-        
+        if(_canUploadByFront && self.task != nil && ![self isNotReachable])
+        {
+           [self.task analyticsTask];
+           [self.task resume];
+        }
         _canUploadByFront = YES;
     }
     else
