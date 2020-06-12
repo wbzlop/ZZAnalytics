@@ -92,7 +92,7 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
 -(void)applicationDidBecomeActive
 {
 
-    _enterTimer = [[NSDate now] timeIntervalSince1970];
+    _enterTimer = [[NSDate date] timeIntervalSince1970];
     if(_initComplete)
     {
         [[ZZAnalyticsUser shareInstance] track:nil withName:@"app_front" withValue:@"8" withId:nil withStatus:1 withMsg:nil withInfo:nil];
@@ -102,18 +102,16 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
            [self.task analyticsTask];
            [self.task resume];
         }
-        _canUploadByFront = YES;
+        
     }
     else
     {
         
         NSString *body = [[ZZBodyHelper defaultBodyHelper] creatUserBody:nil withName:@"app_front" withValue:@"8" withId:nil withStatus:1 withMsg:nil withInfo:nil];
         [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_USER content:body];
-        
-        
 
     }
-   
+   _canUploadByFront = YES;
     
     
 }
@@ -122,7 +120,7 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
 {
 
     
-    NSTimeInterval now = [[NSDate now] timeIntervalSince1970];
+    NSTimeInterval now = [[NSDate date] timeIntervalSince1970];
 
     NSMutableDictionary<NSString *,NSString*> *dict = [NSMutableDictionary dictionary];
     [dict setValue:[NSString stringWithFormat:@"%0.f",_enterTimer]  forKey:@"entry_time"];
