@@ -111,7 +111,7 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
         [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_USER content:body];
 
     }
-   _canUploadByFront = YES;
+   
     
     
 }
@@ -119,7 +119,7 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
 -(void)applicationEnterBackground
 {
 
-    
+    _canUploadByFront = YES;
     NSTimeInterval now = [[NSDate date] timeIntervalSince1970];
 
     NSMutableDictionary<NSString *,NSString*> *dict = [NSMutableDictionary dictionary];
