@@ -40,12 +40,10 @@ TODO: Add long description of the pod here.
 
   s.frameworks = "AdSupport", "CoreTelephony", "SystemConfiguration"
 
-  #s.public_header_files = ['"AnalyticsSDK/ZZAnalyticsSDK.framework"',
+  s.public_header_files = ['AnalyticsSDK/AnalyticsSDK.h',
                           'AnalyticsSDK/Classes/SAMKeychain/Sources/SAMKeychain.h',
                           'AnalyticsSDK/Classes/SAMKeychain/Sources/SAMKeychainQuery.h',
                           'AnalyticsSDK/Classes/common/TPDeviceHelper.h']
-
-  s.public_header_files = ["AnalyticsSDK/ZZAnalyticsSDK.framework/Headers/*.*"]
 
   s.requires_arc = true
 
@@ -55,6 +53,6 @@ TODO: Add long description of the pod here.
 
   s.dependency 'WCDB'
 
-  s.vendored_frameworks = "AnalyticsSDK/ZZAnalyticsSDK.framework"
+
 
 end
