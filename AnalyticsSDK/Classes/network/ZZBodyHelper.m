@@ -84,7 +84,7 @@
      emptyStr,//android
      emptyStr,//googleId
      emptyStr,//batId
-     [ZZBaseHelper defaultBaseHelper].appkey,
+     [ZZBaseHelper defaultBaseHelper].appkey==nil?@"%@":[ZZBaseHelper defaultBaseHelper].appkey,
      configVersion==nil?emptyStr:configVersion,
      name,
      info==nil?emptyStr:[[ZZBaseHelper defaultBaseHelper] convertToJsonData:info],

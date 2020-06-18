@@ -29,8 +29,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [AnalyticsSDK initWithAppkey:@"B7P1QWHQROD9FRJ1YL49YX90" printLog:YES andIsCN:YES];
+    
 
+}
+- (IBAction)initAnalytics:(id)sender {
+    
+    [AnalyticsSDK initWithAppkey:@"B7P1QWHQROD9FRJ1YL49YX90" printLog:YES andIsCN:YES];
 }
 
 

@@ -123,8 +123,8 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
     NSTimeInterval now = [[NSDate date] timeIntervalSince1970];
 
     NSMutableDictionary<NSString *,NSString*> *dict = [NSMutableDictionary dictionary];
-    [dict setValue:[NSString stringWithFormat:@"%0.f",_enterTimer]  forKey:@"entry_time"];
-    [dict setValue:[NSString stringWithFormat:@"%0.f",now]  forKey:@"departure_time"];
+    [dict setValue:[NSString stringWithFormat:@"%0.f",_enterTimer * 1000.0]  forKey:@"entry_time"];
+    [dict setValue:[NSString stringWithFormat:@"%0.f",now * 1000.0]  forKey:@"departure_time"];
     
     NSString *body = [[ZZBodyHelper defaultBodyHelper] creatUserBody:nil withName:@"app_exit" withValue:@"9" withId:nil withStatus:1 withMsg:nil withInfo:dict];
     [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_USER content:body];
@@ -153,7 +153,7 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
     NSString *channel = [userDefault objectForKey:ARCHIVE_KEY_CHANNEL];
 
     //是否有网络
-    if(!_initComplete && [self.reach currentReachabilityStatus] != 0 && (channel != nil || _force))
+    if(!_initComplete && [self.reach currentReachabilityStatus] != 0 && (channel != nil || _force) && [ZZBaseHelper defaultBaseHelper].appkey != nil)
     {
         [[AnalyticsSDK defaultSDK] beginTask];
         
@@ -197,21 +197,15 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
 
 +(void)initWithAppkey:(NSString *)appkey printLog:(BOOL)printLog andIsCN:(BOOL)isCN
 {
-    NSLog(@"Init ZZAnalyticsSDK , APPKEY:%@ ,isCN:%d",appkey,isCN);
-    
-    
-    
     [ZZBaseHelper defaultBaseHelper].appkey = appkey;
     [ZZBaseHelper defaultBaseHelper].cn = isCN;
     [ZZBaseHelper defaultBaseHelper].debug = printLog;
     
-    [[AnalyticsSDK defaultSDK] addObserver];
-    
+    NSLog(@"Init ZZAnalyticsSDK , APPKEY:%@ ,isCN:%d",appkey,isCN);
+
     [[AnalyticsSDK defaultSDK] tryInit];
     
     [[AnalyticsSDK defaultSDK] checkChannel];
-    
- 
 }
 
 
@@ -287,6 +281,11 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
 {
         NSString *body = [[ZZBodyHelper defaultBodyHelper] creatUserBody:nil withName:name withValue:value withId:nil withStatus:1 withMsg:nil withInfo:nil];
     [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_USER content:body];
+}
+
++(void)load
+{
+    [[AnalyticsSDK defaultSDK] addObserver];
 }
 
 @end

@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZZAnalyticsSDK'
-  s.version='1.0.5'
+  s.version='1.1.2'
 
   s.summary          = 'A short description of ZZAnalyticsSDK.'
 
@@ -40,19 +40,21 @@ TODO: Add long description of the pod here.
 
   s.frameworks = "AdSupport", "CoreTelephony", "SystemConfiguration"
 
-  s.public_header_files = ['AnalyticsSDK/AnalyticsSDK.h',
+  #s.public_header_files = ['"AnalyticsSDK/ZZAnalyticsSDK.framework"',
                           'AnalyticsSDK/Classes/SAMKeychain/Sources/SAMKeychain.h',
                           'AnalyticsSDK/Classes/SAMKeychain/Sources/SAMKeychainQuery.h',
                           'AnalyticsSDK/Classes/common/TPDeviceHelper.h']
 
+  s.public_header_files = ["AnalyticsSDK/ZZAnalyticsSDK.framework/Headers/*.*"]
+
   s.requires_arc = true
 
-  s.pod_target_xcconfig = { 'OTHER_CFLAGS' => '-fembed-bitcode','VALID_ARCHS' => 'arm64'}
+  s.pod_target_xcconfig = { 'OTHER_CFLAGS' => '-fembed-bitcode'}
 
   #s.resource=['LFMediation/Info.plist']
 
   s.dependency 'WCDB'
 
-
+  s.vendored_frameworks = "AnalyticsSDK/ZZAnalyticsSDK.framework"
 
 end
