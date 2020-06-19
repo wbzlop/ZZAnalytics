@@ -192,6 +192,8 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
             [weakSelf tryInit];
         });
     }
+    
+    
 }
 
 
@@ -281,19 +283,19 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
 {
         NSString *body = [[ZZBodyHelper defaultBodyHelper] creatUserBody:nil withName:name withValue:value withId:nil withStatus:1 withMsg:nil withInfo:nil];
     [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_USER content:body];
+    
+    
 }
 
 +(void)load
 {
-    zz_work_queue_dispatch_async(^{
-        
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         NSString *body = [[ZZBodyHelper defaultBodyHelper] creatBaseBody];
         [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_BASE content:body];
-        
+
 
         NSString *appOpen = [[ZZBodyHelper defaultBodyHelper] creatUserBody:nil withName:@"app_open" withValue:@"4" withId:nil withStatus:1 withMsg:nil withInfo:nil];
         [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_USER content:appOpen];
-           
     });
     
     [[AnalyticsSDK defaultSDK] addObserver];

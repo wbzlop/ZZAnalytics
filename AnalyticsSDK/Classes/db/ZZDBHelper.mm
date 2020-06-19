@@ -28,8 +28,8 @@
 
 - (WCTDatabase *)database {
     static WCTDatabase *db = nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
+    static dispatch_once_t onceDatabase;
+    dispatch_once(&onceDatabase, ^{
         NSString *docDir = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
         db = [[WCTDatabase alloc] initWithPath:[docDir stringByAppendingPathComponent:@"ZZDB"]];
         if ([db canOpen]) {
@@ -38,6 +38,7 @@
         }
     });
     _database = db;
+
     return _database;
 }
 
