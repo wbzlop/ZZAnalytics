@@ -56,6 +56,12 @@
                 
             }else {
                 NSLog(@"error:%@",error );
+                if(data != nil)
+                {
+                    NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+                    NSLog(@"return:%@",dict);
+                }
+                
                 completeHandler(dataTask,NO,error,nil);
             }
         }];

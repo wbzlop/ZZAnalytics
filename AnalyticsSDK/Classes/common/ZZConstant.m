@@ -10,13 +10,13 @@
 
 @implementation ZZConstant
 
-NSString* const ZZSDK_VersionString = @"1.0.0";
+NSString* const ZZSDK_VersionString = @"1.2.0";
 
-NSString* const ZZSDK_VersionCode = @"1";
+NSString* const ZZSDK_VersionCode = @"3";
 
-int const ZZSDK_ServiceVersion = 11;
+int const ZZSDK_ServiceVersion = 12;
 
-int const ZZSDK_DataVersion = 11;
+int const ZZSDK_DataVersion = 12;
 
 //国内加密key
 NSString* const ZZSDK_CN_KEY = @"n!Ka1loy9f#8LdMX";

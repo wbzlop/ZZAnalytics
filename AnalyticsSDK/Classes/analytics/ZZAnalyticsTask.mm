@@ -135,7 +135,8 @@
     {
         NSMutableArray *bodyArr = [NSMutableArray array];
         for (ZZDBModel *model in models) {
-            [bodyArr addObject:model.body];
+            NSString *body = [NSString stringWithFormat:model.body,[ZZBaseHelper defaultBaseHelper].appkey];
+            [bodyArr addObject:body];
         }
          __weak ZZAnalyticsTask* weakSelf = self;
         NSLog(@"批量======90-4=======\n%@",[bodyArr componentsJoinedByString:@"\n"]);

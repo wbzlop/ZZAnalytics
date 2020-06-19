@@ -24,6 +24,7 @@
     
     NSString * paramDelimiter;
     NSString * lineDelimiter;
+    NSString * idfv;
 }
 
 
@@ -49,7 +50,7 @@
     productVersionCode = [infoDictionary objectForKey:@"CFBundleVersion"];
     idfa = [[TPDeviceHelper defaultHelper] getIDFA];
     emptyStr = @"null";
-    
+    idfv = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
     //https://stackoverflow.com/questions/17155210/universal-character-name-error-in-nsstring-when-using-unicode-character
     paramDelimiter = [NSString stringWithFormat:@"%C", 0x0001];
     lineDelimiter =[NSString stringWithFormat:@"%C", 0x0002];
@@ -95,7 +96,8 @@
      [self serial],
      emptyStr,//oaid
      [ZZBaseHelper defaultBaseHelper].odid==nil?emptyStr:[ZZBaseHelper defaultBaseHelper].odid,//user_id
-     idfa
+     idfa,
+     idfv
     ];
     
     NSLog(@"======90-5=======\n%@",[componentArray componentsJoinedByString:@"--"]);
@@ -122,7 +124,7 @@
      emptyStr,//android
      emptyStr,//googleId
      emptyStr,//batId
-     [ZZBaseHelper defaultBaseHelper].appkey,
+     [ZZBaseHelper defaultBaseHelper].appkey==nil?@"%@":[ZZBaseHelper defaultBaseHelper].appkey,
      configVersion==nil?emptyStr:configVersion,
      name,
      infoStr==nil?emptyStr:infoStr,
@@ -133,7 +135,8 @@
      [self serial],
      emptyStr,//oaid
      [ZZBaseHelper defaultBaseHelper].odid==nil?emptyStr:[ZZBaseHelper defaultBaseHelper].odid,//user_id
-     idfa
+     idfa,
+     idfv
     ];
     
     NSLog(@"======90-5=======\n%@",[componentArray componentsJoinedByString:@"--"]);
@@ -183,7 +186,7 @@
      emptyStr,//android 无
      emptyStr,//googleId    无
      emptyStr,//batId       无
-     [ZZBaseHelper defaultBaseHelper].appkey,
+     [ZZBaseHelper defaultBaseHelper].appkey==nil?@"%@":[ZZBaseHelper defaultBaseHelper].appkey,
      emptyStr,//usr_id 即uk
      [ZZBaseHelper defaultBaseHelper].channel==nil?emptyStr:[ZZBaseHelper defaultBaseHelper].channel,//channel_code
      country,//国家
@@ -208,7 +211,8 @@
      [ZZBaseHelper defaultBaseHelper].odid==nil?emptyStr:[ZZBaseHelper defaultBaseHelper].odid,//odid
      emptyStr,//installer       无
      emptyStr,//mac             暂时不采集
-     idfa
+     idfa,
+     idfv
     ];
     
     

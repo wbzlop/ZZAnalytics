@@ -142,7 +142,7 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
     _task = [[ZZAnalyticsTask alloc] init];
     [self.task begin];
     
-    [[ZZAnalyticsUser shareInstance] track:nil withName:@"app_open" withValue:@"4" withId:nil withStatus:1 withMsg:nil withInfo:nil];
+   
     
 }
 
@@ -157,7 +157,7 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
     {
         [[AnalyticsSDK defaultSDK] beginTask];
         
-        [[ZZAnalyticsBase shareInstance] track];
+//        [[ZZAnalyticsBase shareInstance] track];
         
         _initComplete = YES;
         
@@ -285,6 +285,17 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
 
 +(void)load
 {
+    zz_work_queue_dispatch_async(^{
+        
+        NSString *body = [[ZZBodyHelper defaultBodyHelper] creatBaseBody];
+        [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_BASE content:body];
+        
+
+        NSString *appOpen = [[ZZBodyHelper defaultBodyHelper] creatUserBody:nil withName:@"app_open" withValue:@"4" withId:nil withStatus:1 withMsg:nil withInfo:nil];
+        [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_USER content:appOpen];
+           
+    });
+    
     [[AnalyticsSDK defaultSDK] addObserver];
 }
 
