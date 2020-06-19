@@ -30,7 +30,7 @@
 @end
 
 NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
-
+BOOL static HasArchiveOpen = NO;
 @implementation AnalyticsSDK
 
 +(instancetype)defaultSDK
@@ -155,10 +155,10 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
     //是否有网络
     if(!_initComplete && [self.reach currentReachabilityStatus] != 0 && (channel != nil || _force) && [ZZBaseHelper defaultBaseHelper].appkey != nil)
     {
+        [AnalyticsSDK checkInsertAppOpen ];
+
         [[AnalyticsSDK defaultSDK] beginTask];
-        
-//        [[ZZAnalyticsBase shareInstance] track];
-        
+
         _initComplete = YES;
         
     }
@@ -287,18 +287,41 @@ NSString *  const ARCHIVE_KEY_CHANNEL = @"TPSDK_CHANNEL";
     
 }
 
-+(void)load
++(void)checkInsertAppOpen
 {
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    if(!HasArchiveOpen)
+    {
+        [AnalyticsSDK defaultSDK].enterTimer = [[NSDate date] timeIntervalSince1970];
+        HasArchiveOpen = YES;
         NSString *body = [[ZZBodyHelper defaultBodyHelper] creatBaseBody];
         [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_BASE content:body];
 
 
         NSString *appOpen = [[ZZBodyHelper defaultBodyHelper] creatUserBody:nil withName:@"app_open" withValue:@"4" withId:nil withStatus:1 withMsg:nil withInfo:nil];
         [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_USER content:appOpen];
+        
+        
+        NSString *appFront = [[ZZBodyHelper defaultBodyHelper] creatUserBody:nil withName:@"app_front" withValue:@"8" withId:nil withStatus:1 withMsg:nil withInfo:nil];
+        [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_USER content:appFront];
+        
+        
+        
+    }
+}
+
++(void)load
+{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        zz_work_queue_dispatch_async(^{
+            
+            [AnalyticsSDK checkInsertAppOpen ];
+            
+            [[AnalyticsSDK defaultSDK] addObserver];
+        });
     });
     
-    [[AnalyticsSDK defaultSDK] addObserver];
+    
 }
 
 @end

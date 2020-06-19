@@ -100,7 +100,7 @@
      idfv
     ];
     
-    NSLog(@"======90-5=======\n%@",[componentArray componentsJoinedByString:@"--"]);
+    NSLog(@"======90-5 插入======= %@ ==> %@",name,[componentArray componentsJoinedByString:@"--"]);
 
     return [componentArray componentsJoinedByString:paramDelimiter];
 }
@@ -139,7 +139,7 @@
      idfv
     ];
     
-    NSLog(@"======90-5=======\n%@",[componentArray componentsJoinedByString:@"--"]);
+    NSLog(@"======90-5 插入======= %@ ==> %@",name,[componentArray componentsJoinedByString:@"--"]);
 
     return [componentArray componentsJoinedByString:paramDelimiter];
 }
@@ -218,7 +218,7 @@
     
     
     
-    NSLog(@"======90-4=======\n%@",[componentArray componentsJoinedByString:@"--"]);
+    NSLog(@"======90-4 插入======= %@",[componentArray componentsJoinedByString:@"--"]);
 
     return [componentArray componentsJoinedByString:paramDelimiter];
 }

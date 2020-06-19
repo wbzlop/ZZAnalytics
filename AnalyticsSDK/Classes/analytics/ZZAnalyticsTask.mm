@@ -99,7 +99,7 @@
             NSString *body = [NSString stringWithFormat:model.body,[ZZBaseHelper defaultBaseHelper].appkey];
             [bodyArr addObject:body];
         }
-        NSLog(@"批量======90-5=======\n%@",[bodyArr componentsJoinedByString:@"\n"]);
+        NSLog(@"批量======90-5======= %@",[bodyArr componentsJoinedByString:@"[=================]"]);
         __weak ZZAnalyticsTask* weakSelf = self;
         [[ZZAnalyticsUser shareInstance] track:[bodyArr componentsJoinedByString:lineDelimiter] complete:^(BOOL success) {
            if(!success)
@@ -139,7 +139,7 @@
             [bodyArr addObject:body];
         }
          __weak ZZAnalyticsTask* weakSelf = self;
-        NSLog(@"批量======90-4=======\n%@",[bodyArr componentsJoinedByString:@"\n"]);
+        NSLog(@"批量======90-4======= %@",[bodyArr componentsJoinedByString:@"[=================]"]);
         [[ZZAnalyticsBase shareInstance] track:[bodyArr componentsJoinedByString:lineDelimiter] complete:^(BOOL success) {
 
             if(!success)
