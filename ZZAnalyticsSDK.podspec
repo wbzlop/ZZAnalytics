@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZZAnalyticsSDK'
-  s.version='1.2.2'
+  s.version='1.2.3'
 
   s.summary          = 'A short description of ZZAnalyticsSDK.'
 

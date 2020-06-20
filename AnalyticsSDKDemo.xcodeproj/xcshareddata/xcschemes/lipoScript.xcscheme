@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52315E3324725CE7001DB71A"
-               BuildableName = "AnalyticsSDKDemo.app"
-               BlueprintName = "AnalyticsSDKDemo"
+               BlueprintIdentifier = "5282769724874D4C004A670F"
+               BuildableName = "lipoScript"
+               BlueprintName = "lipoScript"
                ReferencedContainer = "container:AnalyticsSDKDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -40,16 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52315E3324725CE7001DB71A"
-            BuildableName = "AnalyticsSDKDemo.app"
-            BlueprintName = "AnalyticsSDKDemo"
-            ReferencedContainer = "container:AnalyticsSDKDemo.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -57,16 +47,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52315E3324725CE7001DB71A"
-            BuildableName = "AnalyticsSDKDemo.app"
-            BlueprintName = "AnalyticsSDKDemo"
+            BlueprintIdentifier = "5282769724874D4C004A670F"
+            BuildableName = "lipoScript"
+            BlueprintName = "lipoScript"
             ReferencedContainer = "container:AnalyticsSDKDemo.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
