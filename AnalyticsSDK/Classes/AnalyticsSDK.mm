@@ -229,6 +229,12 @@ BOOL static HasArchiveOpen = NO;
 }
 
 
++(void)trackWithName:(NSString *)name eventValue:(NSString *)value eventId:(NSString *)eventId eventConfigVersion:(NSString *)configVersion eventStatus:(NSUInteger)status errorMsg:(NSString *)errorMsg enentInfoStr:(NSString *)infoStr
+{
+        NSString *body = [[ZZBodyHelper defaultBodyHelper] creatUserBody:configVersion withName:name withValue:value withId:eventId withStatus:status withMsg:errorMsg withInfoStr:infoStr];
+    [[ZZDBHelper shareInstance] addToTable:ZZSDK_TABLE_USER content:body];
+}
+
 /// 统计事件
 /// @param name 事件名
 /// @param value 事件值（可nil）
