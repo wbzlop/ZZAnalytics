@@ -156,6 +156,8 @@ BOOL static HasArchiveOpen = NO;
     if(!_initComplete && [self.reach currentReachabilityStatus] != 0 && (channel != nil || _force) && [ZZBaseHelper defaultBaseHelper].appkey != nil)
     {
         [AnalyticsSDK checkInsertAppOpen ];
+        
+        [ZZBaseHelper defaultBaseHelper].channel = channel;
 
         [[AnalyticsSDK defaultSDK] beginTask];
 

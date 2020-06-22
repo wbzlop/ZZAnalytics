@@ -188,7 +188,7 @@
      emptyStr,//batId       无
      [ZZBaseHelper defaultBaseHelper].appkey==nil?@"%@":[ZZBaseHelper defaultBaseHelper].appkey,
      emptyStr,//usr_id 即uk
-     [ZZBaseHelper defaultBaseHelper].channel==nil?emptyStr:[ZZBaseHelper defaultBaseHelper].channel,//channel_code
+     [ZZBaseHelper defaultBaseHelper].channel==nil?@"%@":[ZZBaseHelper defaultBaseHelper].channel,//channel_code
      country,//国家
      emptyStr,//province    暂时不采集
      emptyStr,//city        暂时不采集
