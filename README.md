@@ -1,16 +1,14 @@
 # ZZAnalyticsSDK接入文档（iOS）
 
+> version:1.2.5
+
 ## 集成sdk
-
-
 
 **通过cocoapods集成**：
 
 1. 先安装[Cocoapods](https://guides.cocoapods.org/using/getting-started.html)；
-2. 通过 `pod repo update` 更新ZZAnalyticsSDK的cocoapods版本。
+2. 通过 `pod repo update` 更新ZZAnalyticsSDK的cocoapods版本(最新版本1.2.5)。
 3. 在Podfile对应的target中，添加`pod 'ZZAnalyticsSDK'`，并执行`pod install`。
-
-
 
 ## 使用
 
@@ -18,8 +16,6 @@
 //引入库
 #import <ZZAnalyticsSDK/AnalyticsSDK.h>
 ```
-
-⚠️：如果采用**静态库集成**，**需要将引用AnalyticsSDK的源文件后缀.m改为.mm**。
 
 ### 初始化
 
@@ -68,4 +64,3 @@ NSMutableDictionary<NSString *,NSString *> *eventInfo = [NSMutableDictionary dic
 /// @param name 事件名
 [AnalyticsSDK trackWithName:@"eventName"];
 ```
-
