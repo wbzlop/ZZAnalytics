@@ -1,13 +1,13 @@
 # ZZAnalyticsSDK接入文档（iOS）
 
-> version:1.2.5
+
 
 ## 集成sdk
 
 **通过cocoapods集成**：
 
 1. 先安装[Cocoapods](https://guides.cocoapods.org/using/getting-started.html)；
-2. 通过 `pod repo update` 更新ZZAnalyticsSDK的cocoapods版本(最新版本1.2.5)。
+2. 通过 `pod repo update` 更新ZZAnalyticsSDK的cocoapods版本。
 3. 在Podfile对应的target中，添加`pod 'ZZAnalyticsSDK'`，并执行`pod install`。
 
 ## 使用
