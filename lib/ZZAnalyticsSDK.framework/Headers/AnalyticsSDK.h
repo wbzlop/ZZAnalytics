@@ -72,5 +72,9 @@
 /// @param infoStr 事件map（可nil）
 +(void)trackWithName:(NSString *)name eventValue:(NSString *)value eventId:(NSString *)eventId eventConfigVersion:(NSString *)configVersion eventStatus:(NSUInteger)status errorMsg:(NSString *)errorMsg enentInfoStr:(NSString *)infoStr;
 
+
+/// 是否无网络
++(BOOL)isNotReachable;
+
 @end
 
