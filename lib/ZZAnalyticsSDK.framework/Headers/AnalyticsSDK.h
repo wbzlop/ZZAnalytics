@@ -3,7 +3,7 @@
 //  AnalyticsSDK
 //
 //  Created by wbz on 2020/5/18.
-//  Copyright © 2020年 zhizhen. All rights reserved.
+//  Copyright © 2020年 GameGoing. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
