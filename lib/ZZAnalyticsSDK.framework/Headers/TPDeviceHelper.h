@@ -20,8 +20,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// 国家
 -(NSString *)getCountry;
 
-/// 唯一标志
+/// idfa
 -(NSString *)getIDFA;
+
+
+-(void)getIDFA:(void(^)(NSString *idfa))callback;
+
+/// 自动
+-(NSString *)getCustomID;
 
 
 /// 是否开启vpn
