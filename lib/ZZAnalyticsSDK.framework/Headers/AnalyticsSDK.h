@@ -13,8 +13,10 @@
 @interface AnalyticsSDK : NSObject
 
 
+
 /// 初始化sdk
-/// @param debug 是否打印日志
+/// @param appkey <#appkey description#>
+/// @param printLog 是否打印日志
 /// @param isCN 是否国内
 +(void)initWithAppkey:(NSString *)appkey printLog:(BOOL )printLog andIsCN:(BOOL)isCN;
 
@@ -22,6 +24,11 @@
 /// 设置uk
 /// @param uk <#uk description#>
 +(void)setUK:(NSString *)uk;
+
+
+/// 设置odid
+/// @param odid 从中台获取
++(void)setODID:(NSString *)odid;
 
 
 /// 设置渠道

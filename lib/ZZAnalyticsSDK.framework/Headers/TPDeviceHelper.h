@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(NSString *)getIDFA;
 
 
--(void)getIDFA:(void(^)(NSString *idfa))callback;
+//-(void)getIDFA:(void(^)(NSString *idfa))callback;
 
 /// 自动
 -(NSString *)getCustomID;
