@@ -36,6 +36,11 @@
 +(void)setChannel:(NSString *)channel;
 
 
+/// 设置af agency
+/// @param agency appsflyer 返回的agency
++(void)setAgency:(NSString *)agency;
+
+
 /// 统计事件
 /// @param name  事件名
 /// @param info 事件map（可nil）
