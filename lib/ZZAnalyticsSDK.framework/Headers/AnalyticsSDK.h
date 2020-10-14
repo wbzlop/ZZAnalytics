@@ -40,6 +40,10 @@
 /// @param agency appsflyer 返回的agency
 +(void)setAgency:(NSString *)agency;
 
+/// 设置拓展数据
+/// @param extendData
++(void)setExtendData:(NSString *)extendData;
+
 
 /// 统计事件
 /// @param name  事件名
